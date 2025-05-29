@@ -27,7 +27,10 @@ def search_topics(topics: List[str]) -> List[Dict]:
 def main():
     quote = input("Enter a search term: ")
     endpoint = "works"
-    url = f'{BASE_URL}{endpoint}?filter=title_and_abstract.search:{quote},publication_year:>1980'
+
+    #Also filter for top topics in life sciences, social sciences
+    # 36 (Health professions), 27 (Medicine), 28 (neuroscience), 32 (psychology)
+    url = f'{BASE_URL}{endpoint}?filter=title_and_abstract.search:{quote},publication_year:>1980,institutions.country_code:US,topics.field.id:36|27|28|32'
 
     response = requests.get(url, headers=HEADERS)
     response.raise_for_status()
@@ -36,6 +39,7 @@ def main():
     if not works:
         print("No results found.")
         return
+    
     print(f"Found {len(works)} works for the search term '{quote}'")
     for work in works:
         title = work.get('title', 'No title')
@@ -77,8 +81,19 @@ def main():
         print(f"Authors: {', '.join(authors)}")
         print("-" * 80)
     # Move this outside the loop
+
     if not works:
         print("No works found for the search term.")
+    '''
+    Get a list of information about the works (Filter all for US based)
+        - titles of the works 
+        - authors of the works
+        - insituations of the works
+            - institutions.ror
+
+
+'''
+
 '''
 Works: by the key words (search)
 - filter: > 50 years old : filter=publication_year:>1980
