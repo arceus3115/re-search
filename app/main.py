@@ -10,28 +10,54 @@ HEADERS = {
     'Accept': 'application/json'
 }
 
-def search_topics(topics: List[str]) -> List[Dict]:
-    """Search for topics using OR filter"""    
-
-    #topics seperated by 'OR'
-    filters = 'AND'.join([quote(topic) for topic in topics])
-
-
-    url = f"{BASE_URL}topics?search={filters}"
-    response = requests.get(url, headers=HEADERS)
-    response.raise_for_status()
+def build_works_filter(
+    search_term: str,
+    from_year: int = 1980,
+    country_code: str = 'US',
+    topic_ids: List[str] = None
+) -> str:
+    """Build filter string for works endpoint with configurable parameters"""
+    filters = [
+        f'title_and_abstract.search:{quote(search_term)}',
+        f'publication_year:>{from_year}',
+        f'institutions.country_code:{country_code}'
+    ]
     
-    data = response.json()
-    return data.get('results', [])
+    if topic_ids:
+        filters.append(f'topics.field.id:{"|".join(topic_ids)}')
+    
+    return ','.join(filters)
 
 def main():
-    quote = input("Enter a search term: ")
+    # Get search parameters from user
+    search_term = input("Enter a search term: ")
+    from_year = input("Enter start year (default 1980): ") or "1980"
+    country_code = input("Enter country code (default US): ") or "US"
+    
+    # Get topic IDs
+    print("\nEnter topic IDs (or press Enter when done)")
+    print("Example IDs: 36 (Health), 27 (Medicine), 28 (Neuroscience), 32 (Psychology)")
+    topic_ids = []
+    while True:
+        topic_id = input("Enter topic ID (or press Enter to finish): ").strip()
+        if not topic_id:
+            break
+        topic_ids.append(topic_id)
+
+    # Build the filter string
     endpoint = "works"
+    filter_string = build_works_filter(
+        search_term=search_term,
+        from_year=int(from_year),
+        country_code=country_code,
+        topic_ids=topic_ids
+    )
 
-    #Also filter for top topics in life sciences, social sciences
-    # 36 (Health professions), 27 (Medicine), 28 (neuroscience), 32 (psychology)
-    url = f'{BASE_URL}{endpoint}?filter=title_and_abstract.search:{quote},publication_year:>1980,institutions.country_code:US,topics.field.id:36|27|28|32'
+    print(f"{filter_string}")
 
+
+    url = f'{BASE_URL}{endpoint}?filter={filter_string}'
+    
     response = requests.get(url, headers=HEADERS)
     response.raise_for_status()
     data = response.json()
