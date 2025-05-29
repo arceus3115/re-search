@@ -110,22 +110,6 @@ def main():
 
     if not works:
         print("No works found for the search term.")
-    '''
-    Get a list of information about the works (Filter all for US based)
-        - titles of the works 
-        - authors of the works
-        - insituations of the works
-            - institutions.ror
-
-
-'''
-
-'''
-Works: by the key words (search)
-- filter: > 50 years old : filter=publication_year:>1980
-- display: title, topics, concepts, keywords, authorships.institutions.ror (alias: institutions.ror) — Institutions affiliated with the authors of a work (ROR ID), FWCI
-'''
-
 
 if __name__ == "__main__":
     main()
