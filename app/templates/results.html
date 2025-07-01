@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search Results</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Search Results</h1>
+        <a href="/" class="back-link">Back to Search</a>
+        <div class="results">
+            {% if works %}
+                {% for work in works %}
+                <div class="work">
+                    <h2>{{ work.get('title', 'No title') }}</h2>
+                    <p><strong>Authors:</strong> {{ work.authorships | map(attribute='author.display_name') | join(', ') }}</p>
+                    <p><strong>Affiliations:</strong> {{ work.authorships | map(attribute='institutions') | sum(start=[]) | map(attribute='display_name') | join(', ') }}</p>
+                    <p><strong>FWCI:</strong> {{ work.get('fwci', 'N/A') }}</p>
+                </div>
+                {% endfor %}
+            {% else %}
+                <p class="no-results">No results found.</p>
+            {% endif %}
+        </div>
+    </div>
+</body>
+</html>

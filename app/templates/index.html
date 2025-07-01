@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Research Network</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Search the Research Network</h1>
+        <form action="/search" method="post">
+            <input type="text" name="search_term" placeholder="Enter a search term" required>
+            <input type="text" name="from_year" placeholder="Start year (e.g., 1980)">
+            <input type="text" name="country_code" placeholder="Country code (e.g., US)">
+            
+            <h2>Filter by Topic</h2>
+            <div class="topics">
+                {% for id, name in fields.items() %}
+                <label>
+                    <input type="checkbox" name="topic_ids" value="{{ id }}">
+                    {{ name }}
+                </label>
+                {% endfor %}
+            </div>
+            
+            <button type="submit">Search</button>
+        </form>
+    </div>
+</body>
+</html>

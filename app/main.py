@@ -2,7 +2,8 @@ import requests
 import json
 from typing import List, Dict
 from academic_network import AcademicNetwork
-from urllib.parse import quote, urlencode
+from urllib.parse import urlencode
+from helpers import display_field_ids, build_works_filter
 
 BASE_URL = 'https://api.openalex.org/'
 HEADERS = {
@@ -10,41 +11,28 @@ HEADERS = {
     'Accept': 'application/json'
 }
 
-def build_works_filter(
-    search_term: str,
-    from_year: int = 1980,
-    country_code: str = 'US',
-    topic_ids: List[str] = None
-) -> str:
-    """Build filter string for works endpoint with configurable parameters"""
-    filters = [
-        f'title_and_abstract.search:{quote(search_term)}',
-        f'publication_year:>{from_year}',
-        f'institutions.country_code:{country_code}'
-    ]
-    
-    if topic_ids:
-        filters.append(f'topics.field.id:{"|".join(topic_ids)}')
-    
-    return ','.join(filters)
-
 def main():
     # Get search parameters from user
     search_term = input("Enter a search term: ")
     from_year = input("Enter start year (default 1980): ") or "1980"
     country_code = input("Enter country code (default US): ") or "US"
     
-    # Get topic IDs
-    print("\nEnter topic IDs (or press Enter when done)")
-    print("Example IDs: 36 (Health), 27 (Medicine), 28 (Neuroscience), 32 (Psychology)")
+    # Display field IDs and get user selection
+    fields = display_field_ids()
     topic_ids = []
+    
+    print("\nEnter topic IDs (or press Enter when done)")
     while True:
         topic_id = input("Enter topic ID (or press Enter to finish): ").strip()
         if not topic_id:
             break
-        topic_ids.append(topic_id)
-
-    # Build the filter string
+        if topic_id in fields:
+            topic_ids.append(topic_id)
+            print(f"Added: {fields[topic_id]}")
+        else:
+            print(f"Invalid ID. Please enter a valid ID from the table.")
+    
+    # Build the filter string using helper function
     endpoint = "works"
     filter_string = build_works_filter(
         search_term=search_term,
@@ -53,10 +41,7 @@ def main():
         topic_ids=topic_ids
     )
 
-    print(f"{filter_string}")
-
-
-    url = f'{BASE_URL}{endpoint}?filter={filter_string}'
+    url = f'{BASE_URL}{endpoint}?filter={filter_string}&sort=fwci:desc'
     
     response = requests.get(url, headers=HEADERS)
     response.raise_for_status()
@@ -66,7 +51,6 @@ def main():
         print("No results found.")
         return
     
-    print(f"Found {len(works)} works for the search term '{quote}'")
     for work in works:
         title = work.get('title', 'No title')
         authorships = work.get('authorships', [])
@@ -105,9 +89,9 @@ def main():
         print(f"Title: {title}")
         print(f"Affiliations: {affiliation_text}")
         print(f"Authors: {', '.join(authors)}")
+        print(f"FWCI: {work.get('fwci', 'No FWCI')}")
         print("-" * 80)
-    # Move this outside the loop
-
+        
     if not works:
         print("No works found for the search term.")
 
