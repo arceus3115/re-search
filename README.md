@@ -54,9 +54,10 @@ The web application also includes a feature to scrape data from the PCSAS websit
 
 ## Roadmap
 
-1.  **Separate Frontend and Backend:**
-    *   Create a new project for the frontend using a modern JavaScript framework like **React** or **Vue.js**.
-    *   Modify the backend to serve only a RESTful API.
+1.  **Separate Frontend and Backend (Completed):**
+    *   The frontend and backend are now separate projects, with the backend serving a RESTful API.
+    *   The frontend is implemented using vanilla TypeScript for a lightweight and efficient client-side experience.
+    *   Improved code organization and logging have been implemented in both frontend and backend.
 
 2.  **Implement the Core Features:**
     *   Build out the API for searching papers and scraping data.

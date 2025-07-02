@@ -1,0 +1,382 @@
+/* Basic CSS Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Global Variables */
+:root {
+    --color-black: #1a1a1a;
+    --color-white: #ffffff;
+    --color-gray-dark: #333333;
+    --color-gray-medium: #666666;
+    --color-gray-light: #cccccc;
+    --color-gray-extra-light: #f0f0f0;
+    --color-accent-red: #e74c3c; /* Soft Red */
+
+    --spacing-xs: 5px;
+    --spacing-sm: 10px;
+    --spacing-md: 20px;
+    --spacing-lg: 30px;
+    --spacing-xl: 40px;
+
+    --border-radius-sm: 4px;
+    --border-radius-md: 8px;
+
+    --box-shadow-sm: 0 2px 4px rgba(0, 0, 0, 0.05);
+    --box-shadow-md: 0 4px 8px rgba(0, 0, 0, 0.1);
+    --box-shadow-lg: 0 8px 16px rgba(0, 0, 0, 0.15);
+}
+
+/* Global Styles */
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overscroll-behavior: none;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.6;
+    color: var(--color-gray-dark);
+    background-color: var(--color-white); /* Main component background */
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Main Container */
+#root {
+    flex-grow: 1;
+    width: 100%;
+    min-height: 100vh; /* Ensure it always takes at least full viewport height */
+    background-color: var(--color-white);
+    padding: var(--spacing-lg);
+    display: flex;
+    flex-direction: column;
+}
+
+h1, h2, h3, h4 {
+    color: var(--color-black);
+    margin-bottom: var(--spacing-sm);
+}
+
+h1 {
+    font-size: 2.5em;
+    text-align: center;
+    margin-bottom: var(--spacing-lg);
+}
+
+h2 {
+    font-size: 1.8em;
+    padding-bottom: var(--spacing-sm);
+    margin-top: var(--spacing-lg);
+}
+
+h3 {
+    font-size: 1.4em;
+    margin-top: var(--spacing-md);
+}
+
+hr {
+    border: none;
+    border-top: 1px solid var(--color-gray-light);
+    margin: var(--spacing-xl) 0;
+}
+
+/* Forms */
+form label {
+    display: block;
+    margin-bottom: var(--spacing-xs);
+    font-weight: 600;
+}
+
+form input[type="text"],
+form input[type="number"] {
+    width: 100%;
+    padding: var(--spacing-sm);
+    margin-bottom: var(--spacing-md);
+    border: 1px solid var(--color-gray-light);
+    border-radius: var(--border-radius-sm);
+    font-size: 1em;
+    transition: border-color 0.2s ease;
+}
+
+form input[type="text"]:focus,
+form input[type="number"]:focus {
+    outline: none;
+    border-color: var(--color-gray-dark);
+}
+
+
+
+form button,
+button {
+    background-color: var(--color-black);
+    color: var(--color-white);
+    padding: var(--spacing-sm) var(--spacing-md);
+    border: none;
+    border-radius: var(--border-radius-sm);
+    font-size: 1.1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease, box-shadow 0.2s ease, transform 0.2s ease;
+    margin-top: var(--spacing-sm);
+}
+
+form button:hover,
+button:hover {
+    background-color: var(--color-gray-dark);
+    box-shadow: var(--box-shadow-sm);
+    transform: translateY(-1px);
+}
+
+/* Topic IDs Grid */
+#topic-ids-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+    gap: var(--spacing-sm);
+    margin-top: var(--spacing-md);
+}
+
+.topic-button {
+    background-color: var(--color-white);
+    border: 1px solid var(--color-gray-light);
+    border-radius: var(--border-radius-sm);
+    padding: 10px 15px;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    box-shadow: var(--box-shadow-sm);
+}
+
+.topic-button:hover {
+    box-shadow: var(--box-shadow-md);
+    transform: translateY(-2px);
+}
+
+.topic-button.selected {
+    background-color: var(--color-black);
+    color: var(--color-white);
+    border-color: var(--color-black);
+    box-shadow: var(--box-shadow-md);
+}
+
+/* Lists (Search Results & PCSAS) - Clean Card Style */
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    background-color: var(--color-white);
+    border: 1px solid var(--color-gray-extra-light);
+    border-radius: var(--border-radius-md); /* More rounded corners for cards */
+    padding: var(--spacing-md);
+    margin-bottom: var(--spacing-md); /* More space between cards */
+    box-shadow: var(--box-shadow-sm);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+ul li:hover {
+    transform: translateY(-3px);
+    box-shadow: var(--box-shadow-md);
+}
+
+ul li h4 {
+    color: var(--color-black);
+    margin-bottom: var(--spacing-xs);
+    font-size: 1.2em;
+}
+
+ul li p {
+    margin-bottom: var(--spacing-xs);
+}
+
+ul li a {
+    color: var(--color-gray-dark);
+    text-decoration: none;
+    font-weight: 600;
+}
+
+ul li a:hover {
+    text-decoration: underline;
+    color: var(--color-black);
+}
+
+/* Landing Page Styles */
+.landing-page {
+    text-align: center;
+    padding: var(--spacing-xl) 0;
+}
+
+.tool-list {
+    display: flex;
+    justify-content: center;
+    gap: var(--spacing-md);
+    margin-top: var(--spacing-lg);
+}
+
+.tool-button {
+    background-color: var(--color-black);
+    color: var(--color-white);
+    padding: var(--spacing-md) var(--spacing-lg);
+    border: none;
+    border-radius: var(--border-radius-sm);
+    font-size: 1.2em;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.tool-button:hover {
+    background-color: var(--color-gray-dark);
+    transform: translateY(-3px);
+    box-shadow: var(--box-shadow-md);
+}
+
+/* New: Landing Card Style */
+.landing-card {
+    background-color: var(--color-white);
+    border: 1px solid var(--color-gray-light);
+    border-radius: var(--border-radius-md);
+    padding: var(--spacing-lg);
+    margin-bottom: var(--spacing-xl); /* Space between cards */
+    box-shadow: var(--box-shadow-sm);
+    text-align: left; /* Align text within the card */
+}
+
+.landing-card h2 {
+    text-align: center;
+    border-bottom: none;
+    padding-bottom: 0;
+    margin-top: 0;
+    margin-bottom: var(--spacing-md);
+}
+
+#network-animation-placeholder {
+    margin-top: var(--spacing-md);
+    border: 1px dashed var(--color-gray-medium);
+    color: var(--color-gray-medium);
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: var(--border-radius-md);
+}
+
+/* Header & Tab Styles */
+.app-header {
+    background-color: var(--color-white);
+    padding: var(--spacing-sm) var(--spacing-lg);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: var(--spacing-sm);
+    z-index: 1000;
+    box-shadow: var(--box-shadow-sm);
+}
+
+.logo {
+    font-size: 1.6em;
+    font-weight: 700;
+    color: var(--color-black);
+    text-decoration: none;
+    margin-right: var(--spacing-lg);
+    cursor: pointer;
+}
+
+.tabs {
+    display: flex;
+    flex-grow: 1;
+    /* Added margin-right to create space for the Return to Hub button */
+    margin-right: var(--spacing-md);
+}
+
+.tab-button {
+    background-color: var(--color-gray-extra-light);
+    border: 1px solid var(--color-gray-light);
+    border-bottom: none;
+    padding: var(--spacing-sm) var(--spacing-md);
+    cursor: pointer;
+    font-size: 1.1em;
+    border-top-left-radius: var(--border-radius-sm);
+    border-top-right-radius: var(--border-radius-sm);
+    transition: background-color 0.3s ease, color 0.3s ease;
+    color: var(--color-gray-medium);
+    font-weight: 600;
+    margin-right: var(--spacing-xs);
+}
+
+.tab-button:last-child {
+    margin-right: 0;
+}
+
+.tab-button:hover {
+    background-color: var(--color-gray-light);
+    color: var(--color-black);
+}
+
+.tab-button.active {
+    background-color: var(--color-black);
+    color: var(--color-white);
+    border-color: var(--color-black);
+    border-bottom: 1px solid var(--color-black); /* Match background */
+    font-weight: 700;
+}
+
+.tab-content {
+    display: none;
+    padding-top: var(--spacing-md);
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    body {
+        padding: var(--spacing-sm);
+    }
+    #root {
+        padding: var(--spacing-md);
+    }
+
+    h1 {
+        font-size: 2em;
+    }
+
+    h2 {
+        font-size: 1.5em;
+    }
+
+    form button,
+    button {
+        width: 100%;
+    }
+
+    .tool-list {
+        flex-direction: column;
+        gap: var(--spacing-sm);
+    }
+
+    .app-header {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: var(--spacing-sm) var(--spacing-md);
+    }
+
+    .logo {
+        margin-bottom: var(--spacing-sm);
+        margin-right: 0;
+    }
+
+    .tabs {
+        width: 100%;
+        margin-bottom: var(--spacing-sm);
+        margin-right: 0;
+    }
+
+    .tab-button {
+        flex-grow: 1;
+        text-align: center;
+    }
+}
