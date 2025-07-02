@@ -1,3 +1,4 @@
+
 from fastapi import FastAPI, Request, Form
 from fastapi.responses import HTMLResponse
 from fastapi.templating import Jinja2Templates
@@ -5,6 +6,7 @@ from fastapi.staticfiles import StaticFiles
 import requests
 from typing import Optional
 from helpers import display_field_ids, build_works_filter
+from pcsas_scraper import scrape_pcsas
 
 app = FastAPI()
 
@@ -48,3 +50,8 @@ async def search(request: Request, search_term: str = Form(...), from_year: Opti
         print(f"Error fetching data: {e}")
 
     return templates.TemplateResponse("results.html", {"request": request, "works": works})
+
+@app.get("/pcsas", response_class=HTMLResponse)
+async def pcsas_data(request: Request):
+    data = scrape_pcsas()
+    return templates.TemplateResponse("pcsas_results.html", {"request": request, "programs": data.to_dict(orient="records")})

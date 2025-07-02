@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PCSAS Accredited Programs</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <div class="container">
+        <nav class="nav">
+            <a href="/">Search</a>
+            <a href="/pcsas" class="active">PCSAS Programs</a>
+        </nav>
+        <div class="main-content">
+            <h1>PCSAS Accredited Programs</h1>
+            <table>
+                <thead>
+                    <tr>
+                        <th>University</th>
+                        <th>Student Outcomes Link</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for program in programs %}
+                    <tr>
+                        <td><a href="{{ program['Program Link'] }}" target="_blank">{{ program.University }}</a></td>
+                        <td><a href="{{ program['Student Outcomes Link'] }}" target="_blank">Link</a></td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
+    </div>
+</body>
+</html>

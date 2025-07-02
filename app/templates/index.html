@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -8,24 +9,30 @@
 </head>
 <body>
     <div class="container">
-        <h1>Search the Research Network</h1>
-        <form action="/search" method="post">
-            <input type="text" name="search_term" placeholder="Enter a search term" required>
-            <input type="text" name="from_year" placeholder="Start year (e.g., 1980)">
-            <input type="text" name="country_code" placeholder="Country code (e.g., US)">
-            
-            <h2>Filter by Topic</h2>
-            <div class="topics">
-                {% for id, name in fields.items() %}
-                <label>
-                    <input type="checkbox" name="topic_ids" value="{{ id }}">
-                    {{ name }}
-                </label>
-                {% endfor %}
-            </div>
-            
-            <button type="submit">Search</button>
-        </form>
+        <nav class="nav">
+            <a href="/" class="active">Search</a>
+            <a href="/pcsas">PCSAS Programs</a>
+        </nav>
+        <div class="main-content">
+            <h1>Search the Research Network</h1>
+            <form action="/search" method="post">
+                <input type="text" name="search_term" placeholder="Enter a search term" required>
+                <input type="text" name="from_year" placeholder="Start year (e.g., 1980)">
+                <input type="text" name="country_code" placeholder="Country code (e.g., US)">
+                
+                <h2>Filter by Topic</h2>
+                <div class="topics">
+                    {% for id, name in fields.items() %}
+                    <label>
+                        <input type="checkbox" name="topic_ids" value="{{ id }}">
+                        {{ name }}
+                    </label>
+                    {% endfor %}
+                </div>
+                
+                <button type="submit">Search</button>
+            </form>
+        </div>
     </div>
 </body>
 </html>
