@@ -1,10 +1,14 @@
 
+import logging
 from fastapi import FastAPI
 import requests
 from typing import Optional, List
 from .helpers import display_field_ids, build_works_filter
 from .pcsas_scraper import scrape_pcsas
 from pydantic import BaseModel
+
+logging.basicConfig(level=logging.INFO)
+logger = logging.getLogger(__name__)
 
 app = FastAPI()
 
@@ -22,11 +26,27 @@ class SearchRequest(BaseModel):
 
 @app.get("/api/v1/fields")
 async def get_fields():
+    """Retrieves a list of available academic fields.
+
+    Returns:
+        dict: A dictionary containing a list of academic fields.
+    """
+    logger.info("GET /api/v1/fields request received.")
     fields = display_field_ids()
+    logger.info("Returning fields data.")
     return {"fields": fields}
 
 @app.post("/api/v1/search")
 async def search_papers(request: SearchRequest):
+    """Searches for academic papers based on the provided criteria.
+
+    Args:
+        request (SearchRequest): The search request containing search term, year, country code, and topic IDs.
+
+    Returns:
+        dict: A dictionary containing a list of academic works.
+    """
+    logger.info(f"POST /api/v1/search request received with search_term: {request.search_term}")
     filter_string = build_works_filter(
         search_term=request.search_term,
         from_year=request.from_year,
@@ -41,13 +61,25 @@ async def search_papers(request: SearchRequest):
         response.raise_for_status()
         data = response.json()
         works = data.get('results', [])
+        logger.info(f"Successfully fetched {len(works)} works for search term: {request.search_term}")
     except requests.exceptions.RequestException as e:
         works = []
-        print(f"Error fetching data: {e}")
+        logger.error(f"Error fetching data for search term {request.search_term}: {e}")
 
     return {"works": works}
 
 @app.get("/api/v1/pcsas")
 async def get_pcsas_data():
-    data = scrape_pcsas()
+    """Retrieves PCSAS data.
+
+    Returns:
+        dict: A dictionary containing a list of PCSAS programs.
+    """
+    logger.info("GET /api/v1/pcsas request received.")
+    try:
+        data = scrape_pcsas()
+        logger.info("Successfully scraped PCSAS data.")
+    except Exception as e:
+        data = []
+        logger.error(f"Error scraping PCSAS data: {e}")
     return {"programs": data}

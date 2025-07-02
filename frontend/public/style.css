@@ -30,25 +30,30 @@
 }
 
 /* Global Styles */
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overscroll-behavior: none;
+}
+
 body {
     font-family: 'Montserrat', sans-serif;
     line-height: 1.6;
     color: var(--color-gray-dark);
-    background-color: var(--color-gray-extra-light);
+    background-color: var(--color-white); /* Main component background */
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    padding: var(--spacing-md);
 }
 
 /* Main Container */
 #root {
     flex-grow: 1;
     width: 100%;
+    min-height: 100vh; /* Ensure it always takes at least full viewport height */
     background-color: var(--color-white);
     padding: var(--spacing-lg);
-    border-radius: var(--border-radius-md);
-    box-shadow: var(--box-shadow-md);
     display: flex;
     flex-direction: column;
 }
@@ -264,14 +269,11 @@ ul li a:hover {
 .app-header {
     background-color: var(--color-white);
     padding: var(--spacing-sm) var(--spacing-lg);
-    /* Removed border-bottom */
-    border-bottom-left-radius: var(--border-radius-md); /* Rounded bottom corners */
-    border-bottom-right-radius: var(--border-radius-md);
     display: flex;
     justify-content: space-between;
     align-items: center;
     position: sticky;
-    top: 0;
+    top: var(--spacing-sm);
     z-index: 1000;
     box-shadow: var(--box-shadow-sm);
 }

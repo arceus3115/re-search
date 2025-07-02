@@ -4,10 +4,14 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
-fastapi = "*"
 uvicorn = "*"
 requests = "*"
 pydantic = "*"
+beautifulsoup4 = "*"
+lxml = "*"
+pandas = "*"
+fastapi = {extras = ["test"], version = "*"}
+httpx = "*"
 
 [dev-packages]
 black = "*"

@@ -4,11 +4,16 @@ from bs4 import BeautifulSoup
 import pandas as pd
 
 def scrape_pcsas():
-    """
-    Scrapes the PCSAS accredited programs page to extract program information.
+    """Scrapes the PCSAS accredited programs page to extract program information.
+
+    This function sends an HTTP GET request to the PCSAS website, parses the HTML
+    content to find the table of accredited programs, and extracts relevant details
+    such as program name, website, and student outcomes link.
 
     Returns:
-        list: A list of dictionaries, each representing a program with 'program_name', 'website', and 'student_outcomes_link'.
+        list: A list of dictionaries, where each dictionary represents a program
+              and contains the keys 'program_name', 'website', and 'student_outcomes_link'.
+              Returns an empty list if the table is not found or no programs are extracted.
     """
     URL = "https://pcsas.org/pcsas-accredited-programs/"
     page = requests.get(URL)
