@@ -51,3 +51,21 @@ This will start a local server. You can access the web application by opening yo
 ### PCSAS Scraper
 
 The web application also includes a feature to scrape data from the PCSAS website. You can access this feature by navigating to the `/pcsas` endpoint in the web application (e.g., `http://127.0.0.1:8000/pcsas`).
+
+## Roadmap
+
+1.  **Separate Frontend and Backend:**
+    *   Create a new project for the frontend using a modern JavaScript framework like **React** or **Vue.js**.
+    *   Modify the backend to serve only a RESTful API.
+
+2.  **Implement the Core Features:**
+    *   Build out the API for searching papers and scraping data.
+    *   Implement the frontend for searching papers and displaying the results.
+
+3.  **Add the PI-Finding Feature:**
+    *   Add a new module to the backend for finding PIs and their contact information.
+    *   Add a new page to the frontend for displaying the PI information.
+
+4.  **Add a Database:**
+    *   Set up a PostgreSQL database.
+    *   Modify the backend to use the database for storing and retrieving data.
