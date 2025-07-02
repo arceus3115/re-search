@@ -1,0 +1,28 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+fastapi = "*"
+uvicorn = "*"
+requests = "*"
+pydantic = "*"
+
+[dev-packages]
+black = "*"
+flake8 = "*"
+mypy = "*"
+pytest-cov = "*"
+pytest = "*"
+pytest-asyncio = "*"
+httpx = "*"
+
+[requires]
+python_version = "3.11"
+
+[scripts]
+start = "uvicorn app.web_app:app --reload"
+test = "pytest -v"
+format = "black ."
+lint = "flake8 ."
