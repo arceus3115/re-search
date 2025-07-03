@@ -81,3 +81,22 @@ export async function fetchAuthorDetails(authorId: string) {
     }
     return response.json();
 }
+
+/**
+ * Fetches common universities between top research works and PCSAS accredited programs.
+ * @param {string} searchTerm - The search term for academic papers.
+ * @param {number} topXWorks - The number of top works to consider for affiliation extraction.
+ * @returns {Promise<any>} A promise that resolves to the JSON response containing the common universities.
+ * @throws {Error} If the network request fails or the response is not OK.
+ */
+export async function fetchCrossSearchUniversities(searchTerm: string, topXWorks: number): Promise<{ common_universities: { name: string, website: string }[] }> {
+    const queryParams = new URLSearchParams({
+        search_term: searchTerm,
+        top_x_works: topXWorks.toString()
+    });
+    const response = await fetch(`/api/v1/cross_search_universities?${queryParams.toString()}`);
+    if (!response.ok) {
+        throw new Error(`HTTP error! status: ${response.status}`);
+    }
+    return response.json();
+}

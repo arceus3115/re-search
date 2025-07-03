@@ -1,5 +1,6 @@
 
 import { fetchFields, searchPapers } from './api';
+import { renderCards } from './utils';
 
 let currentPage = 0;
 let currentSearchTerm: string = '';
@@ -10,37 +11,23 @@ const searchResultsCache: { [key: number]: any[] } = {};
 let isLoading = false;
 const RESULTS_PER_PAGE = 25;
 
-/**
- * Renders a list of academic works into the search results div.
- * @param {any[]} works - An array of academic work objects to render.
- * @param {HTMLElement} resultsContainer - The div element to render the results into.
- */
 function renderWorks(works: any[], resultsContainer: HTMLElement) {
     console.log(`renderWorks called with ${works.length} works.`);
-    resultsContainer.innerHTML = ''; // Always clear previous results
-
-    if (works && works.length > 0) {
-        const ul = document.createElement('ul');
-        console.log('Created ul element:', ul);
-        works.forEach((work: any) => {
-            const li = document.createElement('li');
-            li.innerHTML = `
-                <h4>${work.doi ? `<a href="https://doi.org/${work.doi}" target="_blank">${work.title || 'No Title'}</a>` : work.title || 'No Title'}</h4>
-                <p><strong>Authors:</strong> ${work.authorships.map((a: any) => `<span class="author-link" data-author-id="${a.author.id}" data-author-name="${a.author.display_name}">${a.author.display_name}</span>`).join(', ') || 'N/A'}</p>
-                <p><strong>Affiliations:</strong> ${Array.from(new Set(work.authorships.flatMap((a: any) => a.institutions.map((i: any) => {
-                    console.log('Institution:', i.display_name, 'Homepage URL:', i.homepage_url);
-                    return i.homepage_url ? `<a href="${i.homepage_url}" target="_blank">${i.display_name}</a>` : i.display_name;
-                })).filter((name: string) => name))).join(', ') || 'N/A'}</p>
-                <p><strong>FWCI:</strong> ${work.fwci || 'N/A'}</p>
-                
-                <p><strong>Publication Date:</strong> ${work.publication_date || 'N/A'}</p>
-            `;
-            ul.appendChild(li);
-        });
-        resultsContainer.appendChild(ul);
-    } else {
-        resultsContainer.innerHTML = '<p>No results found for your search.</p>';
-    }
+    renderCards(
+        resultsContainer,
+        works,
+        (work: any) => `
+            <h4>${work.doi ? `<a href="https://doi.org/${work.doi}" target="_blank">${work.title || 'No Title'}</a>` : work.title || 'No Title'}</h4>
+            <p><strong>Authors:</strong> ${work.authorships.map((a: any) => `<span class="author-link" data-author-id="${a.author.id}" data-author-name="${a.author.display_name}">${a.author.display_name}</span>`).join(', ') || 'N/A'}</p>
+            <p><strong>Affiliations:</strong> ${Array.from(new Set(work.authorships.flatMap((a: any) => a.institutions.map((i: any) => {
+                return i.homepage_url ? `<a href="${i.homepage_url}" target="_blank">${i.display_name}</a>` : i.display_name;
+            })).filter((name: string) => name))).join(', ') || 'N/A'}</p>
+            <p><strong>FWCI:</strong> ${work.fwci || 'N/A'}</p>
+            <p><strong>Publication Date:</strong> ${work.publication_date || 'N/A'}</p>
+        `,
+        ['work-card', 'card-element'],
+        'works-grid'
+    );
 }
 
 
@@ -163,20 +150,22 @@ export function renderSearchTab() {
 
     searchTabContent.innerHTML = `
         <h2>Search Academic Papers</h2>
-        <form id="search-form">
-            <input type="text" id="search-term" name="search_term" placeholder="Search Term" required><br><br>
+        <div class="search-elements-group">
+            <form id="search-form">
+                <input type="text" id="search-term" name="search_term" placeholder="Search Term" required><br><br>
 
-            <div class="input-group">
-                <input type="number" id="from-year" name="from_year" value="1980" placeholder="From Year (default 1980)">
-                <input type="text" id="country-code" name="country_code" value="US" placeholder="Country Code (default US)">
-            </div><br><br>
+                <div class="input-group">
+                    <input type="number" id="from-year" name="from_year" value="1980" placeholder="From Year (default 1980)">
+                    <input type="text" id="country-code" name="country_code" value="US" placeholder="Country Code (default US)">
+                </div><br><br>
 
-            <h3>Select Topic IDs:</h3>
-            <div id="topic-ids-grid"></div>
-            <br>
+                <h3>Select Topic IDs:</h3>
+                <div id="topic-ids-grid"></div>
+                <br>
 
-            <button type="submit">Search</button>
-        </form>
+                <button type="submit">Search</button>
+            </form>
+        </div>
         <div class="search-results-padding"></div> <!-- Padding div -->
         <div id="search-results">
             <div id="top-pagination-controls" class="pagination-controls"></div>

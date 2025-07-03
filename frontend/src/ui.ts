@@ -1,6 +1,7 @@
 
 import { renderSearchTab } from './search';
 import { renderPcsasTab } from './pcsas';
+import { renderCrossSearchTab } from './cross_search';
 
 /**
  * Renders the initial landing page of the application.
@@ -15,6 +16,7 @@ export function renderLandingPage(appDiv: HTMLElement) {
             <div class="tool-list">
                 <button class="tool-button" data-tool="search">Academic Paper Search</button>
                 <button class="tool-button" data-tool="pcsas">PCSAS</button>
+                <button class="tool-button" data-tool="cross-search">Cross-Search Universities</button>
             </div>
             <h2>Your Network Dashboard</h2>
             <div id="network-animation-placeholder" style="height: 300px; background-color: #f0f0f0; display: flex; justify-content: center; align-items: center; border-radius: 8px;">
@@ -45,11 +47,13 @@ export async function renderApp(appDiv: HTMLElement, initialTab: string = 'searc
             <div class="tabs">
                 <button class="tab-button" data-tab="search">Academic Paper Search</button>
                 <button class="tab-button" data-tab="pcsas">PCSAS</button>
+                <button class="tab-button" data-tab="cross-search">Cross-Search Universities</button>
             </div>
         </div>
         <div class="app-container">
             <div id="tab-content-search" class="tab-content"></div>
             <div id="tab-content-pcsas" class="tab-content"></div>
+            <div id="tab-content-cross-search" class="tab-content"></div>
         </div>
     `;
 
@@ -66,6 +70,7 @@ export async function renderApp(appDiv: HTMLElement, initialTab: string = 'searc
     // Render tab content
     renderSearchTab();
     renderPcsasTab();
+    renderCrossSearchTab();
 
     // Tab switching logic
     document.querySelectorAll('.tab-button').forEach(button => {
