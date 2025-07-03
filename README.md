@@ -52,6 +52,10 @@ This will start a local server. You can access the web application by opening yo
 
 The web application also includes a feature to scrape data from the PCSAS website. You can access this feature by navigating to the `/pcsas` endpoint in the web application (e.g., `http://127.0.0.1:8000/pcsas`).
 
+## Known Issues
+
+*   **Previous Button Scrolling:** When clicking the "Previous" button in the academic paper search, the browser briefly scrolls the window to the search term input field before returning to the original scroll position. This is a known browser behavior that has not yet been fully resolved.
+
 ## Roadmap
 
 1.  **Separate Frontend and Backend (Completed):**

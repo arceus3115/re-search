@@ -21,19 +21,19 @@ export async function fetchFields() {
  * @returns {Promise<any>} A promise that resolves to the JSON response containing the search results.
  * @throws {Error} If the network request fails or the response is not OK.
  */
-export async function searchPapers(searchTerm: string, fromYear: number, countryCode: string, topicIds: string[]) {
-    const response = await fetch('/api/v1/search', {
-        method: 'POST',
-        headers: {
-            'Content-Type': 'application/json',
-        },
-        body: JSON.stringify({
-            search_term: searchTerm,
-            from_year: fromYear,
-            country_code: countryCode,
-            topic_ids: topicIds,
-        }),
+export async function searchPapers(searchTerm: string, fromYear: number, countryCode: string, topicIds: string[], page: number, perPage: number) {
+    const queryParams = new URLSearchParams({
+        search_term: searchTerm,
+        from_year: fromYear.toString(),
+        country_code: countryCode,
+        page: page.toString(),
+        per_page: perPage.toString()
     });
+
+    // Append topic_ids as multiple parameters
+    topicIds.forEach(id => queryParams.append('topic_ids', id));
+
+    const response = await fetch(`/api/v1/search?${queryParams.toString()}`);
 
     if (!response.ok) {
         throw new Error(`HTTP error! status: ${response.status}`);

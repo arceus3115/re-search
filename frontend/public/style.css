@@ -331,6 +331,18 @@ ul li a:hover {
     padding-top: var(--spacing-md);
 }
 
+.search-results-padding {
+    padding-top: var(--spacing-md);
+}
+
+.pagination-controls {
+    justify-content: center;
+    gap: var(--spacing-md);
+    margin-top: var(--spacing-md);
+    margin-bottom: var(--spacing-md);
+    display: none; /* Initially hidden */
+}
+
 /* Responsive adjustments */
 @media (max-width: 768px) {
     body {
