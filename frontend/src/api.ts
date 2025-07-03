@@ -53,3 +53,31 @@ export async function scrapePcsasData() {
     }
     return response.json();
 }
+
+/**
+ * Fetches works by a specific author from the backend API.
+ * @param {string} authorId - The OpenAlex ID of the author.
+ * @returns {Promise<any>} A promise that resolves to the JSON response containing the author's works.
+ * @throws {Error} If the network request fails or the response is not OK.
+ */
+export async function fetchAuthorWorks(authorId: string) {
+    const response = await fetch(`/api/v1/author_works/${authorId}`);
+    if (!response.ok) {
+        throw new Error(`HTTP error! status: ${response.status}`);
+    }
+    return response.json();
+}
+
+/**
+ * Fetches details for a specific author from the backend API.
+ * @param {string} authorId - The OpenAlex ID of the author.
+ * @returns {Promise<any>} A promise that resolves to the JSON response containing the author's details.
+ * @throws {Error} If the network request fails or the response is not OK.
+ */
+export async function fetchAuthorDetails(authorId: string) {
+    const response = await fetch(`/api/v1/author_details/${authorId}`);
+    if (!response.ok) {
+        throw new Error(`HTTP error! status: ${response.status}`);
+    }
+    return response.json();
+}

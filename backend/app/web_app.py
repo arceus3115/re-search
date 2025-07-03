@@ -90,3 +90,54 @@ async def get_pcsas_data():
         data = []
         logger.error(f"Error scraping PCSAS data: {e}")
     return {"programs": data}
+
+@app.get("/api/v1/author_works/{author_id}")
+async def get_author_works(author_id: str, page: int = 1, per_page: int = 25):
+    """Retrieves works by a specific author.
+
+    Args:
+        author_id (str): The OpenAlex ID of the author.
+        page (int): The page number for pagination.
+        per_page (int): The number of results per page.
+
+    Returns:
+        dict: A dictionary containing a list of academic works by the author.
+    """
+    logger.info(f"GET /api/v1/author_works request received for author_id: {author_id}, page: {page}, per_page: {per_page}")
+    url = f'{BASE_URL}works?filter=author.id:{author_id}&sort=cited_by_count:desc&per-page={per_page}&page={page}'
+
+    try:
+        response = requests.get(url, headers=HEADERS)
+        response.raise_for_status()
+        data = response.json()
+        works = data.get('results', [])
+        logger.info(f"Successfully fetched {len(works)} works for author_id: {author_id}")
+    except requests.exceptions.RequestException as e:
+        works = []
+        logger.error(f"Error fetching data for author_id {author_id}: {e}")
+
+    return {"works": works}
+
+@app.get("/api/v1/author_details/{author_id}")
+async def get_author_details(author_id: str):
+    """Retrieves details for a specific author.
+
+    Args:
+        author_id (str): The OpenAlex ID of the author.
+
+    Returns:
+        dict: A dictionary containing the author's details.
+    """
+    logger.info(f"GET /api/v1/author_details request received for author_id: {author_id}")
+    url = f'{BASE_URL}authors/{author_id}'
+
+    try:
+        response = requests.get(url, headers=HEADERS)
+        response.raise_for_status()
+        author_details = response.json()
+        logger.info(f"Successfully fetched details for author_id: {author_id}")
+    except requests.exceptions.RequestException as e:
+        author_details = {}
+        logger.error(f"Error fetching author details for {author_id}: {e}")
+
+    return {"author": author_details}

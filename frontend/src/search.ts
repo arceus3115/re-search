@@ -26,8 +26,11 @@ function renderWorks(works: any[], resultsContainer: HTMLElement) {
             const li = document.createElement('li');
             li.innerHTML = `
                 <h4>${work.title || 'No Title'}</h4>
-                <p><strong>Authors:</strong> ${work.authorships.map((a: any) => a.author.display_name).join(', ') || 'N/A'}</p>
-                <p><strong>Affiliations:</strong> ${work.authorships.flatMap((a: any) => a.institutions.map((i: any) => i.display_name)).filter((name: string) => name).join(', ') || 'N/A'}</p>
+                <p><strong>Authors:</strong> ${work.authorships.map((a: any) => `<span class="author-link" data-author-id="${a.author.id}" data-author-name="${a.author.display_name}">${a.author.display_name}</span>`).join(', ') || 'N/A'}</p>
+                <p><strong>Affiliations:</strong> ${work.authorships.flatMap((a: any) => a.institutions.map((i: any) => {
+                    console.log('Institution:', i.display_name, 'Homepage URL:', i.homepage_url);
+                    return i.homepage_url ? `<a href="${i.homepage_url}" target="_blank">${i.display_name}</a>` : i.display_name;
+                })).filter((name: string) => name).join(', ') || 'N/A'}</p>
                 <p><strong>FWCI:</strong> ${work.fwci || 'N/A'}</p>
             `;
             ul.appendChild(li);

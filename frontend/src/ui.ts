@@ -92,4 +92,46 @@ export async function renderApp(appDiv: HTMLElement, initialTab: string = 'searc
     if (initialTabButton) {
         initialTabButton.click();
     }
+
+    // Append the modal HTML to the body
+    document.body.insertAdjacentHTML('beforeend', `
+        <div id="author-works-modal" class="modal">
+            <div class="modal-content">
+                <span class="close-button">&times;</span>
+                <h3 id="modal-author-name"></h3>
+                <p id="modal-author-institution" class="modal-subtitle"></p>
+                <div id="modal-works-list"></div>
+            </div>
+        </div>
+    `);
+
+    // Get modal elements
+    const modal = document.getElementById('author-works-modal');
+    const closeButton = document.querySelector('#author-works-modal .close-button');
+
+    // Close modal when clicking on close button or outside the modal
+    if (closeButton) {
+        closeButton.addEventListener('click', () => {
+            if (modal) modal.style.display = 'none';
+        });
+    }
+    window.addEventListener('click', (event) => {
+        if (event.target === modal) {
+            if (modal) modal.style.display = 'none';
+        }
+    });
+}
+
+export function showAuthorWorksModal(authorName: string, authorInstitution: string, worksHtml: string) {
+    const modal = document.getElementById('author-works-modal');
+    const modalAuthorName = document.getElementById('modal-author-name');
+    const modalAuthorInstitution = document.getElementById('modal-author-institution');
+    const modalWorksList = document.getElementById('modal-works-list');
+
+    if (modal && modalAuthorName && modalAuthorInstitution && modalWorksList) {
+        modalAuthorName.textContent = `Works by ${authorName}`;
+        modalAuthorInstitution.textContent = authorInstitution;
+        modalWorksList.innerHTML = worksHtml;
+        modal.style.display = 'flex';
+    }
 }
