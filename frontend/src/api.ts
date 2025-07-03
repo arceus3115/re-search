@@ -56,6 +56,7 @@ export async function scrapePcsasData() {
 
 /**
  * Fetches works by a specific author from the backend API.
+ * This endpoint is used to retrieve a list of academic works associated with a given author ID.
  * @param {string} authorId - The OpenAlex ID of the author.
  * @returns {Promise<any>} A promise that resolves to the JSON response containing the author's works.
  * @throws {Error} If the network request fails or the response is not OK.
@@ -70,6 +71,7 @@ export async function fetchAuthorWorks(authorId: string) {
 
 /**
  * Fetches details for a specific author from the backend API.
+ * This endpoint provides comprehensive information about an author, including their affiliations.
  * @param {string} authorId - The OpenAlex ID of the author.
  * @returns {Promise<any>} A promise that resolves to the JSON response containing the author's details.
  * @throws {Error} If the network request fails or the response is not OK.

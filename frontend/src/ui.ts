@@ -98,7 +98,7 @@ export async function renderApp(appDiv: HTMLElement, initialTab: string = 'searc
         initialTabButton.click();
     }
 
-    // Append the modal HTML to the body
+    // Append the modal HTML to the body for displaying author's works
     document.body.insertAdjacentHTML('beforeend', `
         <div id="author-works-modal" class="modal">
             <div class="modal-content">
@@ -127,6 +127,12 @@ export async function renderApp(appDiv: HTMLElement, initialTab: string = 'searc
     });
 }
 
+/**
+ * Displays the author works modal with the given author information and works HTML.
+ * @param {string} authorName - The name of the author.
+ * @param {string} authorInstitution - The institution of the author.
+ * @param {string} worksHtml - The HTML content representing the author's works.
+ */
 export function showAuthorWorksModal(authorName: string, authorInstitution: string, worksHtml: string) {
     const modal = document.getElementById('author-works-modal');
     const modalAuthorName = document.getElementById('modal-author-name');

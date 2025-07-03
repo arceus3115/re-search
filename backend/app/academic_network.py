@@ -125,7 +125,10 @@ class AcademicNetwork:
             return None
 
     def add_author_works(self, author_id: str) -> List[Dict]:
-        """Get works by an author"""
+        """
+        Fetches works by a specific author from the OpenAlex API.
+        Ensures that 'authorships' and 'institutions' fields are included in the response for each work.
+        """
         response = requests.get(
             f"{BASE_URL}works",
             params={

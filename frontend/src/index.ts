@@ -13,20 +13,26 @@ document.addEventListener('DOMContentLoaded', () => {
     renderLandingPage(appDiv);
 
     // Event listener for author links
+    // This listens for clicks on elements with the 'author-link' class, which are dynamically created
+    // for author names in search results. When clicked, it fetches and displays the author's works in a modal.
     document.addEventListener('click', async (event) => {
         const target = event.target as HTMLElement;
         if (target.classList.contains('author-link')) {
-            event.preventDefault();
+            event.preventDefault(); // Prevent default link behavior
+
+            // Extract author ID and name from data attributes
             const authorId = target.dataset.authorId?.split('/').pop();
             const authorName = target.dataset.authorName;
 
             if (authorId && authorName) {
                 try {
+                    // Fetch author details to get institution information
                     const authorDetailsData = await fetchAuthorDetails(authorId);
                     console.log('Author details data:', authorDetailsData);
                     const authorInstitution = authorDetailsData.author?.last_known_institutions?.map((inst: any) => inst.display_name).join(', ') || 'N/A';
                     console.log('Author institution:', authorInstitution);
 
+                    // Fetch works by the author
                     const worksData = await fetchAuthorWorks(authorId);
                     const works = worksData.works;
 
@@ -34,6 +40,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     if (works && works.length > 0) {
                         worksHtml = '<ul>';
                         works.forEach((work: any) => {
+                            // Render each work in a list item
                             worksHtml += `
                                 <li>
                                     <h5>${work.title || 'No Title'}</h5>
@@ -48,6 +55,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         worksHtml = '<p>No other works found for this author.</p>';
                     }
 
+                    // Display the modal with author's works
                     showAuthorWorksModal(authorName, authorInstitution, worksHtml);
 
                 } catch (error) {

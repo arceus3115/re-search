@@ -68,11 +68,13 @@ async def search_papers(
         response = requests.get(url, headers=HEADERS)
         response.raise_for_status()
         data = response.json()
+        # The OpenAlex API response for works automatically includes 'authorships' and 'institutions'
+        # which are crucial for the frontend's interactive author and institution links.
         works = data.get('results', [])
         logger.info(f"Successfully fetched {len(works)} works for search term: {search_term}")
     except requests.exceptions.RequestException as e:
         works = []
-        logger.error(f"Error fetching data for search term {request.search_term}: {e}")
+        logger.error(f"Error fetching data for search term {search_term}: {e}")
 
     return {"works": works}
 
