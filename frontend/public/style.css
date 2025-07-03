@@ -110,6 +110,16 @@ form input[type="number"]:focus {
     border-color: var(--color-gray-dark);
 }
 
+.input-group {
+    display: flex;
+    gap: var(--spacing-md); /* Adjust gap as needed */
+    margin-bottom: var(--spacing-md);
+}
+
+.input-group input {
+    flex: 1; /* Distribute space equally */
+    margin-bottom: 0; /* Remove default margin-bottom from inputs within this group */
+}
 
 
 form button,

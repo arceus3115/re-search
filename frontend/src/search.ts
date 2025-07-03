@@ -25,13 +25,15 @@ function renderWorks(works: any[], resultsContainer: HTMLElement) {
         works.forEach((work: any) => {
             const li = document.createElement('li');
             li.innerHTML = `
-                <h4>${work.title || 'No Title'}</h4>
+                <h4>${work.doi ? `<a href="https://doi.org/${work.doi}" target="_blank">${work.title || 'No Title'}</a>` : work.title || 'No Title'}</h4>
                 <p><strong>Authors:</strong> ${work.authorships.map((a: any) => `<span class="author-link" data-author-id="${a.author.id}" data-author-name="${a.author.display_name}">${a.author.display_name}</span>`).join(', ') || 'N/A'}</p>
-                <p><strong>Affiliations:</strong> ${work.authorships.flatMap((a: any) => a.institutions.map((i: any) => {
+                <p><strong>Affiliations:</strong> ${Array.from(new Set(work.authorships.flatMap((a: any) => a.institutions.map((i: any) => {
                     console.log('Institution:', i.display_name, 'Homepage URL:', i.homepage_url);
                     return i.homepage_url ? `<a href="${i.homepage_url}" target="_blank">${i.display_name}</a>` : i.display_name;
-                })).filter((name: string) => name).join(', ') || 'N/A'}</p>
+                })).filter((name: string) => name))).join(', ') || 'N/A'}</p>
                 <p><strong>FWCI:</strong> ${work.fwci || 'N/A'}</p>
+                
+                <p><strong>Publication Date:</strong> ${work.publication_date || 'N/A'}</p>
             `;
             ul.appendChild(li);
         });
@@ -162,14 +164,12 @@ export function renderSearchTab() {
     searchTabContent.innerHTML = `
         <h2>Search Academic Papers</h2>
         <form id="search-form">
-            <label for="search-term">Search Term:</label>
-            <input type="text" id="search-term" name="search_term" required><br><br>
+            <input type="text" id="search-term" name="search_term" placeholder="Search Term" required><br><br>
 
-            <label for="from-year">From Year (default 1980):</label>
-            <input type="number" id="from-year" name="from_year" value="1980"><br><br>
-
-            <label for="country-code">Country Code (default US):</label>
-            <input type="text" id="country-code" name="country_code" value="US"><br><br>
+            <div class="input-group">
+                <input type="number" id="from-year" name="from_year" value="1980" placeholder="From Year (default 1980)">
+                <input type="text" id="country-code" name="country_code" value="US" placeholder="Country Code (default US)">
+            </div><br><br>
 
             <h3>Select Topic IDs:</h3>
             <div id="topic-ids-grid"></div>
