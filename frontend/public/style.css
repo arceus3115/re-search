@@ -110,6 +110,16 @@ form input[type="number"]:focus {
     border-color: var(--color-gray-dark);
 }
 
+.input-group {
+    display: flex;
+    gap: var(--spacing-md); /* Adjust gap as needed */
+    margin-bottom: var(--spacing-md);
+}
+
+.input-group input {
+    flex: 1; /* Distribute space equally */
+    margin-bottom: 0; /* Remove default margin-bottom from inputs within this group */
+}
 
 
 form button,
@@ -163,46 +173,55 @@ button:hover {
     box-shadow: var(--box-shadow-md);
 }
 
-/* Lists (Search Results & PCSAS) - Clean Card Style */
-ul {
-    list-style: none;
-    padding: 0;
-}
-
-ul li {
+/* Common Card Style */
+.card-element {
     background-color: var(--color-white);
     border: 1px solid var(--color-gray-extra-light);
-    border-radius: var(--border-radius-md); /* More rounded corners for cards */
+    border-radius: var(--border-radius-md);
     padding: var(--spacing-md);
-    margin-bottom: var(--spacing-md); /* More space between cards */
     box-shadow: var(--box-shadow-sm);
     transition: transform 0.2s ease, box-shadow 0.2s ease;
+    margin-bottom: var(--spacing-md); /* Apply margin directly to card-element */
 }
 
-ul li:hover {
+.card-element:hover {
     transform: translateY(-3px);
     box-shadow: var(--box-shadow-md);
 }
 
-ul li h4 {
+.card-element h4 {
     color: var(--color-black);
     margin-bottom: var(--spacing-xs);
     font-size: 1.2em;
 }
 
-ul li p {
+.card-element p {
     margin-bottom: var(--spacing-xs);
 }
 
-ul li a {
+.card-element a {
     color: var(--color-gray-dark);
     text-decoration: none;
     font-weight: 600;
 }
 
-ul li a:hover {
+.card-element a:hover {
     text-decoration: underline;
     color: var(--color-black);
+}
+
+/* Lists (Search Results & PCSAS) */
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+/* Grid for works */
+.works-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); /* Adjust as needed */
+    gap: var(--spacing-md);
+    margin-top: var(--spacing-md);
 }
 
 /* Landing Page Styles */
@@ -331,6 +350,18 @@ ul li a:hover {
     padding-top: var(--spacing-md);
 }
 
+.search-results-padding {
+    padding-top: var(--spacing-md);
+}
+
+.pagination-controls {
+    justify-content: center;
+    gap: var(--spacing-md);
+    margin-top: var(--spacing-md);
+    margin-bottom: var(--spacing-md);
+    display: none; /* Initially hidden */
+}
+
 /* Responsive adjustments */
 @media (max-width: 768px) {
     body {
@@ -379,4 +410,132 @@ ul li a:hover {
         flex-grow: 1;
         text-align: center;
     }
+}
+
+/* Modal Styles */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1001; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    align-items: center;
+    justify-content: center;
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; /* Could be responsive */
+    max-width: 800px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    position: relative;
+}
+
+.close-button {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    position: absolute;
+    top: 10px;
+    right: 20px;
+}
+
+.close-button:hover,
+.close-button:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.author-link {
+    color: #007bff; /* A common link color */
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.author-link:hover {
+    color: #0056b3;
+}
+
+#modal-works-list ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#modal-works-list li {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#modal-works-list li h5 {
+    margin-top: 0;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+#modal-works-list li p {
+    font-size: 0.9em;
+    color: #666;
+}
+
+/* Grouping for search elements */
+.search-elements-group {
+    background-color: var(--color-gray-extra-light);
+    padding: var(--spacing-sm); /* Reduced padding */
+    border-radius: var(--border-radius-md);
+    margin-bottom: var(--spacing-md); /* Reduced margin-bottom */
+}
+
+/* University Grid for Cross-Search */
+.university-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: var(--spacing-md);
+    margin-top: var(--spacing-md);
+    width: 100%;
+}
+
+.university-card {
+    background-color: var(--color-white);
+    border: 1px solid var(--color-gray-extra-light);
+    border-radius: var(--border-radius-md);
+    padding: var(--spacing-md);
+    box-shadow: var(--box-shadow-sm);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    text-align: center;
+}
+
+.university-card:hover {
+    transform: translateY(-3px);
+    box-shadow: var(--box-shadow-md);
+}
+
+.university-card a {
+    color: var(--color-black);
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1.1em;
+    display: block; /* Make the whole card clickable */
+}
+
+.university-card a:hover {
+    text-decoration: underline;
+    color: var(--color-gray-dark);
+}
+
+.small-text {
+    font-size: 0.85em;
+    font-weight: normal;
 }

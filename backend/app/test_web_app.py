@@ -13,12 +13,7 @@ def test_get_fields():
     assert isinstance(response.json()["fields"], dict)
 
 def test_search_papers():
-    response = client.post("/api/v1/search", json={
-        "search_term": "artificial intelligence",
-        "from_year": 2020,
-        "country_code": "US",
-        "topic_ids": []
-    })
+    response = client.get("/api/v1/search?search_term=artificial+intelligence&from_year=2020&country_code=US")
     assert response.status_code == 200
     assert "works" in response.json()
     assert isinstance(response.json()["works"], list)

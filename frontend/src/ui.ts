@@ -1,6 +1,7 @@
 
 import { renderSearchTab } from './search';
 import { renderPcsasTab } from './pcsas';
+import { renderCrossSearchTab } from './cross_search';
 
 /**
  * Renders the initial landing page of the application.
@@ -15,6 +16,7 @@ export function renderLandingPage(appDiv: HTMLElement) {
             <div class="tool-list">
                 <button class="tool-button" data-tool="search">Academic Paper Search</button>
                 <button class="tool-button" data-tool="pcsas">PCSAS</button>
+                <button class="tool-button" data-tool="cross-search">Cross-Search Universities</button>
             </div>
             <h2>Your Network Dashboard</h2>
             <div id="network-animation-placeholder" style="height: 300px; background-color: #f0f0f0; display: flex; justify-content: center; align-items: center; border-radius: 8px;">
@@ -45,11 +47,13 @@ export async function renderApp(appDiv: HTMLElement, initialTab: string = 'searc
             <div class="tabs">
                 <button class="tab-button" data-tab="search">Academic Paper Search</button>
                 <button class="tab-button" data-tab="pcsas">PCSAS</button>
+                <button class="tab-button" data-tab="cross-search">Cross-Search Universities</button>
             </div>
         </div>
         <div class="app-container">
             <div id="tab-content-search" class="tab-content"></div>
             <div id="tab-content-pcsas" class="tab-content"></div>
+            <div id="tab-content-cross-search" class="tab-content"></div>
         </div>
     `;
 
@@ -66,6 +70,7 @@ export async function renderApp(appDiv: HTMLElement, initialTab: string = 'searc
     // Render tab content
     renderSearchTab();
     renderPcsasTab();
+    renderCrossSearchTab();
 
     // Tab switching logic
     document.querySelectorAll('.tab-button').forEach(button => {
@@ -91,5 +96,53 @@ export async function renderApp(appDiv: HTMLElement, initialTab: string = 'searc
     const initialTabButton = document.querySelector(`.tab-button[data-tab="${initialTab}"]`) as HTMLElement;
     if (initialTabButton) {
         initialTabButton.click();
+    }
+
+    // Append the modal HTML to the body for displaying author's works
+    document.body.insertAdjacentHTML('beforeend', `
+        <div id="author-works-modal" class="modal">
+            <div class="modal-content">
+                <span class="close-button">&times;</span>
+                <h3 id="modal-author-name"></h3>
+                <p id="modal-author-institution" class="modal-subtitle"></p>
+                <div id="modal-works-list"></div>
+            </div>
+        </div>
+    `);
+
+    // Get modal elements
+    const modal = document.getElementById('author-works-modal');
+    const closeButton = document.querySelector('#author-works-modal .close-button');
+
+    // Close modal when clicking on close button or outside the modal
+    if (closeButton) {
+        closeButton.addEventListener('click', () => {
+            if (modal) modal.style.display = 'none';
+        });
+    }
+    window.addEventListener('click', (event) => {
+        if (event.target === modal) {
+            if (modal) modal.style.display = 'none';
+        }
+    });
+}
+
+/**
+ * Displays the author works modal with the given author information and works HTML.
+ * @param {string} authorName - The name of the author.
+ * @param {string} authorInstitution - The institution of the author.
+ * @param {string} worksHtml - The HTML content representing the author's works.
+ */
+export function showAuthorWorksModal(authorName: string, authorInstitution: string, worksHtml: string) {
+    const modal = document.getElementById('author-works-modal');
+    const modalAuthorName = document.getElementById('modal-author-name');
+    const modalAuthorInstitution = document.getElementById('modal-author-institution');
+    const modalWorksList = document.getElementById('modal-works-list');
+
+    if (modal && modalAuthorName && modalAuthorInstitution && modalWorksList) {
+        modalAuthorName.textContent = `Works by ${authorName}`;
+        modalAuthorInstitution.textContent = authorInstitution;
+        modalWorksList.innerHTML = worksHtml;
+        modal.style.display = 'flex';
     }
 }
