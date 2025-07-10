@@ -1,4 +1,3 @@
-
 import requests
 from bs4 import BeautifulSoup
 
@@ -28,9 +27,9 @@ def scrape_pcsas():
     programs_data = []
     for row in rows:
         cols = row.find_all("td")
-        if len(cols) < 4: # Ensure there are enough columns
+        if len(cols) < 4:  # Ensure there are enough columns
             continue
-        
+
         # Program/University column
         uni_cell = cols[0]
         uni_link_element = uni_cell.find("a")
@@ -40,14 +39,16 @@ def scrape_pcsas():
         # Student Outcomes Link column
         outcomes_cell = cols[3]
         outcomes_link_element = outcomes_cell.find("a")
-        student_outcomes_link = outcomes_link_element["href"] if outcomes_link_element else "N/A"
+        student_outcomes_link = (
+            outcomes_link_element["href"] if outcomes_link_element else "N/A"
+        )
 
-        programs_data.append({
-            "program_name": program_name,
-            "website": program_website,
-            "student_outcomes_link": student_outcomes_link
-        })
+        programs_data.append(
+            {
+                "program_name": program_name,
+                "website": program_website,
+                "student_outcomes_link": student_outcomes_link,
+            }
+        )
 
     return programs_data
-
-
