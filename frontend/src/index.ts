@@ -1,4 +1,6 @@
 
+import './style.css';
+
 import { renderLandingPage, showAuthorWorksModal } from './ui';
 import { fetchAuthorWorks, fetchAuthorDetails } from './api';
 

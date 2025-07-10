@@ -1,9 +1,7 @@
-import pytest
 from fastapi.testclient import TestClient
 from .web_app import app
 
 client = TestClient(app)
-from app.web_app import app
 
 
 def test_get_fields():

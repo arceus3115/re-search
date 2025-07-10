@@ -6,6 +6,10 @@ name = "pypi"
 [packages]
 beautifulsoup4 = "*"
 lxml = "*"
+fastapi = "*"
+httpx = "*"
+pytest = "*"
+pytest-asyncio = "*"
 
 [dev-packages]
 

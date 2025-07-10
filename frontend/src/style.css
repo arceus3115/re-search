@@ -479,12 +479,6 @@ ul {
     border-radius: 5px;
 }
 
-#modal-works-list li h5 {
-    margin-top: 0;
-    margin-bottom: 5px;
-    color: #333;
-}
-
 #modal-works-list li p {
     font-size: 0.9em;
     color: #666;

@@ -16,11 +16,11 @@ httpx = "*"
 [dev-packages]
 black = "*"
 flake8 = "*"
+ruff = "*"
 mypy = "*"
 pytest-cov = "*"
 pytest = "*"
 pytest-asyncio = "*"
-httpx = "*"
 
 [requires]
 python_version = "3.11"
@@ -29,4 +29,4 @@ python_version = "3.11"
 start = "uvicorn app.web_app:app --reload"
 test = "pytest -v"
 format = "black ."
-lint = "flake8 ."
+lint = "ruff check ."

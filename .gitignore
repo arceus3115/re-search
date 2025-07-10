@@ -8,6 +8,9 @@ venv/
 .pytest_cache/
 # Pipfile.lock is typically committed for reproducible builds, but keeping it ignored as it was already present.
 Pipfile.lock
+uv.lock
+backend/Pipfile.lock
+backend/app/requirements.txt
 *.sqlite3
 media/
 static_root/
@@ -32,3 +35,6 @@ Thumbs.db
 *.log
 *.swp
 *~
+
+# Frontend build outputs
+public/bundle.js

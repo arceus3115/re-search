@@ -1,6 +1,7 @@
 const path = require('path');
 
 module.exports = {
+  mode: 'development',
   entry: './src/index.ts',
   module: {
     rules: [
@@ -9,15 +10,19 @@ module.exports = {
         use: 'ts-loader',
         exclude: /node_modules/,
       },
+      {
+        test: /\.css$/,
+        use: ['style-loader', 'css-loader'],
+      },
     ],
   },
   resolve: {
-    extensions: ['.ts', '.js'],
+    extensions: ['.ts', '.js', '.css'],
   },
   output: {
     filename: 'bundle.js',
     path: path.resolve(__dirname, 'public'),
-    
+
   },
   devServer: {
     static: {
