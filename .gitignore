@@ -1,5 +1,34 @@
+# Python
 __pycache__/
-.DS_Store
-Pipfile.lock
 *.pyc
+*.pyd
+*.egg-info/
 .venv/
+venv/
+.pytest_cache/
+# Pipfile.lock is typically committed for reproducible builds, but keeping it ignored as it was already present.
+Pipfile.lock
+*.sqlite3
+media/
+static_root/
+
+# Node.js
+node_modules/
+dist/
+build/
+*.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+coverage/
+
+# General / OS
+.DS_Store
+Thumbs.db
+*.log
+*.swp
+*~

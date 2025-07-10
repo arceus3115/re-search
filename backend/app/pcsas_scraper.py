@@ -1,7 +1,7 @@
 
 import requests
 from bs4 import BeautifulSoup
-import pandas as pd
+
 
 def scrape_pcsas():
     """Scrapes the PCSAS accredited programs page to extract program information.
