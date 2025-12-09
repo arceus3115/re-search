@@ -1,0 +1,3202 @@
+[
+  {
+    "university": "University of Alabama at Birmingham",
+    "program_type": "Clinical Ph.D.",
+    "address": "Campbell Hall Room 201, 1720 2nd Avenue South, Birmingham, AL 3 5294 -1170",
+    "date_of_initial_accreditation": "March 20, 1985",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": 2023
+  },
+  {
+    "university": "University of Alabama at Tuscaloosa",
+    "program_type": "Clinical Ph.D.",
+    "address": "Department of Psychology Box 870348, Tuscaloosa, AL 3 5487",
+    "date_of_initial_accreditation": "February 01, 1959",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": null
+  },
+  {
+    "university": "Auburn University",
+    "program_type": "Clinical Ph.D.",
+    "address": "226 Thach Hall, Auburn University, Auburn, AL 3 6849 -5214",
+    "date_of_initial_accreditation": "November 17, 1976",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": null
+  },
+  {
+    "university": "Auburn University",
+    "program_type": "Counseling Ph.D.",
+    "address": "2084 Haley Center, Auburn, AL 3 6849",
+    "date_of_initial_accreditation": "May 06, 1988",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": 2027
+  },
+  {
+    "university": "University of South Alabama",
+    "program_type": "Clinical Ph.D.",
+    "address": "1000 UCOM, 307 University Blvd. N., Mobile, AL 3 6688",
+    "date_of_initial_accreditation": "June 07, 2013",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": null
+  },
+  {
+    "university": "University of Alaska Anchorage",
+    "program_type": "Clinical Ph.D.",
+    "address": "3211 Providence Drive, Anchorage, AK 9 9508",
+    "date_of_initial_accreditation": "November 23, 2011",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": 2028
+  },
+  {
+    "university": "University of Arizona",
+    "program_type": "Clinical Ph.D.",
+    "address": "1503 E. University Blvd, Rm 312, Tucson, AZ 8 5721",
+    "date_of_initial_accreditation": "March 01, 1962",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": 2028
+  },
+  {
+    "university": "Arizona State University",
+    "program_type": "Clinical Ph.D.",
+    "address": "950 S. McAllister, P.O. Box 871104, Tempe, AZ 8 5287 -1104",
+    "date_of_initial_accreditation": "January 21, 1977",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": null
+  },
+  {
+    "university": "Arizona State University",
+    "program_type": "Counseling Ph.D.",
+    "address": "446 Payne Hall, MC -0811, Arizona State University, Tempe, AZ 8 5287 -0811",
+    "date_of_initial_accreditation": "April 01, 1972",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": null
+  },
+  {
+    "university": "Midwestern University",
+    "program_type": "Clinical Ph.D.",
+    "address": "19555 North 59th Avenue, Glendale, AZ 8 5308",
+    "date_of_initial_accreditation": "March 10, 2011",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": 2023
+  },
+  {
+    "university": "Educational Psychology - NAU",
+    "program_type": "Clinical Ph.D.",
+    "address": "801 S. Knoles Drive, Building 27, Flagstaff, AZ 86011",
+    "date_of_initial_accreditation": "April 06, 2017",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": null
+  },
+  {
+    "university": "North Valley Campus",
+    "program_type": "Clinical Ph.D.",
+    "address": "Room 113, 15451 N 28th Ave ., Phoenix , AZ 8 5053",
+    "date_of_initial_accreditation": "February 25, 2022",
+    "accreditation_status": "Accredited, on contingency",
+    "next_site_visit_year": null
+  },
+  {
+    "university": "University of Arkansas",
+    "program_type": "Clinical Ph.D.",
+    "address": "216 Memorial Hall, Fayetteville, AR 7 2701 -1201",
+    "date_of_initial_accreditation": "April 01, 1966",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": 2023
+  },
+  {
+    "university": "University of Central Arkansas",
+    "program_type": "Counseling Ph.D.",
+    "address": "Mashburn Hall 215, 201 S. Donaghey, Conway, AR 7 2035",
+    "date_of_initial_accreditation": "November 13, 2015",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": 2022
+  },
+  {
+    "university": "Alliant International University, Fresno",
+    "program_type": "Clinical Ph.D.",
+    "address": "(formerly listed as California School of, Professional Psychology -Fresno), 5130 East Clinton Way, Fresno, CA 9 3727",
+    "date_of_initial_accreditation": "March 28, 1984",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": 2027
+  },
+  {
+    "university": "Alliant International University, Fresno",
+    "program_type": "Clinical Ph.D.",
+    "address": "(formerly listed as California School of, Professional Psychology -Fresno), 5130 East Clinton Way, Fresno, CA 9 3727",
+    "date_of_initial_accreditation": "June 03, 1994",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": 2023
+  },
+  {
+    "university": "Angeles",
+    "program_type": "Clinical Ph.D.",
+    "address": "(formerly listed as California School of, Professional Psychology -Los Angeles), 1000 South Fremont Avenue, Unit 5, Alhambra, CA 9 1803",
+    "date_of_initial_accreditation": "March 21, 1978",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": 2023
+  },
+  {
+    "university": "Angeles",
+    "program_type": "Clinical Ph.D.",
+    "address": "(formerly listed as California School of, Professional Psychology -Los Angeles), 1000 South Fremont Avenue, Unit 5, Alhambra, CA 9 1803 -8835",
+    "date_of_initial_accreditation": "April 23, 1991",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": null
+  },
+  {
+    "university": "Sacramento",
+    "program_type": "Clinical Ph.D.",
+    "address": "(formerly listed as California School of, Professional Psychology - Fresno; Alliant, International University -Fresno and, Sacramento), 2030 W. El Camino Avenue, Suite 200, Sacramento, CA 9 5833",
+    "date_of_initial_accreditation": "June 03, 1994",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": 2028
+  },
+  {
+    "university": "Alliant International University, San Diego",
+    "program_type": "Clinical Ph.D.",
+    "address": "(formerly listed as California School of, Professional Psychology -San Diego), 10455 Pomerado Road, Daley Hall 117, San Diego, CA 9 2131 -1799",
+    "date_of_initial_accreditation": "May 06, 1980",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": 2021
+  },
+  {
+    "university": "Alliant International University, San Diego",
+    "program_type": "Clinical Ph.D.",
+    "address": "(formerly listed as California School of, Professional Psychology - San Diego), 10455 Pomerado Road, Daley Hall 205, San Diego, CA 9 2131",
+    "date_of_initial_accreditation": "May 26, 1994",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": 2023
+  },
+  {
+    "university": "Francisco Bay",
+    "program_type": "Clinical Ph.D.",
+    "address": "(formerly listed as California School of, Professional Psychology -Alameda), 1475 66th Street, Suite 120, Emeryville , CA 9 4608",
+    "date_of_initial_accreditation": "March 21, 1984",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": 2027
+  },
+  {
+    "university": "Francisco Bay",
+    "program_type": "Clinical Ph.D.",
+    "address": "(formerly listed as California School of, Professional Psychology -Alameda), 1475 66th Street, Suite 120, Emeryville , CA 9 4608",
+    "date_of_initial_accreditation": "February 28, 1995",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": null
+  },
+  {
+    "university": "Azusa Pacific University",
+    "program_type": "Clinical Ph.D.",
+    "address": "901 East Alosta Avenue, P.O. Box 7000, Azusa, CA 9 1702 -7000",
+    "date_of_initial_accreditation": "October 31, 2000",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": 2023
+  },
+  {
+    "university": "Biola University",
+    "program_type": "Clinical Ph.D.",
+    "address": "13800 Biola Avenue, La Mirada, CA 9 0639",
+    "date_of_initial_accreditation": "May 23, 1980",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": 2029
+  },
+  {
+    "university": "Biola University",
+    "program_type": "Clinical Ph.D.",
+    "address": "13800 Biola Avenue, La Mirada, CA 9 0639",
+    "date_of_initial_accreditation": "May 23, 1980",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": 2029
+  },
+  {
+    "university": "California Baptist University",
+    "program_type": "Clinical Ph.D.",
+    "address": "8432 Magnolia Avenue, Riverside, CA 92504",
+    "date_of_initial_accreditation": "September 28, 2021",
+    "accreditation_status": "Accredited, on contingency",
+    "next_site_visit_year": 2024
+  },
+  {
+    "university": "Clinical Science Program",
+    "program_type": "Clinical Ph.D.",
+    "address": "2121 Berkeley Way, #3302, Berkeley, CA 9 4720 -1650",
+    "date_of_initial_accreditation": "February 01, 1948",
+    "accreditation_status": "Accredited – Inactive",
+    "next_site_visit_year": null
+  },
+  {
+    "university": "University of California, Berkeley",
+    "program_type": "School Ph.D.",
+    "address": "2121 Berkeley Way, 4th Floor, Berkeley, CA 9 4720",
+    "date_of_initial_accreditation": "November 25, 1980",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": null
+  },
+  {
+    "university": "University of California, Los Angeles",
+    "program_type": "Clinical Ph.D.",
+    "address": "Psychology Building 1285, 405 Hilgard Avenue , Box 951563, Los Angeles, CA 9 0095 -1563",
+    "date_of_initial_accreditation": "February 01, 1948",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": 2028
+  },
+  {
+    "university": "University of California, Riverside",
+    "program_type": "School Ph.D.",
+    "address": "900 University Avenue, 1207 Sproul Hall, Riverside, CA 9 2521",
+    "date_of_initial_accreditation": "February 24, 2004",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": 2028
+  },
+  {
+    "university": "Ph.D.)",
+    "program_type": "Clinical Ph.D.",
+    "address": "Bldg. 275, Room 4100, Santa Barbara, CA 9 3106 -9490",
+    "date_of_initial_accreditation": "December 07, 1990",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": null
+  },
+  {
+    "university": "California Lutheran University",
+    "program_type": "Clinical Ph.D.",
+    "address": "2201 Outlet Center Drive, Ste 600, Oxnard, CA 9 3036",
+    "date_of_initial_accreditation": "April 21, 2015",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": 2022
+  },
+  {
+    "university": "California Northstate University",
+    "program_type": "Clinical Ph.D.",
+    "address": "2920 Prospect Park Drive Ste. 210, Rancho Cordova, CA 95670",
+    "date_of_initial_accreditation": "April 11, 2021",
+    "accreditation_status": "Accredited, on contingency",
+    "next_site_visit_year": 2024
+  },
+  {
+    "university": "The Chicago School, Anaheim",
+    "program_type": "Clinical Ph.D.",
+    "address": "(formerly listed as The Chicago School of, Professional Psychology, Anaheim ), (Clinical Psy.D.), 2400 East Katella Avenue, Anaheim, CA 9 2806, April 11, 20 21, Accredited, Next site visit scheduled 20 30, The Chicago School, Los Angeles, (formerly listed as The Chicago School of, Professional Psychology Los Angeles ), (Clinical Psy.D.), 707 Wilshire Boulevard , Suite 600, Los Angeles, CA 9 0017",
+    "date_of_initial_accreditation": "July 22, 2018",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": 2028
+  },
+  {
+    "university": "Fielding Graduate University",
+    "program_type": "Clinical Ph.D.",
+    "address": "2020 De La Vina Street, Santa Barbara, CA 9 3105 -3538",
+    "date_of_initial_accreditation": "July 17, 1991",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": null
+  },
+  {
+    "university": "Fuller Theological Seminary",
+    "program_type": "Clinical Ph.D.",
+    "address": "180 North Oakland Avenue, Pasadena, CA 9 1101 -1714",
+    "date_of_initial_accreditation": "December 05, 1972",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": null
+  },
+  {
+    "university": "Fuller Theological Seminary",
+    "program_type": "Clinical Ph.D.",
+    "address": "180 North Oakland Avenue, Pasadena, CA 9 1101 -1714",
+    "date_of_initial_accreditation": "December 05, 1972",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": 2028
+  },
+  {
+    "university": "Psy.D. Program in Clinical Psychology",
+    "program_type": "Clinical Ph.D.",
+    "address": "Hoover Building, 1950 Third Street, La Verne, CA 9 1750",
+    "date_of_initial_accreditation": "April 29, 2003",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": 2028
+  },
+  {
+    "university": "LLU Department of Psychology",
+    "program_type": "Clinical Ph.D.",
+    "address": "11130 Anderson St., Suite 101, Loma Linda, CA 9 2350",
+    "date_of_initial_accreditation": "November 13, 1998",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": null
+  },
+  {
+    "university": "Loma Linda University",
+    "program_type": "Clinical Ph.D.",
+    "address": "11130 Anderson St ., Loma Linda, CA 9 2350",
+    "date_of_initial_accreditation": "November 13, 1998",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": null
+  },
+  {
+    "university": "Mount Saint Mary’s University",
+    "program_type": "Clinical Ph.D.",
+    "address": "10 Chester Place, Los Angeles , CA 9 0007",
+    "date_of_initial_accreditation": "May 01, 2024",
+    "accreditation_status": "Accredited, on contingency",
+    "next_site_visit_year": null
+  },
+  {
+    "university": "JFK School of Psychology",
+    "program_type": "Clinical Ph.D.",
+    "address": "100 Ellinwood Way, Pleasant Hill, CA 94523",
+    "date_of_initial_accreditation": "March 01, 2024",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": 2034
+  },
+  {
+    "university": "PsyD Program",
+    "program_type": "Clinical Ph.D.",
+    "address": "100 Ellinwood Way, Pleasant Hill, CA 9 4523",
+    "date_of_initial_accreditation": "December 17, 2020",
+    "accreditation_status": "Accredited – Inactive",
+    "next_site_visit_year": null
+  },
+  {
+    "university": "Palo Alto University",
+    "program_type": "Clinical Ph.D.",
+    "address": "(formerly listed as Pacific Graduate School, of Psychology), 1791 Arastradero Rd., Palo Alto, CA 9 4304",
+    "date_of_initial_accreditation": "March 17, 1988",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": 2023
+  },
+  {
+    "university": "Palo Alto University",
+    "program_type": "Clinical Ph.D.",
+    "address": "(formerly listed as Pacific Graduate School, of Psychology/Stanford University Medical, School Consortium), 1791 Arastradero Road, Palo Alto, CA 9 4304 -1337",
+    "date_of_initial_accreditation": "November 14, 2006",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": 2029
+  },
+  {
+    "university": "University of San Francisco",
+    "program_type": "Clinical Ph.D.",
+    "address": "2130 Fulton Street, San Francisco, CA 9 4117",
+    "date_of_initial_accreditation": "July 22, 2018",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": null
+  },
+  {
+    "university": "San Diego State University - UC San Diego",
+    "program_type": "Clinical Ph.D.",
+    "address": "(formerly listed as San Diego State -UC San, Diego Cooperative), 6363 Alvarado Court, Suite 103, San Diego, CA 9 2120 -4913",
+    "date_of_initial_accreditation": "June 26, 1990",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": null
+  },
+  {
+    "university": "University of Southern California",
+    "program_type": "Clinical Ph.D.",
+    "address": "Department of Psychology, SGM 501, 3620 S. McClintock Ave., Los Angeles, CA 9 0089 -1061",
+    "date_of_initial_accreditation": "February 20, 1948",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": 2027
+  },
+  {
+    "university": "The Wright Institute",
+    "program_type": "Clinical Ph.D.",
+    "address": "2728 Durant Ave., Berkeley, CA 9 4704",
+    "date_of_initial_accreditation": "March 10, 1998",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": 2027
+  },
+  {
+    "university": "Department of Psychology",
+    "program_type": "Clinical Ph.D.",
+    "address": "1420 Austin Bluffs Parkway, Colorado Springs, CO 8 0918",
+    "date_of_initial_accreditation": "May 11, 2007",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": 2029
+  },
+  {
+    "university": "Neuroscience",
+    "program_type": "Clinical Ph.D.",
+    "address": "345 UCB, Boulder, CO 8 0309",
+    "date_of_initial_accreditation": "January 12, 1949",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": null
+  },
+  {
+    "university": "University of Colorado Denver",
+    "program_type": "Clinical Ph.D.",
+    "address": "1200 Larimer Street, North Classroom 5008G , Campus Box 173, P.O. Box 173364, Denver, CO 8 0201 -3364",
+    "date_of_initial_accreditation": "March 14, 2014",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": null
+  },
+  {
+    "university": "University of Colorado Denver",
+    "program_type": "School Ph.D.",
+    "address": "1380 Lawrence St., Campus Box 106, Denver, CO 8 0204",
+    "date_of_initial_accreditation": "April 15, 2018",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": null
+  },
+  {
+    "university": "Colorado State University",
+    "program_type": "Counseling Ph.D.",
+    "address": "1876 Campus Delivery, Fort Collins, CO 8 0523 -1876",
+    "date_of_initial_accreditation": "March 01, 1970",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": 2029
+  },
+  {
+    "university": "University Park",
+    "program_type": "Clinical Ph.D.",
+    "address": "2155 S. Race Street, Denver, CO 8 0208",
+    "date_of_initial_accreditation": "March 27, 1964",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": null
+  },
+  {
+    "university": "Graduate School of Professional Psychology",
+    "program_type": "Clinical Ph.D.",
+    "address": "2450 S. Vine St., Denver, CO 8 0208",
+    "date_of_initial_accreditation": "May 15, 1979",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": null
+  },
+  {
+    "university": "University of Denver",
+    "program_type": "Counseling Ph.D.",
+    "address": "1999 E. Evans, Denver, CO 8 0208",
+    "date_of_initial_accreditation": "May 16, 1986",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": 2028
+  },
+  {
+    "university": "University of Denver",
+    "program_type": "School Ph.D.",
+    "address": "Katherine A. Ruffatto Hall, 1999 E. Evans Ave, Denver, CO 8 0210",
+    "date_of_initial_accreditation": "July 21, 2019",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": null
+  },
+  {
+    "university": "University of Northern Colorado",
+    "program_type": "Counseling Ph.D.",
+    "address": "Campus Box 131, 501 20th Street, Greeley, CO 8 0639",
+    "date_of_initial_accreditation": "April 04, 1995",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": null
+  },
+  {
+    "university": "University of Northern Colorado",
+    "program_type": "School Ph.D.",
+    "address": "Campus Box 131, 501 20th Street, Greeley, CO 8 0639",
+    "date_of_initial_accreditation": "June 25, 1981",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": 2028
+  },
+  {
+    "university": "Department of Psychological Sciences",
+    "program_type": "Clinical Ph.D.",
+    "address": "406 Babbidge Rd. Unit 1020, Storrs, CT 0 6260 -1020",
+    "date_of_initial_accreditation": "December 19, 1951",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": null
+  },
+  {
+    "university": "Neag School of Education",
+    "program_type": "Clinical Ph.D.",
+    "address": "249 Glenbrook Road, Unit Box 3064, Storrs, CT 0 6269 -3064",
+    "date_of_initial_accreditation": "May 01, 2001",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": null
+  },
+  {
+    "university": "Yale University",
+    "program_type": "Clinical Ph.D.",
+    "address": "216 Kirtland Hall, 2 Hillhouse Avenue, New Haven, CT 0 6520 -8205",
+    "date_of_initial_accreditation": "February 01, 1948",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": 2022
+  },
+  {
+    "university": "University of Delaware",
+    "program_type": "Clinical Ph.D.",
+    "address": "108 Wolf Hall, Newark, D E 19716",
+    "date_of_initial_accreditation": "November 01, 1971",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": null
+  },
+  {
+    "university": "American University",
+    "program_type": "Clinical Ph.D.",
+    "address": "4400 Massachusetts Avenue, NW, 321 Asbury, Washington, DC 2 0016",
+    "date_of_initial_accreditation": "March 01, 1972",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": 2029
+  },
+  {
+    "university": "Catholic University of America",
+    "program_type": "Clinical Ph.D.",
+    "address": "620 Michigan Ave NE, Washington, DC 2 0064",
+    "date_of_initial_accreditation": "February 01, 1948",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": null
+  },
+  {
+    "university": "Psychology -Washington, D.C. Campus",
+    "program_type": "Clinical Ph.D.",
+    "address": "901 15th St. NW, 2nd Floor, Washington, DC 2 0005",
+    "date_of_initial_accreditation": "December 03, 2015",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": 2022
+  },
+  {
+    "university": "Gallaudet University",
+    "program_type": "Clinical Ph.D.",
+    "address": "800 Florida Avenue NE, Hall Memorial Building, Fourth Floor, S416, Washington, DC 2 0002",
+    "date_of_initial_accreditation": "October 20, 1995",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": 2028
+  },
+  {
+    "university": "George Washington University",
+    "program_type": "Clinical Ph.D.",
+    "address": "2125 G Street NW, Washington, DC 2 0052",
+    "date_of_initial_accreditation": "April 01, 1970",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": 2022
+  },
+  {
+    "university": "George Washington University",
+    "program_type": "Clinical Ph.D.",
+    "address": "1922 F Street NW, Suite 100, Washington, DC 2 0052",
+    "date_of_initial_accreditation": "February 16, 2001",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": 2021
+  },
+  {
+    "university": "Department of Psychology",
+    "program_type": "Clinical Ph.D.",
+    "address": "641 S Street NW, Suite 300, Washington, DC 2 0001",
+    "date_of_initial_accreditation": "April 07, 1987",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": 2021
+  },
+  {
+    "university": "Howard University",
+    "program_type": "Counseling Ph.D.",
+    "address": "2441 4th Street, NW, Washington, DC 2 0059",
+    "date_of_initial_accreditation": "April 29, 2002",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": 2029
+  },
+  {
+    "university": "Carlos Albizu University, Miami Campus",
+    "program_type": "Clinical Ph.D.",
+    "address": "(formerly listed as Caribbean Center for, Advanced Studies -Miami Institute of, Psychology), 2173 N.W. 99th Avenue, Miami, FL 33172 -2209",
+    "date_of_initial_accreditation": "November 21, 1991",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": 2022
+  },
+  {
+    "university": "University of Central Florida",
+    "program_type": "Clinical Ph.D.",
+    "address": "P.O. Box 161390, Orlando, FL 32816 -1390",
+    "date_of_initial_accreditation": "April 18, 2003",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": null
+  },
+  {
+    "university": "University of Florida",
+    "program_type": "Clinical Ph.D.",
+    "address": "P.O. Box 100165 HPNP Building, 1225 Center Drive, Room 3151, Gainesville, FL 32610 -0165",
+    "date_of_initial_accreditation": "January 01, 1953",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": 2022
+  },
+  {
+    "university": "University of Florida",
+    "program_type": "Counseling Ph.D.",
+    "address": "114 Psychology Building, Box 112250, Gainesville, FL 32611 -2250",
+    "date_of_initial_accreditation": "January 15, 1954",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": 2027
+  },
+  {
+    "university": "University of Florida",
+    "program_type": "School Ph.D.",
+    "address": "2-170 Norman Hall, P.O. Box 117050, Gainesville, FL 32611 -7050",
+    "date_of_initial_accreditation": "October 28, 1997",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": null
+  },
+  {
+    "university": "Florida Institute of Technology",
+    "program_type": "Clinical Ph.D.",
+    "address": "150 West University Boulevard, Melbourne, FL 32901 -6975",
+    "date_of_initial_accreditation": "April 26, 1983",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": 2022
+  },
+  {
+    "university": "at National Louis University, Tampa",
+    "program_type": "Clinical Ph.D.",
+    "address": "5110 Sunforest Drive , Suite 102, Tampa, FL 33579",
+    "date_of_initial_accreditation": "October 29, 2020",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": 2030
+  },
+  {
+    "university": "Florida State University",
+    "program_type": "Clinical Ph.D.",
+    "address": "Florida State University, 1107 W. Call St., Tallahassee, FL 32306 -4301",
+    "date_of_initial_accreditation": "January 01, 1954",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": null
+  },
+  {
+    "university": "University of Miami",
+    "program_type": "Clinical Ph.D.",
+    "address": "P.O. Box 248185, Coral Gables, FL 33124 -2040",
+    "date_of_initial_accreditation": "December 01, 1966",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": null
+  },
+  {
+    "university": "University of Miami",
+    "program_type": "Counseling Ph.D.",
+    "address": "P.O. Box 248065, Coral Gables, FL 33124 -2040",
+    "date_of_initial_accreditation": "February 07, 1989",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": 2027
+  },
+  {
+    "university": "Nova Southeastern University",
+    "program_type": "Clinical Ph.D.",
+    "address": "Maltz Psychology Building, 3301 College Avenue, Fort Lauderdale, FL 33314",
+    "date_of_initial_accreditation": "October 30, 1981",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": 2029
+  },
+  {
+    "university": "Nova Southeastern University",
+    "program_type": "Clinical Ph.D.",
+    "address": "Maltz Psychology Building, 3301 College Avenue, Fort Lauderdale, FL 33314",
+    "date_of_initial_accreditation": "March 15, 1983",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": 2029
+  },
+  {
+    "university": "Nova Southeastern University",
+    "program_type": "School Ph.D.",
+    "address": "3301 College Avenue, Ft. Lauderdale, FL 33314",
+    "date_of_initial_accreditation": "June 17, 2015",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": null
+  },
+  {
+    "university": "University of South Florida",
+    "program_type": "Clinical Ph.D.",
+    "address": "4202 East Fowler Avenue PCD4118G, Tampa, FL 33620 -7200",
+    "date_of_initial_accreditation": "November 01, 1975",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": 2027
+  },
+  {
+    "university": "University of South Florida",
+    "program_type": "School Ph.D.",
+    "address": "4202 East Fowler Avenue, Education Building 105, Tampa, FL 33620 -7750",
+    "date_of_initial_accreditation": "November 20, 1998",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": 2027
+  },
+  {
+    "university": "Emory University",
+    "program_type": "Clinical Ph.D.",
+    "address": "PAIS Building 36, Eagle Row, Suite 270, Atlanta, GA 3 0322",
+    "date_of_initial_accreditation": "March 01, 1968",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": 2022
+  },
+  {
+    "university": "Department of Psychology",
+    "program_type": "Clinical Ph.D.",
+    "address": "110 Hooper Street, Athens, GA 3 0602 -3013",
+    "date_of_initial_accreditation": "January 14, 1966",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": null
+  },
+  {
+    "university": "University of Georgia",
+    "program_type": "Counseling Ph.D.",
+    "address": "402 Aderhold Hall, Athens, GA 3 0602",
+    "date_of_initial_accreditation": "April 03, 1984",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": null
+  },
+  {
+    "university": "Department of Educational Psychology",
+    "program_type": "Clinical Ph.D.",
+    "address": "323 Aderhold Hall, Athens, GA 3 0602",
+    "date_of_initial_accreditation": "September 27, 1983",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": 2028
+  },
+  {
+    "university": "Georgia Southern University",
+    "program_type": "Clinical Ph.D.",
+    "address": "2670 Southern Drive, Brannen Hall #1008, PO Box 8041, Statesboro, GA 3 0460",
+    "date_of_initial_accreditation": "March 04, 2014",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": 2029
+  },
+  {
+    "university": "Georgia State University",
+    "program_type": "Clinical Ph.D.",
+    "address": "P.O. Box 5010, Atlanta, GA 3 0302 -5010",
+    "date_of_initial_accreditation": "November 28, 1973",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": 2028
+  },
+  {
+    "university": "Georgia State University",
+    "program_type": "Counseling Ph.D.",
+    "address": "P.O. Box 3980, Atlanta, GA 3 0302 -3980",
+    "date_of_initial_accreditation": "May 01, 1984",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": null
+  },
+  {
+    "university": "Psychological Services",
+    "program_type": "Clinical Ph.D.",
+    "address": "P.O. Box 3980, Atlanta, GA 3 0302 -3980",
+    "date_of_initial_accreditation": "May 01, 1979",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": 2022
+  },
+  {
+    "university": "Mercer University",
+    "program_type": "Clinical Ph.D.",
+    "address": "3001 Mercer University Drive, Atlanta, GA 3 0341",
+    "date_of_initial_accreditation": "July 22, 2018",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": null
+  },
+  {
+    "university": "University of Hawaii at Manoa",
+    "program_type": "Clinical Ph.D.",
+    "address": "2530 Dole Street, Sakamaki C400, Honolulu, HI 96822",
+    "date_of_initial_accreditation": "March 01, 1972",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": 2022
+  },
+  {
+    "university": "Hawaii School of Professional Psychology",
+    "program_type": "Clinical Ph.D.",
+    "address": "3140 Waialae Avenue, School of Education and Behavioral Sciences, Brogran Hall, Room 110, Honolulu, HI 96816",
+    "date_of_initial_accreditation": "April 11, 2021",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": 2030
+  },
+  {
+    "university": "Psychology Department ISU",
+    "program_type": "Clinical Ph.D.",
+    "address": "921 South 8th Avenue, Stop 8112, Pocatello, I D 83209 -8112",
+    "date_of_initial_accreditation": "May 16, 2001",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": 2023
+  },
+  {
+    "university": "Adler University - Chicago",
+    "program_type": "Clinical Ph.D.",
+    "address": "(formerly listed as Adler School of, Professional Psychology), 17 N. Dearborn, Chicago, IL 60602",
+    "date_of_initial_accreditation": "November 13, 1998",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": 2028
+  },
+  {
+    "university": "The Chicago School, Chicago Campus",
+    "program_type": "Clinical Ph.D.",
+    "address": "(formerly listed as Chicago School of, Professional Psychology - Chicago Campus ), (Clinical Psy.D.), 325 N. Wells Street , Third Floor, Chicago, IL 60654",
+    "date_of_initial_accreditation": "October 06, 1987",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": 2023
+  },
+  {
+    "university": "The Chicago School",
+    "program_type": "Clinical Ph.D.",
+    "address": "(formerly li sted as The Chicago School of, Professional Psychology - Chicago Campus ), (School Psy.D.), 325 N. Wells Street, Chicago, IL 60654",
+    "date_of_initial_accreditation": "July 19, 2020",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": null
+  },
+  {
+    "university": "DePaul University",
+    "program_type": "Clinical Ph.D.",
+    "address": "2219 N. Kenmore Avenue, Chicago, IL 60614",
+    "date_of_initial_accreditation": "May 11, 1976",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": null
+  },
+  {
+    "university": "University of Illinois at Chicago",
+    "program_type": "Clinical Ph.D.",
+    "address": "1007 West Harrison Street Rm 1018D, Behavioral Sciences Building, m/C 285, Chicago, IL 60607",
+    "date_of_initial_accreditation": "March 01, 1972",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": 2022
+  },
+  {
+    "university": "Champaign",
+    "program_type": "Clinical Ph.D.",
+    "address": "603 E. Daniel Street, Champaign, IL 61820",
+    "date_of_initial_accreditation": "February 01, 1948",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": 2023
+  },
+  {
+    "university": "Champaign",
+    "program_type": "Counseling Ph.D.",
+    "address": "230 Education Building, 1310 South Sixth Street, Champaign, IL 61820 -6990",
+    "date_of_initial_accreditation": "November 08, 1985",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": 2027
+  },
+  {
+    "university": "Illinois Institute of Technology",
+    "program_type": "Clinical Ph.D.",
+    "address": "3424 S. State Street, Tech Central, Room 201, Chicago, IL 60616",
+    "date_of_initial_accreditation": "April 30, 1982",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": null
+  },
+  {
+    "university": "Illinois State University",
+    "program_type": "School Ph.D.",
+    "address": "Campus Box 4620, Department of Psychology, Normal, IL 61790 -4620",
+    "date_of_initial_accreditation": "April 07, 1998",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": null
+  },
+  {
+    "university": "Loyola University Chicago",
+    "program_type": "Clinical Ph.D.",
+    "address": "1032 W. Sheridan Road, Chicago, IL 60660",
+    "date_of_initial_accreditation": "April 02, 1959",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": 2027
+  },
+  {
+    "university": "Loyola University Chicago",
+    "program_type": "Counseling Ph.D.",
+    "address": "820 N. Michigan Ave ., 11th Floor, Lewis Towers, Chicago, IL 60611",
+    "date_of_initial_accreditation": "November 29, 1984",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": 2027
+  },
+  {
+    "university": "Loyola University Chicago",
+    "program_type": "School Ph.D.",
+    "address": "820 N. Michigan Ave., Chicago, IL 60611",
+    "date_of_initial_accreditation": "November 18, 2011",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": 2028
+  },
+  {
+    "university": "Midwestern University",
+    "program_type": "Clinical Ph.D.",
+    "address": "555 31st Street, Downers Grove, IL 60515",
+    "date_of_initial_accreditation": "September 18, 2012",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": 2027
+  },
+  {
+    "university": "Illinois School of Professional Psychology",
+    "program_type": "Clinical Ph.D.",
+    "address": "18 S. Michigan Ave., Chicago, IL 60603",
+    "date_of_initial_accreditation": "May 05, 2021",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": 2031
+  },
+  {
+    "university": "Northern Illinois University",
+    "program_type": "Clinical Ph.D.",
+    "address": "PM 400, DeKalb, IL 60115",
+    "date_of_initial_accreditation": "April 01, 1972",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": 2028
+  },
+  {
+    "university": "Northern Illinois University",
+    "program_type": "School Ph.D.",
+    "address": "Psychology -Computer Science Building, Rm. 400, DeKalb, IL 60115",
+    "date_of_initial_accreditation": "October 30, 2009",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": null
+  },
+  {
+    "university": "Northwestern University",
+    "program_type": "Clinical Ph.D.",
+    "address": "2029 Sheridan Road, 102 Swift Hall, Evanston, IL 60208 -2710",
+    "date_of_initial_accreditation": "May 16, 1986",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": null
+  },
+  {
+    "university": "of Medicine",
+    "program_type": "Clinical Ph.D.",
+    "address": "(formerly listed as Northwestern University, Medical School), Division of Psychology, 710 N. Lake Shore Drive, Suite #1205, Chicago, IL 60611",
+    "date_of_initial_accreditation": "March 01, 1972",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": 2028
+  },
+  {
+    "university": "Roosevelt University",
+    "program_type": "Clinical Ph.D.",
+    "address": "430 South Michigan Avenue, Chicago, IL 60605",
+    "date_of_initial_accreditation": "October 25, 2002",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": 2029
+  },
+  {
+    "university": "and Science",
+    "program_type": "Clinical Ph.D.",
+    "address": "(formerly listed as Finch University of, Health Sciences/Chicago Medical School), 3333 Green Bay Road, North Chicago, IL 60064",
+    "date_of_initial_accreditation": "October 28, 1983",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": null
+  },
+  {
+    "university": "Southern Illinois University Carbondale",
+    "program_type": "Clinical Ph.D.",
+    "address": "1125 Lincoln Drive, Mail Code 6502, Carbondale, IL 62901",
+    "date_of_initial_accreditation": "December 01, 1961",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": null
+  },
+  {
+    "university": "Southern Illinois University Carbondale",
+    "program_type": "Counseling Ph.D.",
+    "address": "281 Life Science II, 1125 Lincoln Drive, Carbondale, IL 62901 -6502",
+    "date_of_initial_accreditation": "August 16, 2024",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": null
+  },
+  {
+    "university": "Ball State University",
+    "program_type": "Counseling Ph.D.",
+    "address": "Health Professions Building, Room 434, Muncie, IN 47306",
+    "date_of_initial_accreditation": "May 04, 1982",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": null
+  },
+  {
+    "university": "Ball State University",
+    "program_type": "School Ph.D.",
+    "address": "Teachers College, Room 505, 2000 W. University Ave., Muncie, IN 47306 -0595",
+    "date_of_initial_accreditation": "May 03, 1985",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": 2028
+  },
+  {
+    "university": "Indiana State University",
+    "program_type": "Clinical Ph.D.",
+    "address": "Indiana State University, Root Hall B -202, Terre Haute, IN 47809 -0001",
+    "date_of_initial_accreditation": "June 21, 1985",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": 2023
+  },
+  {
+    "university": "Indiana State University",
+    "program_type": "School Ph.D.",
+    "address": "Department of Communication Disorders, and Counseling, School, and Educational, Psychology, 401 N. 7th Street, Terre Haute, IN 47809",
+    "date_of_initial_accreditation": "June 20, 1980",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": 2022
+  },
+  {
+    "university": "Indiana University - Bloomington",
+    "program_type": "Clinical Ph.D.",
+    "address": "1101 E. 10th Street, Bloomington, IN 47405 -7007",
+    "date_of_initial_accreditation": "February 01, 1948",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": 2023
+  },
+  {
+    "university": "Indiana University - Bloomington",
+    "program_type": "Counseling Ph.D.",
+    "address": "201 North Rose Avenue , Room 4062, Bloomington, IN 47405 -1005",
+    "date_of_initial_accreditation": "June 23, 1988",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": 2027
+  },
+  {
+    "university": "Indiana University - Bloomington",
+    "program_type": "School Ph.D.",
+    "address": "201 North Rose Avenue, Bloomington, IN 47405 -1006",
+    "date_of_initial_accreditation": "April 20, 1983",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": null
+  },
+  {
+    "university": "IUPUI School of Science",
+    "program_type": "Clinical Ph.D.",
+    "address": "402 N. Blackford Street, LD124, Indianapolis, IN 46202 -3275",
+    "date_of_initial_accreditation": "December 06, 1996",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": 2028
+  },
+  {
+    "university": "University of Indianapolis",
+    "program_type": "Clinical Ph.D.",
+    "address": "1400 East Hanna Avenue, Indianapolis, IN 46227 -3697",
+    "date_of_initial_accreditation": "June 15, 2000",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": null
+  },
+  {
+    "university": "University of Notre Dame",
+    "program_type": "Clinical Ph.D.",
+    "address": "390 Corbett Family Hall, Department of Psychology, University of Notre Dame, Notre Dame, IN 46556",
+    "date_of_initial_accreditation": "April 15, 2011",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": 2023
+  },
+  {
+    "university": "Purdue University",
+    "program_type": "Clinical Ph.D.",
+    "address": "703 Third Street, West Lafayette, IN 47907 -2081",
+    "date_of_initial_accreditation": "February 26, 1948",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": 2028
+  },
+  {
+    "university": "Purdue University",
+    "program_type": "Counseling Ph.D.",
+    "address": "100 N. University, Beering Hall, West Lafayette, IN 47907",
+    "date_of_initial_accreditation": "October 04, 2002",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": 2021
+  },
+  {
+    "university": "Clinical Psychology Ph.D. Program",
+    "program_type": "Clinical Ph.D.",
+    "address": "11 Seashore Hall E, 301 East Jefferson Street, Iowa City, IA 52242 -1407",
+    "date_of_initial_accreditation": "February 07, 1948",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": 2027
+  },
+  {
+    "university": "Iowa State University",
+    "program_type": "Counseling Ph.D.",
+    "address": "West 112 Lagomarcino Hall, Ames, IA 50011 -3180",
+    "date_of_initial_accreditation": "March 01, 1973",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": 2028
+  },
+  {
+    "university": "University of Kansas",
+    "program_type": "Clinical Ph.D.",
+    "address": "1415 Jayhawk Boulevard, Fraser Hall, Lawrence, KS 6 6045 -7556",
+    "date_of_initial_accreditation": "January 09, 1949",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": 2021
+  },
+  {
+    "university": "University of Kansas",
+    "program_type": "Counseling Ph.D.",
+    "address": "1122 West Campus Road, Room 621, Lawrence, KS 6 6045 -3101",
+    "date_of_initial_accreditation": "March 01, 1971",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": null
+  },
+  {
+    "university": "University of Kansas",
+    "program_type": "School Ph.D.",
+    "address": "Joseph R. Pearson Hall, 1122 W. Campus Road Room 130T, Lawrence, KS 6 6045",
+    "date_of_initial_accreditation": "March 09, 1983",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": 2023
+  },
+  {
+    "university": "Department of Psychology",
+    "program_type": "Clinical Ph.D.",
+    "address": "1845 Fairmount Box 34, Wichita, KS 6 7260 -0034",
+    "date_of_initial_accreditation": "March 04, 2005",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": 2022
+  },
+  {
+    "university": "Eastern Kentucky University",
+    "program_type": "Clinical Ph.D.",
+    "address": "521 Lancaster Ave, 127 Cammack, Richmond, KY 4 0475",
+    "date_of_initial_accreditation": "April 15, 2018",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": null
+  },
+  {
+    "university": "University of Kentucky",
+    "program_type": "Clinical Ph.D.",
+    "address": "125 Kastle Hall, Lexington, KY 4 0506 -0044",
+    "date_of_initial_accreditation": "April 01, 1970",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": null
+  },
+  {
+    "university": "University of Kentucky",
+    "program_type": "Counseling Ph.D.",
+    "address": "245 Dickey Hall, Department of Educational, School, and, Counseling Psychology, University of Kentucky, Lexington, KY 4 0506 -0017",
+    "date_of_initial_accreditation": "November 09, 1983",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": 2022
+  },
+  {
+    "university": "University of Kentucky",
+    "program_type": "School Ph.D.",
+    "address": "236 Dickey Hall, Lexington, KY 4 0506 -0017",
+    "date_of_initial_accreditation": "February 18, 1986",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": null
+  },
+  {
+    "university": "University of Louisville",
+    "program_type": "Clinical Ph.D.",
+    "address": "Louisville, KY 4 0292",
+    "date_of_initial_accreditation": "January 19, 1973",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": 2023
+  },
+  {
+    "university": "Development",
+    "program_type": "Clinical Ph.D.",
+    "address": "1905 S. 1st Street, Louisville, KY 4 0292",
+    "date_of_initial_accreditation": "November 18, 1999",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": 2027
+  },
+  {
+    "university": "School of Professional Psychology",
+    "program_type": "Clinical Ph.D.",
+    "address": "845 South Third Street, Louisville, KY 4 0203",
+    "date_of_initial_accreditation": "June 20, 1989",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": 2027
+  },
+  {
+    "university": "The Chicago School",
+    "program_type": "Clinical Ph.D.",
+    "address": "(formerly listed as The Chicago School of, Professional Psychology, New Orleans ), (Clinical Psy.D.), 1 Drexel Drive, Box 200, New Orleans, LA 7 0125",
+    "date_of_initial_accreditation": "July 21, 2019",
+    "accreditation_status": "Accredited – Inactive",
+    "next_site_visit_year": null
+  },
+  {
+    "university": "Louisiana State University",
+    "program_type": "Clinical Ph.D.",
+    "address": "236 Audubon Hall, Baton Rouge, LA 7 0803",
+    "date_of_initial_accreditation": "February 24, 1956",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": 2028
+  },
+  {
+    "university": "Louisiana State University",
+    "program_type": "School Ph.D.",
+    "address": "236 Audubon Hall, Department of Psychology, Baton Rouge, LA 7 0803 -0001",
+    "date_of_initial_accreditation": "March 03, 2000",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": 2023
+  },
+  {
+    "university": "Louisiana Tech University",
+    "program_type": "Counseling Ph.D.",
+    "address": "P.O. Box 10048, Ruston, LA 7 1272",
+    "date_of_initial_accreditation": "October 18, 2002",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": 2020
+  },
+  {
+    "university": "Tulane University",
+    "program_type": "School Ph.D.",
+    "address": "2007 Percival Stern Hall, New Orleans, LA 7 0118",
+    "date_of_initial_accreditation": "August 09, 1991",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": 2027
+  },
+  {
+    "university": "University of Maine",
+    "program_type": "Clinical Ph.D.",
+    "address": "5742 Little Hall, Orono, M E 04469 -5742",
+    "date_of_initial_accreditation": "March 01, 1975",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": null
+  },
+  {
+    "university": "Loyola University Maryland",
+    "program_type": "Clinical Ph.D.",
+    "address": "4501 North Charles Street, Baltimore, MD 2 1210 -2699",
+    "date_of_initial_accreditation": "May 11, 2000",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": 2028
+  },
+  {
+    "university": "University of Maryland, Baltimore County",
+    "program_type": "Clinical Ph.D.",
+    "address": "1000 Hilltop Circle, Baltimore, MD 2 1250",
+    "date_of_initial_accreditation": "February 09, 1990",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": 2027
+  },
+  {
+    "university": "Department of Psychology",
+    "program_type": "Clinical Ph.D.",
+    "address": "1123L Biology -Psychology Building, 4094 Campus Drive, College Park, MD 2 0742 -4411",
+    "date_of_initial_accreditation": "October 01, 1963",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": 2022
+  },
+  {
+    "university": "University of Maryland - College Park",
+    "program_type": "Counseling Ph.D.",
+    "address": "3214 Benjamin Building, College Park, MD 2 0742",
+    "date_of_initial_accreditation": "April 16, 1953",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": 2028
+  },
+  {
+    "university": "Boston College",
+    "program_type": "Counseling Ph.D.",
+    "address": "Lynch School of Education - Campion Hall, 140 Commonwealth Avenue, Chestnut Hill, MA 0 2467",
+    "date_of_initial_accreditation": "May 07, 1982",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": null
+  },
+  {
+    "university": "Boston University",
+    "program_type": "Clinical Ph.D.",
+    "address": "648 Beacon Street, Boston, MA 0 2215",
+    "date_of_initial_accreditation": "October 01, 1948",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": 2028
+  },
+  {
+    "university": "Department of Psychology, Ph.D. Program",
+    "program_type": "Clinical Ph.D.",
+    "address": "950 Main Street, Worcester, MA 0 1610 -1477",
+    "date_of_initial_accreditation": "February 01, 1948",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": 2029
+  },
+  {
+    "university": "Harvard University",
+    "program_type": "Clinical Ph.D.",
+    "address": "1230 William James Hall, 33 Kirkland Street, Cambridge, MA 0 2138",
+    "date_of_initial_accreditation": "June 04, 2008",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": 2022
+  },
+  {
+    "university": "School Psychology Program",
+    "program_type": "Clinical Ph.D.",
+    "address": "813 North Pleasant Street , Furcolo Hall, Amherst, MA 0 1003",
+    "date_of_initial_accreditation": "April 08, 1992",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": null
+  },
+  {
+    "university": "University of Massachusetts, Boston",
+    "program_type": "Clinical Ph.D.",
+    "address": "100 William T. Morrissey Boulevard, Boston, MA 0 2125 -3393",
+    "date_of_initial_accreditation": "October 01, 1993",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": null
+  },
+  {
+    "university": "Development",
+    "program_type": "Clinical Ph.D.",
+    "address": "100 William T. Morrissey Boulevard, Boston, MA 0 2125 -3393",
+    "date_of_initial_accreditation": "December 04, 2015",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": 2022
+  },
+  {
+    "university": "University of Massachusetts, Boston",
+    "program_type": "School Ph.D.",
+    "address": "Wheatley Hall 2 -162, 100 William T. Morrissey Boulevard, Boston, MA 0 2125 -3393",
+    "date_of_initial_accreditation": "April 29, 2016",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": 2023
+  },
+  {
+    "university": "Northeastern University",
+    "program_type": "School Ph.D.",
+    "address": "360 Huntington Ave., 404 International Village, Boston, MA 0 2115",
+    "date_of_initial_accreditation": "October 10, 2013",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": null
+  },
+  {
+    "university": "Northeastern University",
+    "program_type": "Counseling Ph.D.",
+    "address": "360 Huntington Ave., 408 INV, Boston, MA 0 2038",
+    "date_of_initial_accreditation": "May 06, 2014",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": null
+  },
+  {
+    "university": "Springfield College",
+    "program_type": "Counseling Ph.D.",
+    "address": "263 Alden Street, Springfield, MA 0 1109",
+    "date_of_initial_accreditation": "February 26, 2016",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": 2023
+  },
+  {
+    "university": "Suffolk University",
+    "program_type": "Clinical Ph.D.",
+    "address": "73 Tremont Street, 8th Floor - Psychology, Boston, MA 0 2108",
+    "date_of_initial_accreditation": "April 11, 2000",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": null
+  },
+  {
+    "university": "William James College",
+    "program_type": "Clinical Ph.D.",
+    "address": "(formerly listed as Massachusetts School of, Professional Psychology, Inc.), One Wells Avenue, Newton, MA 0 2459",
+    "date_of_initial_accreditation": "November 10, 1987",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": null
+  },
+  {
+    "university": "William James College",
+    "program_type": "School Ph.D.",
+    "address": "(formerly listed as Massachusetts School of, Professional Psychology), One Wells Avenue, Newton, MA 0 2459",
+    "date_of_initial_accreditation": "September 01, 2024",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": null
+  },
+  {
+    "university": "Andrews University",
+    "program_type": "Counseling Ph.D.",
+    "address": "4195 Administration Drive, Bell Hall 167, Berrien Springs, MI 4 9104",
+    "date_of_initial_accreditation": "March 31, 2017",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": null
+  },
+  {
+    "university": "Central Michigan University",
+    "program_type": "Clinical Ph.D.",
+    "address": "101 Sloan Hall, Franklin Street, Mount Pleasant, MI 4 8859",
+    "date_of_initial_accreditation": "February 09, 1990",
+    "accreditation_status": "Accredited – Inactive",
+    "next_site_visit_year": 2029
+  },
+  {
+    "university": "Central Michigan University",
+    "program_type": "School Ph.D.",
+    "address": "101 Sloan Hall, Mount Pleasant, MI 4 8859",
+    "date_of_initial_accreditation": "October 12, 2001",
+    "accreditation_status": "Accredited – Inactive",
+    "next_site_visit_year": 2028
+  },
+  {
+    "university": "University of Detroit Mercy",
+    "program_type": "Clinical Ph.D.",
+    "address": "248 Reno Hall, 4001 W. McNichols Road, Detroit, MI 4 8221 -3038",
+    "date_of_initial_accreditation": "June 03, 1988",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": 2028
+  },
+  {
+    "university": "Eastern Michigan University",
+    "program_type": "Clinical Ph.D.",
+    "address": "341 Mark Jefferson Science Complex, Eastern Michigan University, Ypsilanti, MI 4 8197",
+    "date_of_initial_accreditation": "December 06, 2005",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": 2027
+  },
+  {
+    "university": "Michigan School of Psychology",
+    "program_type": "Clinical Ph.D.",
+    "address": "(formerly listed as Michigan School of, Professional Psychology), 26811 Orchard Lake Road, Farmington Hills, MI 4 8334",
+    "date_of_initial_accreditation": "March 11, 2016",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": 2023
+  },
+  {
+    "university": "Michigan State University",
+    "program_type": "Clinical Ph.D.",
+    "address": "316 Physics Road, East Lansing, MI 4 8824 -1116",
+    "date_of_initial_accreditation": "March 02, 1948",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": 2022
+  },
+  {
+    "university": "Michigan State University",
+    "program_type": "School Ph.D.",
+    "address": "College of Education , 431 Erickson Hall, 620 Farm Lane, East Lansing, MI 4 8824",
+    "date_of_initial_accreditation": "October 25, 1985",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": 2027
+  },
+  {
+    "university": "Department of Psychology, Ph.D. Program",
+    "program_type": "Clinical Ph.D.",
+    "address": "530 Church Street, Ann Arbor, MI 4 8109 -1043",
+    "date_of_initial_accreditation": "March 02, 1948",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": 2023
+  },
+  {
+    "university": "Department of Psychology",
+    "program_type": "Clinical Ph.D.",
+    "address": "5057 Woodward, Suite 7908, Detroit, MI 48202",
+    "date_of_initial_accreditation": "August 01, 1960",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": 2028
+  },
+  {
+    "university": "Wayne State University",
+    "program_type": "Counseling Ph.D.",
+    "address": "5425 Gullen Mall, 347 College of Education, Detroit, MI 48202",
+    "date_of_initial_accreditation": "June 21, 2024",
+    "accreditation_status": "Accredited, on contingency",
+    "next_site_visit_year": null
+  },
+  {
+    "university": "Western Michigan University",
+    "program_type": "Clinical Ph.D.",
+    "address": "1903 W. Michigan Avenue, Kalamazoo, MI 4 9008 -5439",
+    "date_of_initial_accreditation": "April 16, 1991",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": 2027
+  },
+  {
+    "university": "Western Michigan University",
+    "program_type": "Counseling Ph.D.",
+    "address": "3521 Sangren Hall, Kalamazoo, MI 4 9008 -5226",
+    "date_of_initial_accreditation": "February 12, 1993",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": null
+  },
+  {
+    "university": "Augsburg University",
+    "program_type": "Clinical Ph.D.",
+    "address": "203 Sverdrup Hall, 707 21 st Ave S, Minneapolis, MN 55454",
+    "date_of_initial_accreditation": "December 08, 2021",
+    "accreditation_status": "Accredited, on contingency",
+    "next_site_visit_year": 2025
+  },
+  {
+    "university": "Teach -Out",
+    "program_type": "Clinical Ph.D.",
+    "address": "203 Sverdrup Hall, 707 21 st Ave S, Minneapolis, MN 5 5454",
+    "date_of_initial_accreditation": "October 19, 2024",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": null
+  },
+  {
+    "university": "University of Minnesota",
+    "program_type": "Counseling Ph.D.",
+    "address": "N218 Elliott Hall, 75 East River Road, Minneapolis, MN 5 5455",
+    "date_of_initial_accreditation": "December 15, 1952",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": 2022
+  },
+  {
+    "university": "Department of Educational Psychology",
+    "program_type": "Clinical Ph.D.",
+    "address": "250 Education Sciences Building, 56 East River Road, Minneapolis, MN 5 5455",
+    "date_of_initial_accreditation": "May 01, 1972",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": 2021
+  },
+  {
+    "university": "Saint Mary’s University of Minnesota",
+    "program_type": "Counseling Ph.D.",
+    "address": "2500 Park Avenue, Minneapolis, MN 5 5404",
+    "date_of_initial_accreditation": "November 06, 2015",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": null
+  },
+  {
+    "university": "University of St. Thomas",
+    "program_type": "Counseling Ph.D.",
+    "address": "1000 LaSalle Avenue, MOH 217, Minneapolis, MN 5 5403",
+    "date_of_initial_accreditation": "October 03, 2000",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": 2023
+  },
+  {
+    "university": "Jackson State University",
+    "program_type": "Clinical Ph.D.",
+    "address": "1325 J.R. Lynch Street, P. O. Box 17550, Jackson, MS 3 9217 -0350",
+    "date_of_initial_accreditation": "October 19, 2001",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": null
+  },
+  {
+    "university": "University of Mississippi",
+    "program_type": "Clinical Ph.D.",
+    "address": "Peabody Building, Room 31 0D, PO Box 1848, University, MS 3 8677",
+    "date_of_initial_accreditation": "November 06, 1973",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": null
+  },
+  {
+    "university": "Mississippi State University",
+    "program_type": "Clinical Ph.D.",
+    "address": "PO Box 6161, Mississippi State, MS 3 9762",
+    "date_of_initial_accreditation": "October 21, 2016",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": null
+  },
+  {
+    "university": "University of Southern Mississippi",
+    "program_type": "Clinical Ph.D.",
+    "address": "118 College Drive, #5025, Hattiesburg, MS 3 9406 -5025",
+    "date_of_initial_accreditation": "April 27, 1979",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": 2022
+  },
+  {
+    "university": "University of Southern Mississippi",
+    "program_type": "Counseling Ph.D.",
+    "address": "118 College Drive #5025, Hattiesburg, MS 3 9406 -0001",
+    "date_of_initial_accreditation": "June 29, 1979",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": null
+  },
+  {
+    "university": "University of Southern Mississippi",
+    "program_type": "School Ph.D.",
+    "address": "School Psychology Doctoral Program, Dept. of Psychology, 118 College Drive; #5025, Hattiesburg, MS 3 9406 -0001",
+    "date_of_initial_accreditation": "September 27, 1983",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": 2022
+  },
+  {
+    "university": "Medicine and Biosciences)",
+    "program_type": "Clinical Ph.D.",
+    "address": "1750 Independence Ave, Health Service Psychology, Kansas City , MO 6 4106",
+    "date_of_initial_accreditation": "April 11, 2021",
+    "accreditation_status": "Accredited, on contingency",
+    "next_site_visit_year": 2024
+  },
+  {
+    "university": "University of Missouri, Columbia",
+    "program_type": "Clinical Ph.D.",
+    "address": "210 McAlester Hall, University of Missouri, Columbia , MO 6 5211",
+    "date_of_initial_accreditation": "January 24, 1958",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": 2021
+  },
+  {
+    "university": "University of Missouri, Columbia",
+    "program_type": "Counseling Ph.D.",
+    "address": "16 Hill Hall, Columbia , MO 6 5211",
+    "date_of_initial_accreditation": "April 29, 1953",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": 2028
+  },
+  {
+    "university": "University of Missouri, Columbia",
+    "program_type": "School Ph.D.",
+    "address": "16 Hill Hall, Columbia , MO 6 5211",
+    "date_of_initial_accreditation": "February 05, 1999",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": 2028
+  },
+  {
+    "university": "University of Missouri Kansas City",
+    "program_type": "Clinical Ph.D.",
+    "address": "5030 Cherry Street, Room 324, Kansas City , MO 6 4110",
+    "date_of_initial_accreditation": "February 06, 2004",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": 2028
+  },
+  {
+    "university": "University of Missouri Kansas City",
+    "program_type": "Counseling Ph.D.",
+    "address": "5100 Rockhill Road, 615 E 52nd Street (mailing address), School of Education, Kansas City , MO 6 4110",
+    "date_of_initial_accreditation": "February 22, 1985",
+    "accreditation_status": "Accredited – Inactive",
+    "next_site_visit_year": 2027
+  },
+  {
+    "university": "University of Missouri, St. Louis",
+    "program_type": "Clinical Ph.D.",
+    "address": "325 Stadler Hall/Psychology, One University Boulevard, St. Louis , MO 6 3121",
+    "date_of_initial_accreditation": "May 03, 1977",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": 2021
+  },
+  {
+    "university": "Department of Psychology",
+    "program_type": "Clinical Ph.D.",
+    "address": "3700 Lindell Blvd., St. Louis , MO 6 3108",
+    "date_of_initial_accreditation": "May 22, 1964",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": null
+  },
+  {
+    "university": "Washington University in St. Louis",
+    "program_type": "Clinical Ph.D.",
+    "address": "Campus Box 1125, One Brookings Drive, St. Louis , MO 6 3130",
+    "date_of_initial_accreditation": "February 20, 1948",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": 2028
+  },
+  {
+    "university": "Department of Psychology",
+    "program_type": "Clinical Ph.D.",
+    "address": "32 Campus Drive, Mail Stop 1584, Missoula , MT 5 9812",
+    "date_of_initial_accreditation": "March 13, 1970",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": 2027
+  },
+  {
+    "university": "Department of Psychology",
+    "program_type": "Clinical Ph.D.",
+    "address": "32 Campus Drive, Missoula , MT 5 9812",
+    "date_of_initial_accreditation": "October 02, 2015",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": null
+  },
+  {
+    "university": "University of Nevada Las Vegas",
+    "program_type": "Clinical Ph.D.",
+    "address": "4505 S. Maryland Parkway, Box 455030, Las Vegas, N V 89154 -5030",
+    "date_of_initial_accreditation": "October 07, 2005",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": 2022
+  },
+  {
+    "university": "University of Nevada , Las Vegas",
+    "program_type": "School Ph.D.",
+    "address": "College of Education, CEB 221B, 4505 S. Maryland Parkway, Box 45500 3, Las Vegas, NV 89145",
+    "date_of_initial_accreditation": "March 24, 2023",
+    "accreditation_status": "Accredited, on contingency",
+    "next_site_visit_year": null
+  },
+  {
+    "university": "University of Nevada, Reno",
+    "program_type": "Clinical Ph.D.",
+    "address": "Clinical Psychology, Mail Stop 298, 1664 North Virginia Street, Reno, N V 89557",
+    "date_of_initial_accreditation": "March 01, 1972",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": 2028
+  },
+  {
+    "university": "Antioch University New England",
+    "program_type": "Clinical Ph.D.",
+    "address": "(formerly listed as Antioch New England, Graduate School), 40 Avon Street, Keene, N H 03431 -3516",
+    "date_of_initial_accreditation": "July 15, 1986",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": 2027
+  },
+  {
+    "university": "Rivier University",
+    "program_type": "Counseling Ph.D.",
+    "address": "420 South Main Street, Nashua, N H 03062",
+    "date_of_initial_accreditation": "April 07, 2019",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": null
+  },
+  {
+    "university": "Fairleigh Dickinson University",
+    "program_type": "Clinical Ph.D.",
+    "address": "1000 River Road, Fairleigh Dickinson University, Teaneck, NJ 07666",
+    "date_of_initial_accreditation": "October 21, 1986",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": null
+  },
+  {
+    "university": "Felician University",
+    "program_type": "Counseling Ph.D.",
+    "address": "262 South Main Street, Lodi , NJ 07644",
+    "date_of_initial_accreditation": "April 11, 2021",
+    "accreditation_status": "Accredited, on contingency",
+    "next_site_visit_year": null
+  },
+  {
+    "university": "Kean University",
+    "program_type": "Clinical Ph.D.",
+    "address": "EC 125G, 1000 Morris Ave nue, Union , NJ 0 7083",
+    "date_of_initial_accreditation": "March 04, 2016",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": 2023
+  },
+  {
+    "university": "Montclair State University",
+    "program_type": "Clinical Ph.D.",
+    "address": "1 Normal Avenue, Dickson Hall 219, Montclair , NJ 0 7043",
+    "date_of_initial_accreditation": "April 05, 2020",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": null
+  },
+  {
+    "university": "Rowan University",
+    "program_type": "Clinical Ph.D.",
+    "address": "201 Mullica Hill Road, Glassboro , NJ 0 8028",
+    "date_of_initial_accreditation": "April 07, 2019",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": null
+  },
+  {
+    "university": "Graduate School of Arts and Sciences",
+    "program_type": "Clinical Ph.D.",
+    "address": "152 Frelinghuysen Road, Piscataway , NJ 0 8854 -8020",
+    "date_of_initial_accreditation": "January 08, 1965",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": 2029
+  },
+  {
+    "university": "Department of Applied Psychology",
+    "program_type": "Clinical Ph.D.",
+    "address": "152 Frelinghuysen Road, Busch Campus, Piscataway , NJ 0 8854",
+    "date_of_initial_accreditation": "April 01, 1977",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": null
+  },
+  {
+    "university": "Saint Elizabeth University",
+    "program_type": "Counseling Ph.D.",
+    "address": "(formerly listed as College of Saint Elizabeth), 2 Convent Road, Morristown, NJ 07960",
+    "date_of_initial_accreditation": "April 05, 2020",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": null
+  },
+  {
+    "university": "Seton Hall University",
+    "program_type": "Counseling Ph.D.",
+    "address": "JH 309, 400 S. Orange Avenue, South Orange , NJ 0 7079",
+    "date_of_initial_accreditation": "October 22, 1999",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": 2029
+  },
+  {
+    "university": "William Paterson University",
+    "program_type": "Clinical Ph.D.",
+    "address": "300 Pompton Road, Science Hall 250, Wayne , NJ 0 7470",
+    "date_of_initial_accreditation": "April 15, 2018",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": null
+  },
+  {
+    "university": "University of New Mexico",
+    "program_type": "Clinical Ph.D.",
+    "address": "MSC03 2220, 1 University of New Mexico, Albuquerque , NM 8 7131 -0001",
+    "date_of_initial_accreditation": "November 20, 1973",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": null
+  },
+  {
+    "university": "New Mexico State University",
+    "program_type": "Counseling Ph.D.",
+    "address": "Box 30001/MSC 3CEP, CEP Dept., Las Cruces , NM 8 8003 -8001",
+    "date_of_initial_accreditation": "May 02, 1995",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": null
+  },
+  {
+    "university": "Hy Weinberg Center",
+    "program_type": "Clinical Ph.D.",
+    "address": "158 Cambridge Avenue, Garden City , NY 1 1530",
+    "date_of_initial_accreditation": "April 01, 1957",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": null
+  },
+  {
+    "university": "University at Albany",
+    "program_type": "Clinical Ph.D.",
+    "address": "(formerly listed as State University of New, York at Albany), 1400 Washington Avenue, Albany , NY 1 2222",
+    "date_of_initial_accreditation": "May 16, 1979",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": null
+  },
+  {
+    "university": "York at Albany)",
+    "program_type": "Clinical Ph.D.",
+    "address": "1400 Washington Avenue, Education Building 220, Albany , NY 1 2222",
+    "date_of_initial_accreditation": "May 08, 1980",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": null
+  },
+  {
+    "university": "University at Albany",
+    "program_type": "School Ph.D.",
+    "address": "(formerly listed as State University of New, York at Albany), 1400 Washington Avenue, Education 232, Albany , NY 1 2222",
+    "date_of_initial_accreditation": "September 18, 1992",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": 2029
+  },
+  {
+    "university": "Alfred University",
+    "program_type": "School Ph.D.",
+    "address": "1 Saxon Drive, 4th Floor Science Center, Alfred , NY 1 4802 -1205",
+    "date_of_initial_accreditation": "October 13, 2000",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": null
+  },
+  {
+    "university": "University at Buffalo",
+    "program_type": "Clinical Ph.D.",
+    "address": "State University of New York, (Clinical Ph.D.), (formerly listed as State University of New, York at Buffalo), 218 Park Hall, Buffalo , NY 1 4260",
+    "date_of_initial_accreditation": "November 18, 1949",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": 2023
+  },
+  {
+    "university": "University at Buffalo",
+    "program_type": "Clinical Ph.D.",
+    "address": "State University of New York, (Combined, Counseling -School Ph.D.), (formerly listed as State University of New, York at Buffalo), 409 Christopher Baldy Hall, Buffalo , NY 1 4260 -1000",
+    "date_of_initial_accreditation": "October 06, 1978",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": null
+  },
+  {
+    "university": "Graduate Center, CUNY",
+    "program_type": "Clinical Ph.D.",
+    "address": "(formerly listed as The City, University of New York), 160 Covent Avenue, North Academic Center, Rm 8/110, New York , NY 1 0031",
+    "date_of_initial_accreditation": "December 01, 1968",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": 2022
+  },
+  {
+    "university": "City University of New York",
+    "program_type": "Clinical Ph.D.",
+    "address": "695 Park Avenue, Room HN -611, New York , NY 1 0016 -4309",
+    "date_of_initial_accreditation": "April 07, 2019",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": 2033
+  },
+  {
+    "university": "Teach -Out",
+    "program_type": "Clinical Ph.D.",
+    "address": "320 Porter Avenue, Buffalo, NY 14201",
+    "date_of_initial_accreditation": "September 01, 2023",
+    "accreditation_status": "Accredited – Inactive",
+    "next_site_visit_year": 2025
+  },
+  {
+    "university": "Fordham University",
+    "program_type": "Clinical Ph.D.",
+    "address": "441 East Fordham Road, Dealy Hall 226, Bronx , NY 1 0458",
+    "date_of_initial_accreditation": "February 26, 1948",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": null
+  },
+  {
+    "university": "Fordham University",
+    "program_type": "Counseling Ph.D.",
+    "address": "Graduate School of Education, LL 1008, 113 West 60th Street, New York , NY 1 0023",
+    "date_of_initial_accreditation": "April 19, 1990",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": null
+  },
+  {
+    "university": "Fordham University",
+    "program_type": "School Ph.D.",
+    "address": "113 West 60th Street, New York , NY 1 0023",
+    "date_of_initial_accreditation": "October 25, 1983",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": 2022
+  },
+  {
+    "university": "Hofstra University",
+    "program_type": "Clinical Ph.D.",
+    "address": "Hauser Hall 221A, Hempstead , NY 1 1549",
+    "date_of_initial_accreditation": "October 16, 1973",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": 2029
+  },
+  {
+    "university": "Hofstra University",
+    "program_type": "School Ph.D.",
+    "address": "135 Hofstra University, Rm. 205 Hauser Hall, Hempstead , NY 1 1549",
+    "date_of_initial_accreditation": "March 18, 2003",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": 2022
+  },
+  {
+    "university": "John Jay College",
+    "program_type": "Clinical Ph.D.",
+    "address": "524 W. 59th St., New York , NY 1 0019",
+    "date_of_initial_accreditation": "March 27, 2015",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": 2022
+  },
+  {
+    "university": "Department of Psychology",
+    "program_type": "Clinical Ph.D.",
+    "address": "1 University Plaza, Brooklyn , NY 1 1201 -8423",
+    "date_of_initial_accreditation": "April 01, 1974",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": null
+  },
+  {
+    "university": "Life Sciences",
+    "program_type": "Clinical Ph.D.",
+    "address": "720 Northern Boulevard, Brookville , NY 1 1548",
+    "date_of_initial_accreditation": "May 10, 1994",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": 2023
+  },
+  {
+    "university": "The New School",
+    "program_type": "Clinical Ph.D.",
+    "address": "(formerly listed as The New School for, Social Research; The New School, University), 80 Fifth Avenue, 7th Floor, New York , NY 1 0011",
+    "date_of_initial_accreditation": "June 02, 1981",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": null
+  },
+  {
+    "university": "New York University",
+    "program_type": "Counseling Ph.D.",
+    "address": "246 Greene Street, 8th Floor, New York , NY 1 0003",
+    "date_of_initial_accreditation": "April 17, 1981",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": 2024
+  },
+  {
+    "university": "Pace University",
+    "program_type": "Clinical Ph.D.",
+    "address": "1 Pace Plaza, New York , NY 1 0038",
+    "date_of_initial_accreditation": "November 04, 1988",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": null
+  },
+  {
+    "university": "Psychology Department",
+    "program_type": "Clinical Ph.D.",
+    "address": "Science Building E318, 65-30 Kissena Blvd., Queens , NY 1 1367",
+    "date_of_initial_accreditation": "November 07, 2014",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": null
+  },
+  {
+    "university": "Roberts Wesleyan University",
+    "program_type": "Clinical Ph.D.",
+    "address": "2301 Westside Drive, Rochester , NY 1 4624",
+    "date_of_initial_accreditation": "October 28, 2018",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": null
+  },
+  {
+    "university": "University of Rochester",
+    "program_type": "Clinical Ph.D.",
+    "address": "Box 270266, Rochester , NY 1 4627 -0266",
+    "date_of_initial_accreditation": "March 02, 1948",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": 2028
+  },
+  {
+    "university": "Department of Psychology",
+    "program_type": "Clinical Ph.D.",
+    "address": "8000 Utopia Parkway, Queens , NY 1 1439",
+    "date_of_initial_accreditation": "October 30, 1984",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": 2022
+  },
+  {
+    "university": "St. John’s University",
+    "program_type": "School Ph.D.",
+    "address": "8000 Utopia Parkway, Marillac Hall 409, Queens , NY 1 1439",
+    "date_of_initial_accreditation": "April 23, 2007",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": 2029
+  },
+  {
+    "university": "Stony Brook University",
+    "program_type": "Clinical Ph.D.",
+    "address": "State University of New York, (Clinical Ph.D.), 313 Psychology B, Stony Brook, NY 11794",
+    "date_of_initial_accreditation": "November 01, 1970",
+    "accreditation_status": "Accredited – Inactive",
+    "next_site_visit_year": null
+  },
+  {
+    "university": "Syracuse University",
+    "program_type": "Clinical Ph.D.",
+    "address": "430 Huntington Hall, Syracuse , NY 1 3244 -2340",
+    "date_of_initial_accreditation": "October 30, 1956",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": null
+  },
+  {
+    "university": "Syracuse University",
+    "program_type": "School Ph.D.",
+    "address": "430 Huntington Hall, Syracuse , NY 1 3244 -2340",
+    "date_of_initial_accreditation": "April 26, 1988",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": 2029
+  },
+  {
+    "university": "Teachers College, Columbia University",
+    "program_type": "Clinical Ph.D.",
+    "address": "525 West 120th Street, Box 102, New York , NY 1 0027 -6696",
+    "date_of_initial_accreditation": "February 27, 1948",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": null
+  },
+  {
+    "university": "Teachers College, Columbia University",
+    "program_type": "Counseling Ph.D.",
+    "address": "525 West 120th Street, Box 102, 428 Horace Mann Hall, New York , NY 1 0027 -6696",
+    "date_of_initial_accreditation": "January 01, 1952",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": null
+  },
+  {
+    "university": "Teachers College, Columbia University",
+    "program_type": "School Ph.D.",
+    "address": "525 West 120th Street, Thorndike Hall, Box 120, New York , NY 1 0027 -6696",
+    "date_of_initial_accreditation": "March 31, 1988",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": null
+  },
+  {
+    "university": "Yeshiva University",
+    "program_type": "Clinical Ph.D.",
+    "address": "1165 Morris Park Avenue, Rousso Building, Bronx , NY 1 0461",
+    "date_of_initial_accreditation": "October 11, 2005",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": 2023
+  },
+  {
+    "university": "Clinical Psychology Program",
+    "program_type": "Clinical Ph.D.",
+    "address": "1165 Morris Park Avenue, Rousso Building, Bronx , NY 1 0461",
+    "date_of_initial_accreditation": "November 07, 1985",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": 2022
+  },
+  {
+    "university": "Ferkauf Graduate School of Psychology",
+    "program_type": "Clinical Ph.D.",
+    "address": "1165 Morris Park Avenue, Rousso Building, Bronx , NY 1 0461",
+    "date_of_initial_accreditation": "October 23, 1998",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": 2027
+  },
+  {
+    "university": "Duke University",
+    "program_type": "Clinical Ph.D.",
+    "address": "417 Chapel Drive , Box 90086, Durham , NC 2 7708",
+    "date_of_initial_accreditation": "February 23, 1948",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": null
+  },
+  {
+    "university": "East Carolina University",
+    "program_type": "Clinical Ph.D.",
+    "address": "104 Rawl, East 5th Street, East Carolina University, Greenville , NC 2 7858",
+    "date_of_initial_accreditation": "April 20, 2012",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": null
+  },
+  {
+    "university": "ECU Department of Psychology",
+    "program_type": "Clinical Ph.D.",
+    "address": "Mail Stop 565, Greenville , NC 2 7858",
+    "date_of_initial_accreditation": "May 20, 2014",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": null
+  },
+  {
+    "university": "University of North Carolina, Chapel Hill",
+    "program_type": "Clinical Ph.D.",
+    "address": "Campus Box 3270 , Davie Hall, Chapel Hill , NC 2 7599 -3270",
+    "date_of_initial_accreditation": "February 12, 1949",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": null
+  },
+  {
+    "university": "University of North Carolina, Chapel Hill",
+    "program_type": "School Ph.D.",
+    "address": "105A Peabody Hall, CB # 3500, Chapel Hill , NC 2 7599 -3500",
+    "date_of_initial_accreditation": "June 05, 1979",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": 2023
+  },
+  {
+    "university": "University of North Carolina at Charlotte",
+    "program_type": "Clinical Ph.D.",
+    "address": "9201 University City Blvd., Charlotte , NC 2 8223 -0001",
+    "date_of_initial_accreditation": "October 02, 2012",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": 2027
+  },
+  {
+    "university": "Department of Psychology",
+    "program_type": "Clinical Ph.D.",
+    "address": "P.O. Box 26170, Greensboro , NC 2 7402 -6170",
+    "date_of_initial_accreditation": "July 10, 1981",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": null
+  },
+  {
+    "university": "UNCW Psychology Department",
+    "program_type": "Clinical Ph.D.",
+    "address": "601 S College Rd, Wilmington , NC 2 8403",
+    "date_of_initial_accreditation": "April 11, 2021",
+    "accreditation_status": "Accredited, on contingency",
+    "next_site_visit_year": null
+  },
+  {
+    "university": "North Carolina State University",
+    "program_type": "School Ph.D.",
+    "address": "Department of Psychology CB 7650, NC State University, Raleigh , NC 2 7695 -7650",
+    "date_of_initial_accreditation": "April 10, 1987",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": null
+  },
+  {
+    "university": "Western Carolina University",
+    "program_type": "Clinical Ph.D.",
+    "address": "306-D Killian, 1 University Drive, Cullowhee , NC 28723",
+    "date_of_initial_accreditation": "March 01, 2022",
+    "accreditation_status": "Accredited, on contingency",
+    "next_site_visit_year": null
+  },
+  {
+    "university": "University of North Dakota",
+    "program_type": "Clinical Ph.D.",
+    "address": "Box 8380, Grand Forks, ND 58202 -8380",
+    "date_of_initial_accreditation": "November 01, 1969",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": 2027
+  },
+  {
+    "university": "University of North Dakota",
+    "program_type": "Counseling Ph.D.",
+    "address": "231 Centennial Drive, Stop 8255, Grand Forks, ND 58202 -8255",
+    "date_of_initial_accreditation": "April 10, 1987",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": null
+  },
+  {
+    "university": "Counseling Psychology Program",
+    "program_type": "Clinical Ph.D.",
+    "address": "290 E. Buchtel Avenue, Akron , OH 4 4325 -4301",
+    "date_of_initial_accreditation": "April 13, 1990",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": null
+  },
+  {
+    "university": "Bowling Green State University",
+    "program_type": "Clinical Ph.D.",
+    "address": "243 Psychology Building, Bowling Green , OH 4 3403",
+    "date_of_initial_accreditation": "November 01, 1970",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": 2023
+  },
+  {
+    "university": "Case Western Reserve University",
+    "program_type": "Clinical Ph.D.",
+    "address": "10900 Euclid Avenue, Cleveland , OH 4 4106 -7123",
+    "date_of_initial_accreditation": "February 01, 1948",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": 2021
+  },
+  {
+    "university": "University of Cincinnati",
+    "program_type": "Clinical Ph.D.",
+    "address": "47 Corry Blvd., P.O. Box 210376, 4150J Edwards One Center, Cincinnati , OH 4 5221 -0376",
+    "date_of_initial_accreditation": "February 01, 1948",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": 2023
+  },
+  {
+    "university": "University of Cincinnati",
+    "program_type": "School Ph.D.",
+    "address": "P.O. Box 210068, Cincinnati , OH 4 5221",
+    "date_of_initial_accreditation": "November 18, 2016",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": 2023
+  },
+  {
+    "university": "Cleveland State University",
+    "program_type": "Counseling Ph.D.",
+    "address": "2121 Euclid Avenue, 275 Julka Hall, Cleveland , OH 4 4115",
+    "date_of_initial_accreditation": "June 18, 2010",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": null
+  },
+  {
+    "university": "Department of Psychological Sciences",
+    "program_type": "Clinical Ph.D.",
+    "address": "Kent Hall, Room 144, Kent , OH 4 4242",
+    "date_of_initial_accreditation": "December 01, 1968",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": null
+  },
+  {
+    "university": "Services",
+    "program_type": "Clinical Ph.D.",
+    "address": "405 White Hall, Kent , OH 4 4242",
+    "date_of_initial_accreditation": "May 01, 1984",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": 2028
+  },
+  {
+    "university": "Miami University",
+    "program_type": "Clinical Ph.D.",
+    "address": "90 N. Patterson Avenue, Oxford , OH 4 5056",
+    "date_of_initial_accreditation": "February 01, 1972",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": null
+  },
+  {
+    "university": "The Ohio State University",
+    "program_type": "Clinical Ph.D.",
+    "address": "147 Psychology Building, 1835 Neil Avenue, Columbus , OH 4 3210 -1287",
+    "date_of_initial_accreditation": "February 27, 1948",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": 2029
+  },
+  {
+    "university": "The Ohio State University",
+    "program_type": "School Ph.D.",
+    "address": "305 Annie and John Glen Ave., Columbus , OH 4 3210",
+    "date_of_initial_accreditation": "April 07, 2017",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": 2024
+  },
+  {
+    "university": "Ohio University",
+    "program_type": "Clinical Ph.D.",
+    "address": "Porter Hall 200, Athens , OH 4 5701 -2979",
+    "date_of_initial_accreditation": "April 11, 1968",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": 2028
+  },
+  {
+    "university": "University of Toledo",
+    "program_type": "Clinical Ph.D.",
+    "address": "2801 West Bancroft Street, Mail Stop 948, Toledo , OH 4 3606",
+    "date_of_initial_accreditation": "June 01, 1979",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": 2024
+  },
+  {
+    "university": "Wright State University",
+    "program_type": "Clinical Ph.D.",
+    "address": "117 Health Sciences Bldg., 3640 Colonel Glenn Hwy., Dayton , OH 4 5435 -0001",
+    "date_of_initial_accreditation": "March 16, 1982",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": null
+  },
+  {
+    "university": "Department of Psychology",
+    "program_type": "Clinical Ph.D.",
+    "address": "3800 Victory Parkway, Cincinnati , OH 4 5207 -6511",
+    "date_of_initial_accreditation": "May 04, 2001",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": null
+  },
+  {
+    "university": "Oklahoma City University",
+    "program_type": "Clinical Ph.D.",
+    "address": "2501 N Blackwelder, Oklahoma City , OK 73106",
+    "date_of_initial_accreditation": "February 28, 2023",
+    "accreditation_status": "Accredited, on contingency",
+    "next_site_visit_year": 2026
+  },
+  {
+    "university": "Oklahoma State University",
+    "program_type": "Clinical Ph.D.",
+    "address": "116 North Murray, Oklahoma State University, Stillwater , OK 7 4078",
+    "date_of_initial_accreditation": "February 01, 1971",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": null
+  },
+  {
+    "university": "Oklahoma State University",
+    "program_type": "Counseling Ph.D.",
+    "address": "434 Willard Hall, Stillwater , OK 7 4078",
+    "date_of_initial_accreditation": "November 20, 1992",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": null
+  },
+  {
+    "university": "Oklahoma State University",
+    "program_type": "School Ph.D.",
+    "address": "245 Willard Hall, Stillwater , OK 7 4078",
+    "date_of_initial_accreditation": "October 28, 1997",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": 2023
+  },
+  {
+    "university": "Department of Psychology",
+    "program_type": "Clinical Ph.D.",
+    "address": "800 South Tucker Drive, Tulsa , OK 7 4104",
+    "date_of_initial_accreditation": "January 18, 1991",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": null
+  },
+  {
+    "university": "George Fox University",
+    "program_type": "Clinical Ph.D.",
+    "address": "414 North Meridian Street, RC104, Newberg , OR 9 7132 -2697",
+    "date_of_initial_accreditation": "August 21, 1998",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": 2027
+  },
+  {
+    "university": "University of Oregon",
+    "program_type": "Clinical Ph.D.",
+    "address": "1227 University of Oregon, 1715 Franklin Blvd ., Eugene , OR 9 7403 -1227",
+    "date_of_initial_accreditation": "March 20, 1958",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": 2028
+  },
+  {
+    "university": "Counseling Psychology",
+    "program_type": "Clinical Ph.D.",
+    "address": "5251 University of Oregon, Eugene , OR 9 7403 -5251",
+    "date_of_initial_accreditation": "January 12, 1955",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": 2028
+  },
+  {
+    "university": "Department of Psychiatry",
+    "program_type": "Clinical Ph.D.",
+    "address": "3181 SW Sam Jackson Park Road , MC OPO2, Portland, OR 97239",
+    "date_of_initial_accreditation": "November 09, 2022",
+    "accreditation_status": "Accredited, on contingency",
+    "next_site_visit_year": 2026
+  },
+  {
+    "university": "Office of the President",
+    "program_type": "Clinical Ph.D.",
+    "address": "2043 College Way, Forest Grove , OR 9 7116",
+    "date_of_initial_accreditation": "February 28, 2017",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": null
+  },
+  {
+    "university": "Pacific University, Oregon",
+    "program_type": "Clinical Ph.D.",
+    "address": "(formerly listed as School of Professional, Psychology;), Pacific University, 190 S.E. 8th Avenue Suite 260, Hillsboro , OR 9 7123",
+    "date_of_initial_accreditation": "April 03, 1990",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": 2022
+  },
+  {
+    "university": "Carlow University",
+    "program_type": "Counseling Ph.D.",
+    "address": "3333 Fifth Avenue, Antonian Hall 509, Pittsburgh , PA 1 5213",
+    "date_of_initial_accreditation": "April 20, 2011",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": 2028
+  },
+  {
+    "university": "Chatham University",
+    "program_type": "Counseling Ph.D.",
+    "address": "1 Woodland Road, Pittsburgh , PA 1 5232",
+    "date_of_initial_accreditation": "September 10, 2013",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": null
+  },
+  {
+    "university": "Chestnut Hill College",
+    "program_type": "Clinical Ph.D.",
+    "address": "9601 Germantown Avenue, Philadelphia , PA 1 9118 -2693",
+    "date_of_initial_accreditation": "June 15, 2004",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": null
+  },
+  {
+    "university": "Drexel University",
+    "program_type": "Clinical Ph.D.",
+    "address": "3141 Chestnut Street, Psychology - Stratton Building Suite 119, Philadelphia , PA 1 9104",
+    "date_of_initial_accreditation": "January 31, 1997",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": 2027
+  },
+  {
+    "university": "Graduate School of Liberal Arts",
+    "program_type": "Clinical Ph.D.",
+    "address": "600 Forbes Avenue, 211 Rockwell Hall, Pittsburgh , PA 1 5282 -1753",
+    "date_of_initial_accreditation": "November 16, 2001",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": 2023
+  },
+  {
+    "university": "Duquesne University",
+    "program_type": "School Ph.D.",
+    "address": "600 Forbes Avenue, 209A Canevin Hall, Pittsburgh , PA 1 5282",
+    "date_of_initial_accreditation": "April 24, 2015",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": null
+  },
+  {
+    "university": "Duquesne University",
+    "program_type": "School Ph.D.",
+    "address": "600 Forbes Avenue, 109 Canevin Hall, Pittsburgh , PA 1 5282",
+    "date_of_initial_accreditation": "October 19, 2007",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": null
+  },
+  {
+    "university": "Holy Family University",
+    "program_type": "Counseling Ph.D.",
+    "address": "1 Campus Drive, Newtown , PA 1 8940",
+    "date_of_initial_accreditation": "March 18, 2022",
+    "accreditation_status": "Accredited, on contingency",
+    "next_site_visit_year": null
+  },
+  {
+    "university": "Immaculata University",
+    "program_type": "Clinical Ph.D.",
+    "address": "(formerly listed as Immaculata College), 1145 King Road, Nazareth Hall, Suite 10, Immaculata , PA 1 9345",
+    "date_of_initial_accreditation": "April 29, 1999",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": null
+  },
+  {
+    "university": "Indiana University of Pennsylvania",
+    "program_type": "Clinical Ph.D.",
+    "address": "1020 Oakland Avenue, Uhler Hall Room 201A, Indiana , PA 1 5705 -1068",
+    "date_of_initial_accreditation": "November 03, 1987",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": null
+  },
+  {
+    "university": "Psy.D. Clinical Psychology Program",
+    "program_type": "Clinical Ph.D.",
+    "address": "1900 W. Olney Avenue, Box 842, Philadelphia , PA 1 9141",
+    "date_of_initial_accreditation": "March 18, 2003",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": 2028
+  },
+  {
+    "university": "Lehigh University",
+    "program_type": "Counseling Ph.D.",
+    "address": "111 Research Drive, Bethlehem , PA 1 8015",
+    "date_of_initial_accreditation": "December 03, 1993",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": 2023
+  },
+  {
+    "university": "Marywood University",
+    "program_type": "Clinical Ph.D.",
+    "address": "2300 Adams Avenue, Scranton , PA 1 8509",
+    "date_of_initial_accreditation": "April 21, 2006",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": null
+  },
+  {
+    "university": "University of Pennsylvania",
+    "program_type": "Clinical Ph.D.",
+    "address": "425 South University Avenue, Levin Building, Philadelphia , PA 1 9104 -6018",
+    "date_of_initial_accreditation": "February 07, 1948",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": null
+  },
+  {
+    "university": "Pennsylvania State University",
+    "program_type": "Clinical Ph.D.",
+    "address": "140 Moore Bldg., University Park , PA 1 6802",
+    "date_of_initial_accreditation": "February 24, 1948",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": null
+  },
+  {
+    "university": "Pennsylvania State University",
+    "program_type": "School Ph.D.",
+    "address": "125 CEDAR Building, University Park , PA 1 6802 -3108",
+    "date_of_initial_accreditation": "June 19, 1978",
+    "accreditation_status": "Accredited – Inactive",
+    "next_site_visit_year": null
+  },
+  {
+    "university": "Medicine",
+    "program_type": "Clinical Ph.D.",
+    "address": "4190 City Avenue, Philadelphia , PA 1 9131 -1695",
+    "date_of_initial_accreditation": "May 13, 2003",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": null
+  },
+  {
+    "university": "Medicine",
+    "program_type": "School Ph.D.",
+    "address": "4190 City Avenue, Philadelphia , PA 1 9131 -1695",
+    "date_of_initial_accreditation": "October 20, 2019",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": null
+  },
+  {
+    "university": "University of Pittsburgh",
+    "program_type": "Clinical Ph.D.",
+    "address": "210 S. Bouquet Street, 3809 Sennott Square, Pittsburgh , PA 1 5260",
+    "date_of_initial_accreditation": "February 20, 1948",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": 2021
+  },
+  {
+    "university": "Point Park University",
+    "program_type": "Clinical Ph.D.",
+    "address": "201 Wood Street, Pittsburgh , PA 1 5222",
+    "date_of_initial_accreditation": "July 21, 2019",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": null
+  },
+  {
+    "university": "Temple University",
+    "program_type": "Clinical Ph.D.",
+    "address": "1701 N. 13th Street, Weiss Hall, Philadelphia , PA 1 9122 -6085",
+    "date_of_initial_accreditation": "March 18, 1958",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": 2023
+  },
+  {
+    "university": "Temple University",
+    "program_type": "School Ph.D.",
+    "address": "1301 Cecil B. Moore Avenue, 269 Ritter Annex PSE/COE, Philadelphia , PA 1 9122",
+    "date_of_initial_accreditation": "April 04, 1978",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": null
+  },
+  {
+    "university": "West Chester University of Pennsylvania",
+    "program_type": "Clinical Ph.D.",
+    "address": "700 S. High Street, West Chester , PA 1 9383",
+    "date_of_initial_accreditation": "July 21, 2019",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": null
+  },
+  {
+    "university": "Widener University",
+    "program_type": "Clinical Ph.D.",
+    "address": "Institute for Graduate Clinical Psychology, One University Place, Chester , PA 1 9013 -5792",
+    "date_of_initial_accreditation": "July 01, 1989",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": null
+  },
+  {
+    "university": "Carlos Albizu University",
+    "program_type": "Clinical Ph.D.",
+    "address": "Carr. 64 Esquina Calle #3, Urb. Industrial, Mayag üez, PR 00680",
+    "date_of_initial_accreditation": "May 22, 2024",
+    "accreditation_status": "Accredited, on contingency",
+    "next_site_visit_year": 2028
+  },
+  {
+    "university": "Carlos Albizu University, San Juan Campus",
+    "program_type": "Clinical Ph.D.",
+    "address": "(formerly listed as Caribbean Center for, Advanced Studies), P.O. Box 9023711, San Juan , PR 0 0902 -3711",
+    "date_of_initial_accreditation": "September 23, 1994",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": 2027
+  },
+  {
+    "university": "Carlos Albizu University, San Juan Campus",
+    "program_type": "Clinical Ph.D.",
+    "address": "(formerly listed as Caribbean Center for, Advanced Studies), P.O. Box 9023711, San Juan , PR 0 0902 -3711",
+    "date_of_initial_accreditation": "September 23, 1994",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": 2028
+  },
+  {
+    "university": "Ponce Health Sciences University",
+    "program_type": "Clinical Ph.D.",
+    "address": "(formerly listed as Ponce School of, Medicine and Health Sciences), P.O. Box 7004, 388 Zona Industrial Reparada 2, Ponce , PR 0 0716-2348",
+    "date_of_initial_accreditation": "March 11, 2004",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": null
+  },
+  {
+    "university": "Ponce Health Sciences University",
+    "program_type": "Clinical Ph.D.",
+    "address": "(formerly listed as Ponce School of, Medicine and Health Sciences), Calle Monterrey #279, Ponce , PR 0 0716 -1376",
+    "date_of_initial_accreditation": "March 19, 2013",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": 2028
+  },
+  {
+    "university": "University of Puerto Rico",
+    "program_type": "Clinical Ph.D.",
+    "address": "9 Ave Universidad Ste 901, San Juan , PR 0 0925 -2529",
+    "date_of_initial_accreditation": "October 25, 2020",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": 2029
+  },
+  {
+    "university": "Campus",
+    "program_type": "Counseling Ph.D.",
+    "address": "P.O. Box 3030, Gurabo , PR 0 0778",
+    "date_of_initial_accreditation": "September 27, 2016",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": 2023
+  },
+  {
+    "university": "University of Rhode Island",
+    "program_type": "Clinical Ph.D.",
+    "address": "142 Flagg Road, 306 Chafee Building, Kingston, RI 02881",
+    "date_of_initial_accreditation": "April 01, 1972",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": 2028
+  },
+  {
+    "university": "University of South Carolina",
+    "program_type": "Clinical Ph.D.",
+    "address": "1512 Pendleton Street, Columbia , SC 2 9208",
+    "date_of_initial_accreditation": "October 01, 1969",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": null
+  },
+  {
+    "university": "University of South Carolina",
+    "program_type": "School Ph.D.",
+    "address": "1512 Pendleton Street, Columbia , SC 2 9208",
+    "date_of_initial_accreditation": "February 01, 1974",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": 2022
+  },
+  {
+    "university": "The University of South Dakota",
+    "program_type": "Clinical Ph.D.",
+    "address": "414 E. Clark Street (USD 105), Vermillion, S D 57069",
+    "date_of_initial_accreditation": "November 01, 1971",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": 2023
+  },
+  {
+    "university": "East Tennessee State University",
+    "program_type": "Clinical Ph.D.",
+    "address": "Box 70649, Johnson City , TN 3 7614",
+    "date_of_initial_accreditation": "August 21, 2012",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": 2027
+  },
+  {
+    "university": "University)",
+    "program_type": "Clinical Ph.D.",
+    "address": "202 Psychology Building, Memphis , TN 3 8152 -3230",
+    "date_of_initial_accreditation": "March 01, 1972",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": 2023
+  },
+  {
+    "university": "The University of Memphis",
+    "program_type": "Counseling Ph.D.",
+    "address": "(formerly listed as Memphis State, University), 100 Ball Education Building, Memphis , TN 3 8152",
+    "date_of_initial_accreditation": "October 17, 1989",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": null
+  },
+  {
+    "university": "The University of Memphis",
+    "program_type": "School Ph.D.",
+    "address": "202 Psychology Building, 400 Innovation Drive, Memphis , TN 3 8152",
+    "date_of_initial_accreditation": "March 28, 2014",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": null
+  },
+  {
+    "university": "University of Tennessee - Knoxville",
+    "program_type": "Clinical Ph.D.",
+    "address": "416 Austin Peay Building, 1404 Circle Drive, Knoxville , TN 3 7996 -0900",
+    "date_of_initial_accreditation": "February 09, 1949",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": 2023
+  },
+  {
+    "university": "University of Tennessee - Knoxville",
+    "program_type": "Counseling Ph.D.",
+    "address": "312 Austin Peay Building, 1404 Circle Drive, Knoxville , TN 3 7996 -0900",
+    "date_of_initial_accreditation": "April 18, 1980",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": 2023
+  },
+  {
+    "university": "University of Tennessee - Knoxville",
+    "program_type": "School Ph.D.",
+    "address": "Bailey Education Complex, A -525, 1112 Volunteer Blvd, Knoxville , TN 3 7996 -3452",
+    "date_of_initial_accreditation": "April 23, 1991",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": null
+  },
+  {
+    "university": "Tennessee State University",
+    "program_type": "Counseling Ph.D.",
+    "address": "3500 John A. Merritt Boulevard, Department of Psychology, Nashville , TN 3 7209",
+    "date_of_initial_accreditation": "March 10, 2000",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": 2028
+  },
+  {
+    "university": "Sciences",
+    "program_type": "Clinical Ph.D.",
+    "address": "PMB 407817, 2301 Vanderbilt Place, Nashville , TN 3 7240 -7817",
+    "date_of_initial_accreditation": "April 01, 1959",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": 2021
+  },
+  {
+    "university": "Baylor University",
+    "program_type": "Clinical Ph.D.",
+    "address": "One Bear Place #97334, BSB 330 -A, Waco , TX 7 6798",
+    "date_of_initial_accreditation": "April 26, 1976",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": 2022
+  },
+  {
+    "university": "Department of Educational Psychology",
+    "program_type": "Clinical Ph.D.",
+    "address": "One Bear Place #97 301, Waco, TX 76798 -7301",
+    "date_of_initial_accreditation": "January 21, 2022",
+    "accreditation_status": "Accredited, on contingency",
+    "next_site_visit_year": null
+  },
+  {
+    "university": "University of Houston",
+    "program_type": "Clinical Ph.D.",
+    "address": "3695 Cullen Blvd, Room 126, Houston , TX 7 7204 -5022",
+    "date_of_initial_accreditation": "January 01, 1959",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": 2028
+  },
+  {
+    "university": "program until approval of substantive area",
+    "program_type": "Clinical Ph.D.",
+    "address": "change in 2023 . University of Houston, (Counseling Ph.D.), Department of Psychological, Health, and, Learning Sciences, 491 Farish Hall, 3657 Cullen Blvd, Houston , TX 7 7204 -5029",
+    "date_of_initial_accreditation": "April 14, 1987",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": 2022
+  },
+  {
+    "university": "University of Houston",
+    "program_type": "School Ph.D.",
+    "address": "479 Farish Hall, 3657 Cullen Blvd, Houston , TX 7 7204 -5029",
+    "date_of_initial_accreditation": "June 03, 2009",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": null
+  },
+  {
+    "university": "University of Houston – Clear Lake",
+    "program_type": "Clinical Ph.D.",
+    "address": "2700 Bay Area Blvd, Houston , TX 7 7058",
+    "date_of_initial_accreditation": "April 07, 2019",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": null
+  },
+  {
+    "university": "University of North Texas",
+    "program_type": "Counseling Ph.D.",
+    "address": "1155 Union Circle #311280, Denton , TX 7 6203 -5017",
+    "date_of_initial_accreditation": "December 05, 1978",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": 2028
+  },
+  {
+    "university": "Clinical Psychology Program",
+    "program_type": "Clinical Ph.D.",
+    "address": "1155 Union Circle #311280, Denton , TX 7 6203 -5017",
+    "date_of_initial_accreditation": "December 05, 1978",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": null
+  },
+  {
+    "university": "Our Lady of the Lake University",
+    "program_type": "Counseling Ph.D.",
+    "address": "411 SW 24th Street, San Antonio , TX 7 8207 -4689",
+    "date_of_initial_accreditation": "May 12, 1995",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": 2027
+  },
+  {
+    "university": "Sam Houston State University",
+    "program_type": "Clinical Ph.D.",
+    "address": "Box 2210, Huntsville , TX 7 7341 -2210",
+    "date_of_initial_accreditation": "June 02, 2006",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": 2028
+  },
+  {
+    "university": "Southern Methodist University",
+    "program_type": "Clinical Ph.D.",
+    "address": "6116 N. Central Expressway, Suite 1300, Dallas , TX 7 5275 -0442",
+    "date_of_initial_accreditation": "May 19, 2009",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": null
+  },
+  {
+    "university": "University of Texas at Austin",
+    "program_type": "Clinical Ph.D.",
+    "address": "Seay Building, 4.212, 108 E. Dean Keeton A8000, Department of Psychology, Austin , TX 7 8712",
+    "date_of_initial_accreditation": "February 01, 1949",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": null
+  },
+  {
+    "university": "University of Texas at Austin",
+    "program_type": "Counseling Ph.D.",
+    "address": "The University of Texas at Austin, Educational Psychology/Counseling, Psychology, 1912 Speedway STOP D5800, Austin , TX 7 8712 -5731",
+    "date_of_initial_accreditation": "January 12, 1953",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": null
+  },
+  {
+    "university": "University of Texas at Austin2",
+    "program_type": "Clinical Ph.D.",
+    "address": "The University of Texas at Austin, 1912 Speedway STOP D5800, Austin , TX 7 8712",
+    "date_of_initial_accreditation": "February 01, 1971",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": null
+  },
+  {
+    "university": "University of Texas Rio Grande Valley",
+    "program_type": "Clinical Ph.D.",
+    "address": "1201 West University Drive, Edinburg, TX 78539",
+    "date_of_initial_accreditation": "January 26, 2024",
+    "accreditation_status": "Accredited, on contingency",
+    "next_site_visit_year": null
+  },
+  {
+    "university": "Center",
+    "program_type": "Clinical Ph.D.",
+    "address": "5323 Harry Hines Boulevard, Dallas , TX 7 5390 -9044",
+    "date_of_initial_accreditation": "January 17, 1986",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": 2023
+  },
+  {
+    "university": "University of Texas at Tyler",
+    "program_type": "Clinical Ph.D.",
+    "address": "3900 University Blvd., Tyler , TX 75 799",
+    "date_of_initial_accreditation": "February 27, 2024",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": null
+  },
+  {
+    "university": "Sciences",
+    "program_type": "Clinical Ph.D.",
+    "address": "4258 TAMU, Texas A&M University, College Station , TX 7 7843 -4235",
+    "date_of_initial_accreditation": "April 08, 1988",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": 2022
+  },
+  {
+    "university": "Texas A&M University",
+    "program_type": "Counseling Ph.D.",
+    "address": "4225 TAMU, College Station , TX 7 7843 -4225",
+    "date_of_initial_accreditation": "December 08, 1981",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": null
+  },
+  {
+    "university": "Texas A&M University",
+    "program_type": "School Ph.D.",
+    "address": "704 Harrington Tower, MS 4225 TAMU, College Station , TX 7 7843 -4225",
+    "date_of_initial_accreditation": "October 29, 1985",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": 2027
+  },
+  {
+    "university": "Texas Tech University",
+    "program_type": "Clinical Ph.D.",
+    "address": "Box 42051, Lubbock , TX 7 9409 -2051",
+    "date_of_initial_accreditation": "March 01, 1972",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": null
+  },
+  {
+    "university": "Department of Psychological Sciences",
+    "program_type": "Clinical Ph.D.",
+    "address": "2810 18th St, Lubbock , TX 7 9409 -2051",
+    "date_of_initial_accreditation": "April 24, 1964",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": null
+  },
+  {
+    "university": "Texas Woman’s University",
+    "program_type": "Counseling Ph.D.",
+    "address": "1315 N Bell Ave nue, CFO 705, Denton , TX 7 6201",
+    "date_of_initial_accreditation": "June 20, 1995",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": null
+  },
+  {
+    "university": "Texas Woman’s University",
+    "program_type": "School Ph.D.",
+    "address": "P.O. Box 425470, Denton , TX 7 6204",
+    "date_of_initial_accreditation": "April 29, 2011",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": 2028
+  },
+  {
+    "university": "Brigham Young University",
+    "program_type": "Clinical Ph.D.",
+    "address": "284 TLRB, Provo , UT 8 4602",
+    "date_of_initial_accreditation": "March 01, 1971",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": 2028
+  },
+  {
+    "university": "Brigham Young University",
+    "program_type": "Counseling Ph.D.",
+    "address": "340-J MCKB, Provo , UT 8 4602 -5093",
+    "date_of_initial_accreditation": "June 28, 2000",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": null
+  },
+  {
+    "university": "University of Utah",
+    "program_type": "Clinical Ph.D.",
+    "address": "380 South 1530 East, Room 502, Salt Lake City , UT 8 4112 -0251",
+    "date_of_initial_accreditation": "December 08, 1954",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": null
+  },
+  {
+    "university": "University of Utah",
+    "program_type": "Counseling Ph.D.",
+    "address": "1721 East Campus Center Drive, Room 3220, Salt Lake City , UT 8 4112 -8914",
+    "date_of_initial_accreditation": "March 01, 1957",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": 2021
+  },
+  {
+    "university": "President's Office",
+    "program_type": "Clinical Ph.D.",
+    "address": "1400 Old Main Hill, Logan , UT 8 4322 -1400",
+    "date_of_initial_accreditation": "February 01, 1975",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": 2023
+  },
+  {
+    "university": "Utah State University",
+    "program_type": "School Ph.D.",
+    "address": "2810 Old Main Hill, Logan , UT 8 4322",
+    "date_of_initial_accreditation": "May 11, 2021",
+    "accreditation_status": "Accredited, on contingency",
+    "next_site_visit_year": null
+  },
+  {
+    "university": "University of Vermont",
+    "program_type": "Clinical Ph.D.",
+    "address": "2 Colchester Avenue, Burlington, V T 05405 -0134",
+    "date_of_initial_accreditation": "November 12, 1973",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": 2027
+  },
+  {
+    "university": "Divine Mercy University",
+    "program_type": "Clinical Ph.D.",
+    "address": "45154 Underwood Lane, Sterling , VA 2 0166",
+    "date_of_initial_accreditation": "April 22, 2016",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": 2023
+  },
+  {
+    "university": "George Mason University",
+    "program_type": "Clinical Ph.D.",
+    "address": "4400 University Drive, MSN 3F5, Fairfax , VA 2 2030",
+    "date_of_initial_accreditation": "May 15, 1987",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": null
+  },
+  {
+    "university": "James Madison University",
+    "program_type": "Clinical Ph.D.",
+    "address": "Combined -Integrated (C -I) Doctoral, Program, 216 Johnston Hall, MSC 7401, Harrisonburg , VA 2 2807",
+    "date_of_initial_accreditation": "October 29, 1996",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": 2027
+  },
+  {
+    "university": "Radford University",
+    "program_type": "Counseling Ph.D.",
+    "address": "Department of Psychology, Box 6946, Radford , VA 2 4142",
+    "date_of_initial_accreditation": "June 21, 2012",
+    "accreditation_status": "Accredited – Inactive",
+    "next_site_visit_year": null
+  },
+  {
+    "university": "Regent University",
+    "program_type": "Clinical Ph.D.",
+    "address": "1000 Regent University Drive, Virginia Beach , VA 2 3464 -9800",
+    "date_of_initial_accreditation": "March 14, 2002",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": 2029
+  },
+  {
+    "university": "University of Virginia",
+    "program_type": "Clinical Ph.D.",
+    "address": "P.O. Box 400400, Charlottesville , VA 2 2904 -4400",
+    "date_of_initial_accreditation": "October 25, 1988",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": 2028
+  },
+  {
+    "university": "University of Virginia",
+    "program_type": "Clinical Ph.D.",
+    "address": "PO Box 400270, Bavaro Hall 212, Charlottesville , VA 2 2904",
+    "date_of_initial_accreditation": "November 04, 1988",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": null
+  },
+  {
+    "university": "Virginia Commonwealth University",
+    "program_type": "Clinical Ph.D.",
+    "address": "806 West Franklin Street Box 842018, Richmond , VA 2 3284 -2018",
+    "date_of_initial_accreditation": "April 01, 1975",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": 2028
+  },
+  {
+    "university": "Virginia Commonwealth University",
+    "program_type": "Counseling Ph.D.",
+    "address": "806 West Franklin Street, P.O. Box 842018, Richmond , VA 2 3284 -2018",
+    "date_of_initial_accreditation": "October 28, 1980",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": 2028
+  },
+  {
+    "university": "Old Dominion University",
+    "program_type": "Clinical Ph.D.",
+    "address": "234 Mills Godwin Life Sciences Building, Norfolk , VA 2 3529",
+    "date_of_initial_accreditation": "November 12, 2013",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": null
+  },
+  {
+    "university": "Psychological Services Center",
+    "program_type": "Clinical Ph.D.",
+    "address": "3110 Prices Fork Road, Blacksburg , VA 2 4061 -0355",
+    "date_of_initial_accreditation": "April 17, 1980",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": 2021
+  },
+  {
+    "university": "Antioch University Seattle",
+    "program_type": "Clinical Ph.D.",
+    "address": "2400 3rd Avenue, Suite 200, Seattle , WA 9 8121",
+    "date_of_initial_accreditation": "December 02, 2016",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": null
+  },
+  {
+    "university": "Northwest University",
+    "program_type": "Counseling Ph.D.",
+    "address": "5520 108th Ave. NE, Kirkland , WA 9 8033",
+    "date_of_initial_accreditation": "October 28, 2018",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": 2022
+  },
+  {
+    "university": "Seattle Pacific University",
+    "program_type": "Clinical Ph.D.",
+    "address": "3307 Third Avenue West, Suite 107, Seattle , WA 9 8119",
+    "date_of_initial_accreditation": "October 17, 2006",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": null
+  },
+  {
+    "university": "University of Washington",
+    "program_type": "Clinical Ph.D.",
+    "address": "Box 351525, Seattle , WA 9 8195",
+    "date_of_initial_accreditation": "March 03, 1948",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": 2027
+  },
+  {
+    "university": "Washington State University",
+    "program_type": "Clinical Ph.D.",
+    "address": "Johnson Tower 233, Pullman , WA 9 9164 -4820",
+    "date_of_initial_accreditation": "February 14, 1956",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": null
+  },
+  {
+    "university": "Marshall University",
+    "program_type": "Clinical Ph.D.",
+    "address": "Marshall University, 1 John Marshall Drive, Huntington , WV 2 5755 -2672",
+    "date_of_initial_accreditation": "March 14, 2006",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": 2028
+  },
+  {
+    "university": "West Virginia University",
+    "program_type": "Clinical Ph.D.",
+    "address": "53 Campus Drive, P. O. Box 6040, Department of Psychology, Morgantown , WV 2 6506 -6040",
+    "date_of_initial_accreditation": "January 01, 1966",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": null
+  },
+  {
+    "university": "West Virginia University",
+    "program_type": "Counseling Ph.D.",
+    "address": "P.O. Box 6122, 502 Allen Hall, Morgantown , WV 2 6506 -6122",
+    "date_of_initial_accreditation": "January 01, 2024",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": null
+  },
+  {
+    "university": "Marquette University",
+    "program_type": "Clinical Ph.D.",
+    "address": "Cramer Hall, Room 317, 604 N. 16th Street, Milwaukee , WI 5 3233",
+    "date_of_initial_accreditation": "December 01, 2000",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": 2028
+  },
+  {
+    "university": "University of Wisconsin, Madison",
+    "program_type": "Clinical Ph.D.",
+    "address": "1202 West Johnson Street, Madison , WI 5 3706",
+    "date_of_initial_accreditation": "February 12, 1948",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": null
+  },
+  {
+    "university": "University of Wisconsin, Madison",
+    "program_type": "Counseling Ph.D.",
+    "address": "335 Education Building, 1000 Bascom Hall, Madison , WI 5 3706",
+    "date_of_initial_accreditation": "October 29, 1985",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": null
+  },
+  {
+    "university": "University of Wisconsin, Madison",
+    "program_type": "School Ph.D.",
+    "address": "1025 West Johnson Street, 859 Educational Sciences Bldg., Madison , WI 5 3706 -1796",
+    "date_of_initial_accreditation": "February 27, 1986",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": null
+  },
+  {
+    "university": "University of Wisconsin, Milwaukee",
+    "program_type": "Clinical Ph.D.",
+    "address": "Garland 224, 2441 East Hartford Avenue, Milwaukee , WI 5 3211",
+    "date_of_initial_accreditation": "October 14, 1980",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": 2023
+  },
+  {
+    "university": "Department of Educational Psychology",
+    "program_type": "Clinical Ph.D.",
+    "address": "Enderis Hall, P.O. Box 413, Milwaukee , WI 5 3201 -0413",
+    "date_of_initial_accreditation": "October 14, 1996",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": null
+  },
+  {
+    "university": "University of Wisconsin, Milwaukee",
+    "program_type": "School Ph.D.",
+    "address": "Enderis Hall 709, P.O. Box 413, Milwaukee , WI 5 3201 -0413",
+    "date_of_initial_accreditation": "October 14, 1996",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": 2021
+  },
+  {
+    "university": "of Professional Psychology",
+    "program_type": "Clinical Ph.D.",
+    "address": "9120 West Hampton Avenue, Suite 212, Milwaukee , WI 5 3225",
+    "date_of_initial_accreditation": "November 30, 2007",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": null
+  },
+  {
+    "university": "University of Wyoming",
+    "program_type": "Clinical Ph.D.",
+    "address": "Department #3415, 1000 E. University Avenue, Laramie, W Y 82071",
+    "date_of_initial_accreditation": "December 08, 1972",
+    "accreditation_status": "Accredited",
+    "next_site_visit_year": 2022
+  }
+]

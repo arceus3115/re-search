@@ -15,6 +15,10 @@ backend/app/requirements.txt
 media/
 static_root/
 
+# Uploaded files
+backend/uploads/temp/*
+!backend/uploads/temp/.gitkeep
+
 # Node.js
 node_modules/
 dist/

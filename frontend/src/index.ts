@@ -1,7 +1,7 @@
 
 import './style.css';
 
-import { renderLandingPage, showAuthorWorksModal } from './ui';
+import { renderLandingPage, renderApp, showAuthorWorksModal } from './ui';
 import { fetchAuthorWorks, fetchAuthorDetails } from './api';
 
 document.addEventListener('DOMContentLoaded', () => {
@@ -10,6 +10,11 @@ document.addEventListener('DOMContentLoaded', () => {
         console.error('Root element not found!');
         return;
     }
+
+    // Listen for program tracker open event (global listener)
+    window.addEventListener('open-program-tracker', () => {
+        renderApp(appDiv, 'program-tracker');
+    });
 
     // Initial render: landing page
     renderLandingPage(appDiv);

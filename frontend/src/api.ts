@@ -1,47 +1,5 @@
 
 /**
- * Fetches the list of available academic fields from the backend API.
- * @returns {Promise<any>} A promise that resolves to the JSON response containing the fields.
- * @throws {Error} If the network request fails or the response is not OK.
- */
-export async function fetchFields() {
-    const response = await fetch('/api/v1/fields');
-    if (!response.ok) {
-        throw new Error(`HTTP error! status: ${response.status}`);
-    }
-    return response.json();
-}
-
-/**
- * Sends a search request for academic papers to the backend API.
- * @param {string} searchTerm - The main search query.
- * @param {number} fromYear - The starting year for the search.
- * @param {string} countryCode - The country code for filtering results.
- * @param {string[]} topicIds - An array of topic IDs for filtering results.
- * @returns {Promise<any>} A promise that resolves to the JSON response containing the search results.
- * @throws {Error} If the network request fails or the response is not OK.
- */
-export async function searchPapers(searchTerm: string, fromYear: number, countryCode: string, topicIds: string[], page: number, perPage: number) {
-    const queryParams = new URLSearchParams({
-        search_term: searchTerm,
-        from_year: fromYear.toString(),
-        country_code: countryCode,
-        page: page.toString(),
-        per_page: perPage.toString()
-    });
-
-    // Append topic_ids as multiple parameters
-    topicIds.forEach(id => queryParams.append('topic_ids', id));
-
-    const response = await fetch(`/api/v1/search?${queryParams.toString()}`);
-
-    if (!response.ok) {
-        throw new Error(`HTTP error! status: ${response.status}`);
-    }
-    return response.json();
-}
-
-/**
  * Scrapes PCSAS data from the backend API.
  * @returns {Promise<any>} A promise that resolves to the JSON response containing the PCSAS data.
  * @throws {Error} If the network request fails or the response is not OK.
@@ -85,18 +43,63 @@ export async function fetchAuthorDetails(authorId: string) {
 }
 
 /**
- * Fetches common universities between top research works and PCSAS accredited programs.
- * @param {string} searchTerm - The search term for academic papers.
- * @param {number} topXWorks - The number of top works to consider for affiliation extraction.
- * @returns {Promise<any>} A promise that resolves to the JSON response containing the common universities.
+ * Discovers and ranks programs based on user profile.
+ * @param {number} page - Page number (default: 1)
+ * @param {number} perPage - Results per page (default: 25)
+ * @param {number} minFitScore - Minimum fit score (default: 0.0)
+ * @returns {Promise<any>} A promise that resolves to the JSON response containing ranked programs.
  * @throws {Error} If the network request fails or the response is not OK.
  */
-export async function fetchCrossSearchUniversities(searchTerm: string, topXWorks: number): Promise<{ common_universities: { name: string, website: string }[] }> {
-    const queryParams = new URLSearchParams({
-        search_term: searchTerm,
-        top_x_works: topXWorks.toString()
+export async function discoverPrograms(page: number = 1, perPage: number = 25, minFitScore: number = 0.0) {
+    const params = new URLSearchParams({
+        page: page.toString(),
+        per_page: perPage.toString(),
+        min_fit_score: minFitScore.toString()
     });
-    const response = await fetch(`/api/v1/cross_search_universities?${queryParams.toString()}`);
+    const response = await fetch(`/api/v1/programs/discover?${params}`);
+    if (!response.ok) {
+        // Create error with status code for proper handling
+        const error: any = new Error(`HTTP error! status: ${response.status}`);
+        error.status = response.status;
+        throw error;
+    }
+    return response.json();
+}
+
+/**
+ * Gets detailed research information for a specific program.
+ * @param {string} programId - The program ID.
+ * @returns {Promise<any>} A promise that resolves to the JSON response containing research data.
+ * @throws {Error} If the network request fails or the response is not OK.
+ */
+export async function getProgramResearch(programId: string) {
+    const response = await fetch(`/api/v1/programs/${programId}/research`);
+    if (!response.ok) {
+        throw new Error(`HTTP error! status: ${response.status}`);
+    }
+    return response.json();
+}
+
+/**
+ * Gets statistics about accredited programs.
+ * @returns {Promise<any>} A promise that resolves to the JSON response containing program statistics.
+ * @throws {Error} If the network request fails or the response is not OK.
+ */
+export async function getProgramStats() {
+    const response = await fetch('/api/v1/programs/stats');
+    if (!response.ok) {
+        throw new Error(`HTTP error! status: ${response.status}`);
+    }
+    return response.json();
+}
+
+/**
+ * Refreshes cached program data.
+ * @returns {Promise<any>} A promise that resolves to the JSON response.
+ * @throws {Error} If the network request fails or the response is not OK.
+ */
+export async function refreshPrograms() {
+    const response = await fetch('/api/v1/programs/refresh', { method: 'POST' });
     if (!response.ok) {
         throw new Error(`HTTP error! status: ${response.status}`);
     }

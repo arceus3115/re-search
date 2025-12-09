@@ -12,6 +12,12 @@ lxml = "*"
 pandas = "*"
 fastapi = {extras = ["test"], version = "*"}
 httpx = "*"
+typer = "*"
+google-generativeai = "*"
+python-docx = "*"
+python-multipart = "*"
+python-dotenv = "*"
+pypdf2 = "*"
 
 [dev-packages]
 black = "*"
@@ -26,7 +32,8 @@ pytest-asyncio = "*"
 python_version = "3.11"
 
 [scripts]
-start = "uvicorn app.web_app:app --reload"
+start = "uvicorn app.main:app --reload"
 test = "pytest -v"
 format = "black ."
 lint = "ruff check ."
+cli = "python -m app.cli"
