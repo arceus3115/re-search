@@ -15,6 +15,11 @@ backend/app/requirements.txt
 media/
 static_root/
 
+# Cache directories
+.cache/
+backend/.cache/
+**/.cache/
+
 # Uploaded files
 backend/uploads/temp/*
 !backend/uploads/temp/.gitkeep
