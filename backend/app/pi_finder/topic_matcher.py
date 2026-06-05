@@ -47,8 +47,8 @@ def check_topic_relevance(
 
         # Exact phrase match (higher weight)
         exact_pattern = r"\b" + re.escape(topic_lower) + r"\b"
-        exact_matches = re.finditer(exact_pattern, page_content_lower)
-        exact_count = sum(1 for _ in exact_matches)
+        exact_matches = list(re.finditer(exact_pattern, page_content_lower))
+        exact_count = len(exact_matches)
 
         # Partial word match (lower weight, but still counts)
         partial_pattern = topic_lower
@@ -77,11 +77,7 @@ def check_topic_relevance(
 
             # Extract context around first match for user visibility
             if exact_matches or partial_matches:
-                first_match = (
-                    (list(exact_matches) + partial_matches)[0]
-                    if exact_matches
-                    else partial_matches[0]
-                )
+                first_match = exact_matches[0] if exact_matches else partial_matches[0]
                 start = max(0, first_match.start() - 50)
                 end = min(len(page_content), first_match.end() + 50)
                 context = page_content[start:end].strip()

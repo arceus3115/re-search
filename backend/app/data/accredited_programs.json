@@ -8,6 +8,7 @@
     ],
     "address": "Campbell Hall Room 201, 1720 2nd Avenue South, Birmingham, AL 3 5294 -1170",
     "website": null,
+    "website_source": null,
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "March 20, 1985",
     "next_site_visit_year": 2023,
@@ -22,6 +23,7 @@
     ],
     "address": "Department of Psychology Box 870348, Tuscaloosa, AL 3 5487",
     "website": null,
+    "website_source": null,
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "February 01, 1959",
     "next_site_visit_year": null,
@@ -35,11 +37,14 @@
       "APA"
     ],
     "address": "226 Thach Hall, Auburn University, Auburn, AL 3 6849 -5214",
-    "website": null,
+    "website": "https://auburn.edu",
+    "website_source": "openalex",
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "November 17, 1976",
     "next_site_visit_year": null,
-    "student_outcomes_link": null
+    "student_outcomes_link": null,
+    "website_confidence": 0.8,
+    "openalex_institution_id": "https://openalex.org/I82497590"
   },
   {
     "id": "program-4",
@@ -49,11 +54,14 @@
       "APA"
     ],
     "address": "2084 Haley Center, Auburn, AL 3 6849",
-    "website": null,
+    "website": "https://auburn.edu",
+    "website_source": "openalex",
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "May 06, 1988",
     "next_site_visit_year": 2027,
-    "student_outcomes_link": null
+    "student_outcomes_link": null,
+    "website_confidence": 0.8,
+    "openalex_institution_id": "https://openalex.org/I82497590"
   },
   {
     "id": "program-5",
@@ -64,6 +72,7 @@
     ],
     "address": "1000 UCOM, 307 University Blvd. N., Mobile, AL 3 6688",
     "website": null,
+    "website_source": null,
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "June 07, 2013",
     "next_site_visit_year": null,
@@ -78,6 +87,7 @@
     ],
     "address": "3211 Providence Drive, Anchorage, AK 9 9508",
     "website": null,
+    "website_source": null,
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "November 23, 2011",
     "next_site_visit_year": 2028,
@@ -93,6 +103,7 @@
     ],
     "address": "1503 E. University Blvd, Rm 312, Tucson, AZ 8 5721",
     "website": "http://psychology.arizona.edu/clinical",
+    "website_source": "pcsas",
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "March 01, 1962",
     "next_site_visit_year": 2028,
@@ -108,6 +119,7 @@
     ],
     "address": "950 S. McAllister, P.O. Box 871104, Tempe, AZ 8 5287 -1104",
     "website": "https://psychology.asu.edu/degrees/specializations/clinical-psychology",
+    "website_source": "pcsas",
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "January 21, 1977",
     "next_site_visit_year": null,
@@ -123,6 +135,7 @@
     ],
     "address": "446 Payne Hall, MC -0811, Arizona State University, Tempe, AZ 8 5287 -0811",
     "website": "https://psychology.asu.edu/degrees/specializations/clinical-psychology",
+    "website_source": "pcsas",
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "April 01, 1972",
     "next_site_visit_year": null,
@@ -136,11 +149,14 @@
       "APA"
     ],
     "address": "19555 North 59th Avenue, Glendale, AZ 8 5308",
-    "website": null,
+    "website": "https://www.midwestern.edu/",
+    "website_source": "openalex",
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "March 10, 2011",
     "next_site_visit_year": 2023,
-    "student_outcomes_link": null
+    "student_outcomes_link": null,
+    "website_confidence": 0.8,
+    "openalex_institution_id": "https://openalex.org/I128902783"
   },
   {
     "id": "program-11",
@@ -151,6 +167,7 @@
     ],
     "address": "801 S. Knoles Drive, Building 27, Flagstaff, AZ 86011",
     "website": null,
+    "website_source": null,
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "April 06, 2017",
     "next_site_visit_year": null,
@@ -165,6 +182,7 @@
     ],
     "address": "Room 113, 15451 N 28th Ave ., Phoenix , AZ 8 5053",
     "website": null,
+    "website_source": null,
     "accreditation_status": "Accredited, on contingency",
     "date_of_initial_accreditation": "February 25, 2022",
     "next_site_visit_year": null,
@@ -179,6 +197,7 @@
     ],
     "address": "216 Memorial Hall, Fayetteville, AR 7 2701 -1201",
     "website": null,
+    "website_source": null,
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "April 01, 1966",
     "next_site_visit_year": 2023,
@@ -193,6 +212,7 @@
     ],
     "address": "Mashburn Hall 215, 201 S. Donaghey, Conway, AR 7 2035",
     "website": null,
+    "website_source": null,
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "November 13, 2015",
     "next_site_visit_year": 2022,
@@ -207,6 +227,7 @@
     ],
     "address": "(formerly listed as California School of, Professional Psychology -Fresno), 5130 East Clinton Way, Fresno, CA 9 3727",
     "website": null,
+    "website_source": null,
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "March 28, 1984",
     "next_site_visit_year": 2027,
@@ -221,6 +242,7 @@
     ],
     "address": "(formerly listed as California School of, Professional Psychology -Fresno), 5130 East Clinton Way, Fresno, CA 9 3727",
     "website": null,
+    "website_source": null,
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "June 03, 1994",
     "next_site_visit_year": 2023,
@@ -235,6 +257,7 @@
     ],
     "address": "(formerly listed as California School of, Professional Psychology -Los Angeles), 1000 South Fremont Avenue, Unit 5, Alhambra, CA 9 1803",
     "website": null,
+    "website_source": null,
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "March 21, 1978",
     "next_site_visit_year": 2023,
@@ -249,6 +272,7 @@
     ],
     "address": "(formerly listed as California School of, Professional Psychology -Los Angeles), 1000 South Fremont Avenue, Unit 5, Alhambra, CA 9 1803 -8835",
     "website": null,
+    "website_source": null,
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "April 23, 1991",
     "next_site_visit_year": null,
@@ -263,6 +287,7 @@
     ],
     "address": "(formerly listed as California School of, Professional Psychology - Fresno; Alliant, International University -Fresno and, Sacramento), 2030 W. El Camino Avenue, Suite 200, Sacramento, CA 9 5833",
     "website": null,
+    "website_source": null,
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "June 03, 1994",
     "next_site_visit_year": 2028,
@@ -277,6 +302,7 @@
     ],
     "address": "(formerly listed as California School of, Professional Psychology -San Diego), 10455 Pomerado Road, Daley Hall 117, San Diego, CA 9 2131 -1799",
     "website": null,
+    "website_source": null,
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "May 06, 1980",
     "next_site_visit_year": 2021,
@@ -291,6 +317,7 @@
     ],
     "address": "(formerly listed as California School of, Professional Psychology - San Diego), 10455 Pomerado Road, Daley Hall 205, San Diego, CA 9 2131",
     "website": null,
+    "website_source": null,
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "May 26, 1994",
     "next_site_visit_year": 2023,
@@ -305,6 +332,7 @@
     ],
     "address": "(formerly listed as California School of, Professional Psychology -Alameda), 1475 66th Street, Suite 120, Emeryville , CA 9 4608",
     "website": null,
+    "website_source": null,
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "March 21, 1984",
     "next_site_visit_year": 2027,
@@ -319,6 +347,7 @@
     ],
     "address": "(formerly listed as California School of, Professional Psychology -Alameda), 1475 66th Street, Suite 120, Emeryville , CA 9 4608",
     "website": null,
+    "website_source": null,
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "February 28, 1995",
     "next_site_visit_year": null,
@@ -332,11 +361,14 @@
       "APA"
     ],
     "address": "901 East Alosta Avenue, P.O. Box 7000, Azusa, CA 9 1702 -7000",
-    "website": null,
+    "website": "https://apu.edu",
+    "website_source": "openalex",
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "October 31, 2000",
     "next_site_visit_year": 2023,
-    "student_outcomes_link": null
+    "student_outcomes_link": null,
+    "website_confidence": 0.8,
+    "openalex_institution_id": "https://openalex.org/I96408169"
   },
   {
     "id": "program-25",
@@ -346,11 +378,14 @@
       "APA"
     ],
     "address": "13800 Biola Avenue, La Mirada, CA 9 0639",
-    "website": null,
+    "website": "http://www.biola.edu/",
+    "website_source": "openalex",
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "May 23, 1980",
     "next_site_visit_year": 2029,
-    "student_outcomes_link": null
+    "student_outcomes_link": null,
+    "website_confidence": 0.8,
+    "openalex_institution_id": "https://openalex.org/I152479009"
   },
   {
     "id": "program-26",
@@ -360,11 +395,14 @@
       "APA"
     ],
     "address": "13800 Biola Avenue, La Mirada, CA 9 0639",
-    "website": null,
+    "website": "http://www.biola.edu/",
+    "website_source": "openalex",
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "May 23, 1980",
     "next_site_visit_year": 2029,
-    "student_outcomes_link": null
+    "student_outcomes_link": null,
+    "website_confidence": 0.8,
+    "openalex_institution_id": "https://openalex.org/I152479009"
   },
   {
     "id": "program-27",
@@ -374,11 +412,14 @@
       "APA"
     ],
     "address": "8432 Magnolia Avenue, Riverside, CA 92504",
-    "website": null,
+    "website": "http://www.calbaptist.edu/",
+    "website_source": "openalex",
     "accreditation_status": "Accredited, on contingency",
     "date_of_initial_accreditation": "September 28, 2021",
     "next_site_visit_year": 2024,
-    "student_outcomes_link": null
+    "student_outcomes_link": null,
+    "website_confidence": 0.95,
+    "openalex_institution_id": "https://openalex.org/I177449303"
   },
   {
     "id": "program-28",
@@ -389,6 +430,7 @@
     ],
     "address": "2121 Berkeley Way, #3302, Berkeley, CA 9 4720 -1650",
     "website": null,
+    "website_source": null,
     "accreditation_status": "Accredited – Inactive",
     "date_of_initial_accreditation": "February 01, 1948",
     "next_site_visit_year": null,
@@ -404,6 +446,7 @@
     ],
     "address": "2121 Berkeley Way, 4th Floor, Berkeley, CA 9 4720",
     "website": "http://psychology.berkeley.edu/research/clinical-science",
+    "website_source": "pcsas",
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "November 25, 1980",
     "next_site_visit_year": null,
@@ -419,6 +462,7 @@
     ],
     "address": "Psychology Building 1285, 405 Hilgard Avenue , Box 951563, Los Angeles, CA 9 0095 -1563",
     "website": "https://www.psych.ucla.edu/graduate/areas-of-study/clinical-psychology",
+    "website_source": "pcsas",
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "February 01, 1948",
     "next_site_visit_year": 2028,
@@ -433,6 +477,7 @@
     ],
     "address": "900 University Avenue, 1207 Sproul Hall, Riverside, CA 9 2521",
     "website": null,
+    "website_source": null,
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "February 24, 2004",
     "next_site_visit_year": 2028,
@@ -447,6 +492,7 @@
     ],
     "address": "Bldg. 275, Room 4100, Santa Barbara, CA 9 3106 -9490",
     "website": null,
+    "website_source": null,
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "December 07, 1990",
     "next_site_visit_year": null,
@@ -460,11 +506,14 @@
       "APA"
     ],
     "address": "2201 Outlet Center Drive, Ste 600, Oxnard, CA 9 3036",
-    "website": null,
+    "website": "http://www.callutheran.edu/",
+    "website_source": "openalex",
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "April 21, 2015",
     "next_site_visit_year": 2022,
-    "student_outcomes_link": null
+    "student_outcomes_link": null,
+    "website_confidence": 0.8,
+    "openalex_institution_id": "https://openalex.org/I176611909"
   },
   {
     "id": "program-34",
@@ -474,11 +523,14 @@
       "APA"
     ],
     "address": "2920 Prospect Park Drive Ste. 210, Rancho Cordova, CA 95670",
-    "website": null,
+    "website": "http://medicine.cnsu.edu/",
+    "website_source": "openalex",
     "accreditation_status": "Accredited, on contingency",
     "date_of_initial_accreditation": "April 11, 2021",
     "next_site_visit_year": 2024,
-    "student_outcomes_link": null
+    "student_outcomes_link": null,
+    "website_confidence": 0.8,
+    "openalex_institution_id": "https://openalex.org/I4210147380"
   },
   {
     "id": "program-35",
@@ -489,6 +541,7 @@
     ],
     "address": "(formerly listed as The Chicago School of, Professional Psychology, Anaheim ), (Clinical Psy.D.), 2400 East Katella Avenue, Anaheim, CA 9 2806, April 11, 20 21, Accredited, Next site visit scheduled 20 30, The Chicago School, Los Angeles, (formerly listed as The Chicago School of, Professional Psychology Los Angeles ), (Clinical Psy.D.), 707 Wilshire Boulevard , Suite 600, Los Angeles, CA 9 0017",
     "website": null,
+    "website_source": null,
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "July 22, 2018",
     "next_site_visit_year": 2028,
@@ -502,11 +555,14 @@
       "APA"
     ],
     "address": "2020 De La Vina Street, Santa Barbara, CA 9 3105 -3538",
-    "website": null,
+    "website": "https://www.fielding.edu",
+    "website_source": "openalex",
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "July 17, 1991",
     "next_site_visit_year": null,
-    "student_outcomes_link": null
+    "student_outcomes_link": null,
+    "website_confidence": 0.8,
+    "openalex_institution_id": "https://openalex.org/I67206655"
   },
   {
     "id": "program-37",
@@ -516,11 +572,14 @@
       "APA"
     ],
     "address": "180 North Oakland Avenue, Pasadena, CA 9 1101 -1714",
-    "website": null,
+    "website": "http://fuller.edu/",
+    "website_source": "openalex",
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "December 05, 1972",
     "next_site_visit_year": null,
-    "student_outcomes_link": null
+    "student_outcomes_link": null,
+    "website_confidence": 0.8,
+    "openalex_institution_id": "https://openalex.org/I96521982"
   },
   {
     "id": "program-38",
@@ -530,11 +589,14 @@
       "APA"
     ],
     "address": "180 North Oakland Avenue, Pasadena, CA 9 1101 -1714",
-    "website": null,
+    "website": "http://fuller.edu/",
+    "website_source": "openalex",
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "December 05, 1972",
     "next_site_visit_year": 2028,
-    "student_outcomes_link": null
+    "student_outcomes_link": null,
+    "website_confidence": 0.8,
+    "openalex_institution_id": "https://openalex.org/I96521982"
   },
   {
     "id": "program-39",
@@ -545,6 +607,7 @@
     ],
     "address": "Hoover Building, 1950 Third Street, La Verne, CA 9 1750",
     "website": null,
+    "website_source": null,
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "April 29, 2003",
     "next_site_visit_year": 2028,
@@ -559,6 +622,7 @@
     ],
     "address": "11130 Anderson St., Suite 101, Loma Linda, CA 9 2350",
     "website": null,
+    "website_source": null,
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "November 13, 1998",
     "next_site_visit_year": null,
@@ -572,11 +636,14 @@
       "APA"
     ],
     "address": "11130 Anderson St ., Loma Linda, CA 9 2350",
-    "website": null,
+    "website": "https://llu.edu",
+    "website_source": "openalex",
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "November 13, 1998",
     "next_site_visit_year": null,
-    "student_outcomes_link": null
+    "student_outcomes_link": null,
+    "website_confidence": 0.8,
+    "openalex_institution_id": "https://openalex.org/I26347476"
   },
   {
     "id": "program-42",
@@ -587,6 +654,7 @@
     ],
     "address": "10 Chester Place, Los Angeles , CA 9 0007",
     "website": null,
+    "website_source": null,
     "accreditation_status": "Accredited, on contingency",
     "date_of_initial_accreditation": "May 01, 2024",
     "next_site_visit_year": null,
@@ -601,6 +669,7 @@
     ],
     "address": "100 Ellinwood Way, Pleasant Hill, CA 94523",
     "website": null,
+    "website_source": null,
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "March 01, 2024",
     "next_site_visit_year": 2034,
@@ -615,6 +684,7 @@
     ],
     "address": "100 Ellinwood Way, Pleasant Hill, CA 9 4523",
     "website": null,
+    "website_source": null,
     "accreditation_status": "Accredited – Inactive",
     "date_of_initial_accreditation": "December 17, 2020",
     "next_site_visit_year": null,
@@ -628,11 +698,14 @@
       "APA"
     ],
     "address": "(formerly listed as Pacific Graduate School, of Psychology), 1791 Arastradero Rd., Palo Alto, CA 9 4304",
-    "website": null,
+    "website": "http://www.paloaltou.edu/",
+    "website_source": "openalex",
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "March 17, 1988",
     "next_site_visit_year": 2023,
-    "student_outcomes_link": null
+    "student_outcomes_link": null,
+    "website_confidence": 0.8,
+    "openalex_institution_id": "https://openalex.org/I1743320"
   },
   {
     "id": "program-46",
@@ -642,11 +715,14 @@
       "APA"
     ],
     "address": "(formerly listed as Pacific Graduate School, of Psychology/Stanford University Medical, School Consortium), 1791 Arastradero Road, Palo Alto, CA 9 4304 -1337",
-    "website": null,
+    "website": "http://www.paloaltou.edu/",
+    "website_source": "openalex",
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "November 14, 2006",
     "next_site_visit_year": 2029,
-    "student_outcomes_link": null
+    "student_outcomes_link": null,
+    "website_confidence": 0.8,
+    "openalex_institution_id": "https://openalex.org/I1743320"
   },
   {
     "id": "program-47",
@@ -657,6 +733,7 @@
     ],
     "address": "2130 Fulton Street, San Francisco, CA 9 4117",
     "website": null,
+    "website_source": null,
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "July 22, 2018",
     "next_site_visit_year": null,
@@ -671,6 +748,7 @@
     ],
     "address": "(formerly listed as San Diego State -UC San, Diego Cooperative), 6363 Alvarado Court, Suite 103, San Diego, CA 9 2120 -4913",
     "website": null,
+    "website_source": null,
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "June 26, 1990",
     "next_site_visit_year": null,
@@ -686,6 +764,7 @@
     ],
     "address": "Department of Psychology, SGM 501, 3620 S. McClintock Ave., Los Angeles, CA 9 0089 -1061",
     "website": "https://dornsife.usc.edu/psyc/clinical-science/",
+    "website_source": "pcsas",
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "February 20, 1948",
     "next_site_visit_year": 2027,
@@ -700,6 +779,7 @@
     ],
     "address": "2728 Durant Ave., Berkeley, CA 9 4704",
     "website": null,
+    "website_source": null,
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "March 10, 1998",
     "next_site_visit_year": 2027,
@@ -714,6 +794,7 @@
     ],
     "address": "1420 Austin Bluffs Parkway, Colorado Springs, CO 8 0918",
     "website": null,
+    "website_source": null,
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "May 11, 2007",
     "next_site_visit_year": 2029,
@@ -728,6 +809,7 @@
     ],
     "address": "345 UCB, Boulder, CO 8 0309",
     "website": null,
+    "website_source": null,
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "January 12, 1949",
     "next_site_visit_year": null,
@@ -742,6 +824,7 @@
     ],
     "address": "1200 Larimer Street, North Classroom 5008G , Campus Box 173, P.O. Box 173364, Denver, CO 8 0201 -3364",
     "website": null,
+    "website_source": null,
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "March 14, 2014",
     "next_site_visit_year": null,
@@ -756,6 +839,7 @@
     ],
     "address": "1380 Lawrence St., Campus Box 106, Denver, CO 8 0204",
     "website": null,
+    "website_source": null,
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "April 15, 2018",
     "next_site_visit_year": null,
@@ -769,11 +853,14 @@
       "APA"
     ],
     "address": "1876 Campus Delivery, Fort Collins, CO 8 0523 -1876",
-    "website": null,
+    "website": "http://www.colostate.edu/",
+    "website_source": "openalex",
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "March 01, 1970",
     "next_site_visit_year": 2029,
-    "student_outcomes_link": null
+    "student_outcomes_link": null,
+    "website_confidence": 0.8,
+    "openalex_institution_id": "https://openalex.org/I92446798"
   },
   {
     "id": "program-56",
@@ -784,6 +871,7 @@
     ],
     "address": "2155 S. Race Street, Denver, CO 8 0208",
     "website": null,
+    "website_source": null,
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "March 27, 1964",
     "next_site_visit_year": null,
@@ -798,6 +886,7 @@
     ],
     "address": "2450 S. Vine St., Denver, CO 8 0208",
     "website": null,
+    "website_source": null,
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "May 15, 1979",
     "next_site_visit_year": null,
@@ -812,6 +901,7 @@
     ],
     "address": "1999 E. Evans, Denver, CO 8 0208",
     "website": null,
+    "website_source": null,
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "May 16, 1986",
     "next_site_visit_year": 2028,
@@ -826,6 +916,7 @@
     ],
     "address": "Katherine A. Ruffatto Hall, 1999 E. Evans Ave, Denver, CO 8 0210",
     "website": null,
+    "website_source": null,
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "July 21, 2019",
     "next_site_visit_year": null,
@@ -840,6 +931,7 @@
     ],
     "address": "Campus Box 131, 501 20th Street, Greeley, CO 8 0639",
     "website": null,
+    "website_source": null,
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "April 04, 1995",
     "next_site_visit_year": null,
@@ -854,6 +946,7 @@
     ],
     "address": "Campus Box 131, 501 20th Street, Greeley, CO 8 0639",
     "website": null,
+    "website_source": null,
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "June 25, 1981",
     "next_site_visit_year": 2028,
@@ -868,6 +961,7 @@
     ],
     "address": "406 Babbidge Rd. Unit 1020, Storrs, CT 0 6260 -1020",
     "website": null,
+    "website_source": null,
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "December 19, 1951",
     "next_site_visit_year": null,
@@ -882,6 +976,7 @@
     ],
     "address": "249 Glenbrook Road, Unit Box 3064, Storrs, CT 0 6269 -3064",
     "website": null,
+    "website_source": null,
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "May 01, 2001",
     "next_site_visit_year": null,
@@ -897,10 +992,11 @@
     ],
     "address": "216 Kirtland Hall, 2 Hillhouse Avenue, New Haven, CT 0 6520 -8205",
     "website": "https://psychology.yale.edu/research/clinical-psychology",
+    "website_source": "pcsas",
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "February 01, 1948",
     "next_site_visit_year": 2022,
-    "student_outcomes_link": "https://nam10.safelinks.protection.outlook.com/?url=https%3A%2F%2Fpsychology.yale.edu%2Fsites%2Fdefault%2Ffiles%2Fstudent_admissions_outcomes_and_other_data_2022.pdf&data=05%7C01%7CPCSAS_DCT%40LISTSERV.TEMPLE.EDU%7C13d0bd340eb64a7b401908db1e7bdd76%7C716e81efb52244738e3110bd02ccf6e5%7C0%7C0%7C638137289709011248%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C3000%7C%7C%7C&sdata=XM1zWUIMoq9IVloRgzmfmJrUs4gPe%2Fme32PAGqMDZs0%3D&reserved=0"
+    "student_outcomes_link": "https://psychology.yale.edu/sites/default/files/student_admissions_outcomes_and_other_data_2022.pdf"
   },
   {
     "id": "program-65",
@@ -912,6 +1008,7 @@
     ],
     "address": "108 Wolf Hall, Newark, D E 19716",
     "website": "https://www.psych.udel.edu/graduate/areas-of-study/clinical-science",
+    "website_source": "pcsas",
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "November 01, 1971",
     "next_site_visit_year": null,
@@ -925,11 +1022,14 @@
       "APA"
     ],
     "address": "4400 Massachusetts Avenue, NW, 321 Asbury, Washington, DC 2 0016",
-    "website": null,
+    "website": "https://american.edu",
+    "website_source": "openalex",
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "March 01, 1972",
     "next_site_visit_year": 2029,
-    "student_outcomes_link": null
+    "student_outcomes_link": null,
+    "website_confidence": 0.8,
+    "openalex_institution_id": "https://openalex.org/I181401687"
   },
   {
     "id": "program-67",
@@ -940,6 +1040,7 @@
     ],
     "address": "620 Michigan Ave NE, Washington, DC 2 0064",
     "website": null,
+    "website_source": null,
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "February 01, 1948",
     "next_site_visit_year": null,
@@ -954,6 +1055,7 @@
     ],
     "address": "901 15th St. NW, 2nd Floor, Washington, DC 2 0005",
     "website": null,
+    "website_source": null,
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "December 03, 2015",
     "next_site_visit_year": 2022,
@@ -967,11 +1069,14 @@
       "APA"
     ],
     "address": "800 Florida Avenue NE, Hall Memorial Building, Fourth Floor, S416, Washington, DC 2 0002",
-    "website": null,
+    "website": "http://www.gallaudet.edu/",
+    "website_source": "openalex",
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "October 20, 1995",
     "next_site_visit_year": 2028,
-    "student_outcomes_link": null
+    "student_outcomes_link": null,
+    "website_confidence": 0.8,
+    "openalex_institution_id": "https://openalex.org/I66108857"
   },
   {
     "id": "program-70",
@@ -981,11 +1086,14 @@
       "APA"
     ],
     "address": "2125 G Street NW, Washington, DC 2 0052",
-    "website": null,
+    "website": "http://www.gwu.edu/",
+    "website_source": "openalex",
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "April 01, 1970",
     "next_site_visit_year": 2022,
-    "student_outcomes_link": null
+    "student_outcomes_link": null,
+    "website_confidence": 0.8,
+    "openalex_institution_id": "https://openalex.org/I193531525"
   },
   {
     "id": "program-71",
@@ -995,11 +1103,14 @@
       "APA"
     ],
     "address": "1922 F Street NW, Suite 100, Washington, DC 2 0052",
-    "website": null,
+    "website": "http://www.gwu.edu/",
+    "website_source": "openalex",
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "February 16, 2001",
     "next_site_visit_year": 2021,
-    "student_outcomes_link": null
+    "student_outcomes_link": null,
+    "website_confidence": 0.8,
+    "openalex_institution_id": "https://openalex.org/I193531525"
   },
   {
     "id": "program-72",
@@ -1010,6 +1121,7 @@
     ],
     "address": "641 S Street NW, Suite 300, Washington, DC 2 0001",
     "website": null,
+    "website_source": null,
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "April 07, 1987",
     "next_site_visit_year": 2021,
@@ -1025,6 +1137,7 @@
     ],
     "address": "2441 4th Street, NW, Washington, DC 2 0059",
     "website": "https://psychology.fas.harvard.edu/clinical-psychology",
+    "website_source": "pcsas",
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "April 29, 2002",
     "next_site_visit_year": 2029,
@@ -1037,8 +1150,9 @@
     "accreditation_sources": [
       "APA"
     ],
-    "address": "(formerly listed as Caribbean Center for, Advanced Studies -Miami Institute of, Psychology), 2173 N.W. 99th Avenue, Miami, FL 33172 -2209",
+    "address": "(formerly listed as Caribbean Center for, Advanced Studies -Miami Institute of, Psychology), 2173 N.W. 99th Avenue, Miami, FL 33172-2209",
     "website": null,
+    "website_source": null,
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "November 21, 1991",
     "next_site_visit_year": 2022,
@@ -1051,12 +1165,15 @@
     "accreditation_sources": [
       "APA"
     ],
-    "address": "P.O. Box 161390, Orlando, FL 32816 -1390",
-    "website": null,
+    "address": "P.O. Box 161390, Orlando, FL 32816-1390",
+    "website": "https://www.ucf.edu",
+    "website_source": "openalex",
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "April 18, 2003",
     "next_site_visit_year": null,
-    "student_outcomes_link": null
+    "student_outcomes_link": null,
+    "website_confidence": 0.727,
+    "openalex_institution_id": "https://openalex.org/I106165777"
   },
   {
     "id": "program-76",
@@ -1065,8 +1182,9 @@
     "accreditation_sources": [
       "APA"
     ],
-    "address": "P.O. Box 100165 HPNP Building, 1225 Center Drive, Room 3151, Gainesville, FL 32610 -0165",
+    "address": "P.O. Box 100165 HPNP Building, 1225 Center Drive, Room 3151, Gainesville, FL 32610-0165",
     "website": null,
+    "website_source": null,
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "January 01, 1953",
     "next_site_visit_year": 2022,
@@ -1079,8 +1197,9 @@
     "accreditation_sources": [
       "APA"
     ],
-    "address": "114 Psychology Building, Box 112250, Gainesville, FL 32611 -2250",
+    "address": "114 Psychology Building, Box 112250, Gainesville, FL 32611-2250",
     "website": null,
+    "website_source": null,
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "January 15, 1954",
     "next_site_visit_year": 2027,
@@ -1093,8 +1212,9 @@
     "accreditation_sources": [
       "APA"
     ],
-    "address": "2-170 Norman Hall, P.O. Box 117050, Gainesville, FL 32611 -7050",
+    "address": "2-170 Norman Hall, P.O. Box 117050, Gainesville, FL 32611-7050",
     "website": null,
+    "website_source": null,
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "October 28, 1997",
     "next_site_visit_year": null,
@@ -1107,12 +1227,15 @@
     "accreditation_sources": [
       "APA"
     ],
-    "address": "150 West University Boulevard, Melbourne, FL 32901 -6975",
-    "website": null,
+    "address": "150 West University Boulevard, Melbourne, FL 32901-6975",
+    "website": "http://www.fit.edu/",
+    "website_source": "openalex",
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "April 26, 1983",
     "next_site_visit_year": 2022,
-    "student_outcomes_link": null
+    "student_outcomes_link": null,
+    "website_confidence": 0.95,
+    "openalex_institution_id": "https://openalex.org/I106959904"
   },
   {
     "id": "program-80",
@@ -1123,6 +1246,7 @@
     ],
     "address": "5110 Sunforest Drive , Suite 102, Tampa, FL 33579",
     "website": null,
+    "website_source": null,
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "October 29, 2020",
     "next_site_visit_year": 2030,
@@ -1135,12 +1259,15 @@
     "accreditation_sources": [
       "APA"
     ],
-    "address": "Florida State University, 1107 W. Call St., Tallahassee, FL 32306 -4301",
-    "website": null,
+    "address": "Florida State University, 1107 W. Call St., Tallahassee, FL 32306-4301",
+    "website": "https://www.fsu.edu/",
+    "website_source": "openalex",
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "January 01, 1954",
     "next_site_visit_year": null,
-    "student_outcomes_link": null
+    "student_outcomes_link": null,
+    "website_confidence": 0.95,
+    "openalex_institution_id": "https://openalex.org/I103163165"
   },
   {
     "id": "program-82",
@@ -1150,8 +1277,9 @@
       "APA",
       "PCSAS"
     ],
-    "address": "P.O. Box 248185, Coral Gables, FL 33124 -2040",
+    "address": "P.O. Box 248185, Coral Gables, FL 33124-2040",
     "website": "https://www.psy.miami.edu/graduate/clinical-program/index.html",
+    "website_source": "pcsas",
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "December 01, 1966",
     "next_site_visit_year": null,
@@ -1165,8 +1293,9 @@
       "APA",
       "PCSAS"
     ],
-    "address": "P.O. Box 248065, Coral Gables, FL 33124 -2040",
+    "address": "P.O. Box 248065, Coral Gables, FL 33124-2040",
     "website": "https://www.psy.miami.edu/graduate/clinical-program/index.html",
+    "website_source": "pcsas",
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "February 07, 1989",
     "next_site_visit_year": 2027,
@@ -1180,11 +1309,14 @@
       "APA"
     ],
     "address": "Maltz Psychology Building, 3301 College Avenue, Fort Lauderdale, FL 33314",
-    "website": null,
+    "website": "http://nova.edu/",
+    "website_source": "openalex",
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "October 30, 1981",
     "next_site_visit_year": 2029,
-    "student_outcomes_link": null
+    "student_outcomes_link": null,
+    "website_confidence": 0.95,
+    "openalex_institution_id": "https://openalex.org/I203088144"
   },
   {
     "id": "program-85",
@@ -1194,11 +1326,14 @@
       "APA"
     ],
     "address": "Maltz Psychology Building, 3301 College Avenue, Fort Lauderdale, FL 33314",
-    "website": null,
+    "website": "http://nova.edu/",
+    "website_source": "openalex",
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "March 15, 1983",
     "next_site_visit_year": 2029,
-    "student_outcomes_link": null
+    "student_outcomes_link": null,
+    "website_confidence": 0.95,
+    "openalex_institution_id": "https://openalex.org/I203088144"
   },
   {
     "id": "program-86",
@@ -1208,11 +1343,14 @@
       "APA"
     ],
     "address": "3301 College Avenue, Ft. Lauderdale, FL 33314",
-    "website": null,
+    "website": "http://nova.edu/",
+    "website_source": "openalex",
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "June 17, 2015",
     "next_site_visit_year": null,
-    "student_outcomes_link": null
+    "student_outcomes_link": null,
+    "website_confidence": 0.8,
+    "openalex_institution_id": "https://openalex.org/I203088144"
   },
   {
     "id": "program-87",
@@ -1222,8 +1360,9 @@
       "APA",
       "PCSAS"
     ],
-    "address": "4202 East Fowler Avenue PCD4118G, Tampa, FL 33620 -7200",
+    "address": "4202 East Fowler Avenue PCD4118G, Tampa, FL 33620-7200",
     "website": "http://psychology.usf.edu/grad/clinical/",
+    "website_source": "pcsas",
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "November 01, 1975",
     "next_site_visit_year": 2027,
@@ -1237,8 +1376,9 @@
       "APA",
       "PCSAS"
     ],
-    "address": "4202 East Fowler Avenue, Education Building 105, Tampa, FL 33620 -7750",
+    "address": "4202 East Fowler Avenue, Education Building 105, Tampa, FL 33620-7750",
     "website": "http://psychology.usf.edu/grad/clinical/",
+    "website_source": "pcsas",
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "November 20, 1998",
     "next_site_visit_year": 2027,
@@ -1254,6 +1394,7 @@
     ],
     "address": "PAIS Building 36, Eagle Row, Suite 270, Atlanta, GA 3 0322",
     "website": "http://psychology.emory.edu/home/graduate/clinical-science.html",
+    "website_source": "pcsas",
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "March 01, 1968",
     "next_site_visit_year": 2022,
@@ -1268,6 +1409,7 @@
     ],
     "address": "110 Hooper Street, Athens, GA 3 0602 -3013",
     "website": null,
+    "website_source": null,
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "January 14, 1966",
     "next_site_visit_year": null,
@@ -1283,6 +1425,7 @@
     ],
     "address": "402 Aderhold Hall, Athens, GA 3 0602",
     "website": "http://psychology.uga.edu/programs/clinical-doctoral-program",
+    "website_source": "pcsas",
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "April 03, 1984",
     "next_site_visit_year": null,
@@ -1297,6 +1440,7 @@
     ],
     "address": "323 Aderhold Hall, Athens, GA 3 0602",
     "website": null,
+    "website_source": null,
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "September 27, 1983",
     "next_site_visit_year": 2028,
@@ -1310,11 +1454,14 @@
       "APA"
     ],
     "address": "2670 Southern Drive, Brannen Hall #1008, PO Box 8041, Statesboro, GA 3 0460",
-    "website": null,
+    "website": "http://www.georgiasouthern.edu/",
+    "website_source": "openalex",
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "March 04, 2014",
     "next_site_visit_year": 2029,
-    "student_outcomes_link": null
+    "student_outcomes_link": null,
+    "website_confidence": 0.8,
+    "openalex_institution_id": "https://openalex.org/I39815113"
   },
   {
     "id": "program-94",
@@ -1324,11 +1471,14 @@
       "APA"
     ],
     "address": "P.O. Box 5010, Atlanta, GA 3 0302 -5010",
-    "website": null,
+    "website": "https://www.gsu.edu",
+    "website_source": "openalex",
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "November 28, 1973",
     "next_site_visit_year": 2028,
-    "student_outcomes_link": null
+    "student_outcomes_link": null,
+    "website_confidence": 0.8,
+    "openalex_institution_id": "https://openalex.org/I181565077"
   },
   {
     "id": "program-95",
@@ -1338,11 +1488,14 @@
       "APA"
     ],
     "address": "P.O. Box 3980, Atlanta, GA 3 0302 -3980",
-    "website": null,
+    "website": "https://www.gsu.edu",
+    "website_source": "openalex",
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "May 01, 1984",
     "next_site_visit_year": null,
-    "student_outcomes_link": null
+    "student_outcomes_link": null,
+    "website_confidence": 0.8,
+    "openalex_institution_id": "https://openalex.org/I181565077"
   },
   {
     "id": "program-96",
@@ -1353,6 +1506,7 @@
     ],
     "address": "P.O. Box 3980, Atlanta, GA 3 0302 -3980",
     "website": null,
+    "website_source": null,
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "May 01, 1979",
     "next_site_visit_year": 2022,
@@ -1366,11 +1520,14 @@
       "APA"
     ],
     "address": "3001 Mercer University Drive, Atlanta, GA 3 0341",
-    "website": null,
+    "website": "http://www.mercer.edu/",
+    "website_source": "openalex",
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "July 22, 2018",
     "next_site_visit_year": null,
-    "student_outcomes_link": null
+    "student_outcomes_link": null,
+    "website_confidence": 0.8,
+    "openalex_institution_id": "https://openalex.org/I150149174"
   },
   {
     "id": "program-98",
@@ -1381,6 +1538,7 @@
     ],
     "address": "2530 Dole Street, Sakamaki C400, Honolulu, HI 96822",
     "website": null,
+    "website_source": null,
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "March 01, 1972",
     "next_site_visit_year": 2022,
@@ -1395,6 +1553,7 @@
     ],
     "address": "3140 Waialae Avenue, School of Education and Behavioral Sciences, Brogran Hall, Room 110, Honolulu, HI 96816",
     "website": null,
+    "website_source": null,
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "April 11, 2021",
     "next_site_visit_year": 2030,
@@ -1407,8 +1566,9 @@
     "accreditation_sources": [
       "APA"
     ],
-    "address": "921 South 8th Avenue, Stop 8112, Pocatello, I D 83209 -8112",
+    "address": "921 South 8th Avenue, Stop 8112, Pocatello, I D 83209-8112",
     "website": null,
+    "website_source": null,
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "May 16, 2001",
     "next_site_visit_year": 2023,
@@ -1423,6 +1583,7 @@
     ],
     "address": "(formerly listed as Adler School of, Professional Psychology), 17 N. Dearborn, Chicago, IL 60602",
     "website": null,
+    "website_source": null,
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "November 13, 1998",
     "next_site_visit_year": 2028,
@@ -1437,6 +1598,7 @@
     ],
     "address": "(formerly listed as Chicago School of, Professional Psychology - Chicago Campus ), (Clinical Psy.D.), 325 N. Wells Street , Third Floor, Chicago, IL 60654",
     "website": null,
+    "website_source": null,
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "October 06, 1987",
     "next_site_visit_year": 2023,
@@ -1450,11 +1612,14 @@
       "APA"
     ],
     "address": "(formerly li sted as The Chicago School of, Professional Psychology - Chicago Campus ), (School Psy.D.), 325 N. Wells Street, Chicago, IL 60654",
-    "website": null,
+    "website": "https://www.thechicagoschool.edu",
+    "website_source": "openalex",
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "July 19, 2020",
     "next_site_visit_year": null,
-    "student_outcomes_link": null
+    "student_outcomes_link": null,
+    "website_confidence": 0.862,
+    "openalex_institution_id": "https://openalex.org/I901983671"
   },
   {
     "id": "program-104",
@@ -1464,11 +1629,14 @@
       "APA"
     ],
     "address": "2219 N. Kenmore Avenue, Chicago, IL 60614",
-    "website": null,
+    "website": "https://www.depaul.edu/Pages/default.aspx",
+    "website_source": "openalex",
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "May 11, 1976",
     "next_site_visit_year": null,
-    "student_outcomes_link": null
+    "student_outcomes_link": null,
+    "website_confidence": 0.95,
+    "openalex_institution_id": "https://openalex.org/I118353179"
   },
   {
     "id": "program-105",
@@ -1479,6 +1647,7 @@
     ],
     "address": "1007 West Harrison Street Rm 1018D, Behavioral Sciences Building, m/C 285, Chicago, IL 60607",
     "website": null,
+    "website_source": null,
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "March 01, 1972",
     "next_site_visit_year": 2022,
@@ -1493,6 +1662,7 @@
     ],
     "address": "603 E. Daniel Street, Champaign, IL 61820",
     "website": null,
+    "website_source": null,
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "February 01, 1948",
     "next_site_visit_year": 2023,
@@ -1505,8 +1675,9 @@
     "accreditation_sources": [
       "APA"
     ],
-    "address": "230 Education Building, 1310 South Sixth Street, Champaign, IL 61820 -6990",
+    "address": "230 Education Building, 1310 South Sixth Street, Champaign, IL 61820-6990",
     "website": null,
+    "website_source": null,
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "November 08, 1985",
     "next_site_visit_year": 2027,
@@ -1520,11 +1691,14 @@
       "APA"
     ],
     "address": "3424 S. State Street, Tech Central, Room 201, Chicago, IL 60616",
-    "website": null,
+    "website": "https://www.iit.edu",
+    "website_source": "openalex",
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "April 30, 1982",
     "next_site_visit_year": null,
-    "student_outcomes_link": null
+    "student_outcomes_link": null,
+    "website_confidence": 0.95,
+    "openalex_institution_id": "https://openalex.org/I180949307"
   },
   {
     "id": "program-109",
@@ -1533,12 +1707,15 @@
     "accreditation_sources": [
       "APA"
     ],
-    "address": "Campus Box 4620, Department of Psychology, Normal, IL 61790 -4620",
-    "website": null,
+    "address": "Campus Box 4620, Department of Psychology, Normal, IL 61790-4620",
+    "website": "http://illinoisstate.edu/",
+    "website_source": "openalex",
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "April 07, 1998",
     "next_site_visit_year": null,
-    "student_outcomes_link": null
+    "student_outcomes_link": null,
+    "website_confidence": 0.95,
+    "openalex_institution_id": "https://openalex.org/I47301684"
   },
   {
     "id": "program-110",
@@ -1548,11 +1725,14 @@
       "APA"
     ],
     "address": "1032 W. Sheridan Road, Chicago, IL 60660",
-    "website": null,
+    "website": "http://www.luc.edu/",
+    "website_source": "openalex",
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "April 02, 1959",
     "next_site_visit_year": 2027,
-    "student_outcomes_link": null
+    "student_outcomes_link": null,
+    "website_confidence": 0.95,
+    "openalex_institution_id": "https://openalex.org/I1925986"
   },
   {
     "id": "program-111",
@@ -1562,11 +1742,14 @@
       "APA"
     ],
     "address": "820 N. Michigan Ave ., 11th Floor, Lewis Towers, Chicago, IL 60611",
-    "website": null,
+    "website": "http://www.luc.edu/",
+    "website_source": "openalex",
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "November 29, 1984",
     "next_site_visit_year": 2027,
-    "student_outcomes_link": null
+    "student_outcomes_link": null,
+    "website_confidence": 0.95,
+    "openalex_institution_id": "https://openalex.org/I1925986"
   },
   {
     "id": "program-112",
@@ -1576,11 +1759,14 @@
       "APA"
     ],
     "address": "820 N. Michigan Ave., Chicago, IL 60611",
-    "website": null,
+    "website": "http://www.luc.edu/",
+    "website_source": "openalex",
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "November 18, 2011",
     "next_site_visit_year": 2028,
-    "student_outcomes_link": null
+    "student_outcomes_link": null,
+    "website_confidence": 0.95,
+    "openalex_institution_id": "https://openalex.org/I1925986"
   },
   {
     "id": "program-113",
@@ -1590,11 +1776,14 @@
       "APA"
     ],
     "address": "555 31st Street, Downers Grove, IL 60515",
-    "website": null,
+    "website": "https://www.midwestern.edu/",
+    "website_source": "openalex",
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "September 18, 2012",
     "next_site_visit_year": 2027,
-    "student_outcomes_link": null
+    "student_outcomes_link": null,
+    "website_confidence": 0.95,
+    "openalex_institution_id": "https://openalex.org/I128902783"
   },
   {
     "id": "program-114",
@@ -1605,6 +1794,7 @@
     ],
     "address": "18 S. Michigan Ave., Chicago, IL 60603",
     "website": null,
+    "website_source": null,
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "May 05, 2021",
     "next_site_visit_year": 2031,
@@ -1618,11 +1808,14 @@
       "APA"
     ],
     "address": "PM 400, DeKalb, IL 60115",
-    "website": null,
+    "website": "https://www.niu.edu",
+    "website_source": "openalex",
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "April 01, 1972",
     "next_site_visit_year": 2028,
-    "student_outcomes_link": null
+    "student_outcomes_link": null,
+    "website_confidence": 0.95,
+    "openalex_institution_id": "https://openalex.org/I102502594"
   },
   {
     "id": "program-116",
@@ -1632,11 +1825,14 @@
       "APA"
     ],
     "address": "Psychology -Computer Science Building, Rm. 400, DeKalb, IL 60115",
-    "website": null,
+    "website": "https://www.niu.edu",
+    "website_source": "openalex",
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "October 30, 2009",
     "next_site_visit_year": null,
-    "student_outcomes_link": null
+    "student_outcomes_link": null,
+    "website_confidence": 0.95,
+    "openalex_institution_id": "https://openalex.org/I102502594"
   },
   {
     "id": "program-117",
@@ -1645,12 +1841,15 @@
     "accreditation_sources": [
       "APA"
     ],
-    "address": "2029 Sheridan Road, 102 Swift Hall, Evanston, IL 60208 -2710",
-    "website": null,
+    "address": "2029 Sheridan Road, 102 Swift Hall, Evanston, IL 60208-2710",
+    "website": "http://www.northwestern.edu/",
+    "website_source": "openalex",
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "May 16, 1986",
     "next_site_visit_year": null,
-    "student_outcomes_link": null
+    "student_outcomes_link": null,
+    "website_confidence": 0.95,
+    "openalex_institution_id": "https://openalex.org/I111979921"
   },
   {
     "id": "program-118",
@@ -1661,6 +1860,7 @@
     ],
     "address": "(formerly listed as Northwestern University, Medical School), Division of Psychology, 710 N. Lake Shore Drive, Suite #1205, Chicago, IL 60611",
     "website": null,
+    "website_source": null,
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "March 01, 1972",
     "next_site_visit_year": 2028,
@@ -1674,11 +1874,14 @@
       "APA"
     ],
     "address": "430 South Michigan Avenue, Chicago, IL 60605",
-    "website": null,
+    "website": "http://www.roosevelt.edu/",
+    "website_source": "openalex",
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "October 25, 2002",
     "next_site_visit_year": 2029,
-    "student_outcomes_link": null
+    "student_outcomes_link": null,
+    "website_confidence": 0.95,
+    "openalex_institution_id": "https://openalex.org/I102101047"
   },
   {
     "id": "program-120",
@@ -1689,6 +1892,7 @@
     ],
     "address": "(formerly listed as Finch University of, Health Sciences/Chicago Medical School), 3333 Green Bay Road, North Chicago, IL 60064",
     "website": null,
+    "website_source": null,
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "October 28, 1983",
     "next_site_visit_year": null,
@@ -1702,11 +1906,14 @@
       "APA"
     ],
     "address": "1125 Lincoln Drive, Mail Code 6502, Carbondale, IL 62901",
-    "website": null,
+    "website": "http://www.siu.edu/",
+    "website_source": "openalex",
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "December 01, 1961",
     "next_site_visit_year": null,
-    "student_outcomes_link": null
+    "student_outcomes_link": null,
+    "website_confidence": 0.95,
+    "openalex_institution_id": "https://openalex.org/I110378019"
   },
   {
     "id": "program-122",
@@ -1715,12 +1922,15 @@
     "accreditation_sources": [
       "APA"
     ],
-    "address": "281 Life Science II, 1125 Lincoln Drive, Carbondale, IL 62901 -6502",
-    "website": null,
+    "address": "281 Life Science II, 1125 Lincoln Drive, Carbondale, IL 62901-6502",
+    "website": "http://www.siu.edu/",
+    "website_source": "openalex",
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "August 16, 2024",
     "next_site_visit_year": null,
-    "student_outcomes_link": null
+    "student_outcomes_link": null,
+    "website_confidence": 0.95,
+    "openalex_institution_id": "https://openalex.org/I110378019"
   },
   {
     "id": "program-123",
@@ -1730,11 +1940,14 @@
       "APA"
     ],
     "address": "Health Professions Building, Room 434, Muncie, IN 47306",
-    "website": null,
+    "website": "https://bsu.edu",
+    "website_source": "openalex",
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "May 04, 1982",
     "next_site_visit_year": null,
-    "student_outcomes_link": null
+    "student_outcomes_link": null,
+    "website_confidence": 0.95,
+    "openalex_institution_id": "https://openalex.org/I198089087"
   },
   {
     "id": "program-124",
@@ -1743,12 +1956,15 @@
     "accreditation_sources": [
       "APA"
     ],
-    "address": "Teachers College, Room 505, 2000 W. University Ave., Muncie, IN 47306 -0595",
-    "website": null,
+    "address": "Teachers College, Room 505, 2000 W. University Ave., Muncie, IN 47306-0595",
+    "website": "https://bsu.edu",
+    "website_source": "openalex",
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "May 03, 1985",
     "next_site_visit_year": 2028,
-    "student_outcomes_link": null
+    "student_outcomes_link": null,
+    "website_confidence": 0.95,
+    "openalex_institution_id": "https://openalex.org/I198089087"
   },
   {
     "id": "program-125",
@@ -1758,12 +1974,13 @@
       "APA",
       "PCSAS"
     ],
-    "address": "Indiana State University, Root Hall B -202, Terre Haute, IN 47809 -0001",
+    "address": "Indiana State University, Root Hall B -202, Terre Haute, IN 47809-0001",
     "website": "https://psych.indiana.edu/graduate/degree-programs/clinical-science/index.html",
+    "website_source": "pcsas",
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "June 21, 1985",
     "next_site_visit_year": 2023,
-    "student_outcomes_link": "https://psych.indiana.edu/documents/2021-student-admissions-outcomes-and-other-data.pdf"
+    "student_outcomes_link": "https://psych.indiana.edu/documents/student-admissions-outcomes-and-other-data1.pdf"
   },
   {
     "id": "program-126",
@@ -1775,10 +1992,11 @@
     ],
     "address": "Department of Communication Disorders, and Counseling, School, and Educational, Psychology, 401 N. 7th Street, Terre Haute, IN 47809",
     "website": "https://psych.indiana.edu/graduate/degree-programs/clinical-science/index.html",
+    "website_source": "pcsas",
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "June 20, 1980",
     "next_site_visit_year": 2022,
-    "student_outcomes_link": "https://psych.indiana.edu/documents/2021-student-admissions-outcomes-and-other-data.pdf"
+    "student_outcomes_link": "https://psych.indiana.edu/documents/student-admissions-outcomes-and-other-data1.pdf"
   },
   {
     "id": "program-127",
@@ -1787,12 +2005,15 @@
     "accreditation_sources": [
       "APA"
     ],
-    "address": "1101 E. 10th Street, Bloomington, IN 47405 -7007",
-    "website": null,
+    "address": "1101 E. 10th Street, Bloomington, IN 47405-7007",
+    "website": "https://bloomington.iu.edu",
+    "website_source": "openalex",
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "February 01, 1948",
     "next_site_visit_year": 2023,
-    "student_outcomes_link": null
+    "student_outcomes_link": null,
+    "website_confidence": 0.927,
+    "openalex_institution_id": "https://openalex.org/I4210119109"
   },
   {
     "id": "program-128",
@@ -1801,12 +2022,15 @@
     "accreditation_sources": [
       "APA"
     ],
-    "address": "201 North Rose Avenue , Room 4062, Bloomington, IN 47405 -1005",
-    "website": null,
+    "address": "201 North Rose Avenue , Room 4062, Bloomington, IN 47405-1005",
+    "website": "https://bloomington.iu.edu",
+    "website_source": "openalex",
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "June 23, 1988",
     "next_site_visit_year": 2027,
-    "student_outcomes_link": null
+    "student_outcomes_link": null,
+    "website_confidence": 0.927,
+    "openalex_institution_id": "https://openalex.org/I4210119109"
   },
   {
     "id": "program-129",
@@ -1815,12 +2039,15 @@
     "accreditation_sources": [
       "APA"
     ],
-    "address": "201 North Rose Avenue, Bloomington, IN 47405 -1006",
-    "website": null,
+    "address": "201 North Rose Avenue, Bloomington, IN 47405-1006",
+    "website": "https://bloomington.iu.edu",
+    "website_source": "openalex",
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "April 20, 1983",
     "next_site_visit_year": null,
-    "student_outcomes_link": null
+    "student_outcomes_link": null,
+    "website_confidence": 0.927,
+    "openalex_institution_id": "https://openalex.org/I4210119109"
   },
   {
     "id": "program-130",
@@ -1829,8 +2056,9 @@
     "accreditation_sources": [
       "APA"
     ],
-    "address": "402 N. Blackford Street, LD124, Indianapolis, IN 46202 -3275",
+    "address": "402 N. Blackford Street, LD124, Indianapolis, IN 46202-3275",
     "website": null,
+    "website_source": null,
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "December 06, 1996",
     "next_site_visit_year": 2028,
@@ -1843,8 +2071,9 @@
     "accreditation_sources": [
       "APA"
     ],
-    "address": "1400 East Hanna Avenue, Indianapolis, IN 46227 -3697",
+    "address": "1400 East Hanna Avenue, Indianapolis, IN 46227-3697",
     "website": null,
+    "website_source": null,
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "June 15, 2000",
     "next_site_visit_year": null,
@@ -1859,6 +2088,7 @@
     ],
     "address": "390 Corbett Family Hall, Department of Psychology, University of Notre Dame, Notre Dame, IN 46556",
     "website": null,
+    "website_source": null,
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "April 15, 2011",
     "next_site_visit_year": 2023,
@@ -1872,8 +2102,9 @@
       "APA",
       "PCSAS"
     ],
-    "address": "703 Third Street, West Lafayette, IN 47907 -2081",
+    "address": "703 Third Street, West Lafayette, IN 47907-2081",
     "website": "https://www.purdue.edu/hhs/psy/graduate/graduate_training_areas/clinical_psychology/index.html",
+    "website_source": "pcsas",
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "February 26, 1948",
     "next_site_visit_year": 2028,
@@ -1889,6 +2120,7 @@
     ],
     "address": "100 N. University, Beering Hall, West Lafayette, IN 47907",
     "website": "https://www.purdue.edu/hhs/psy/graduate/graduate_training_areas/clinical_psychology/index.html",
+    "website_source": "pcsas",
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "October 04, 2002",
     "next_site_visit_year": 2021,
@@ -1901,8 +2133,9 @@
     "accreditation_sources": [
       "APA"
     ],
-    "address": "11 Seashore Hall E, 301 East Jefferson Street, Iowa City, IA 52242 -1407",
+    "address": "11 Seashore Hall E, 301 East Jefferson Street, Iowa City, IA 52242-1407",
     "website": null,
+    "website_source": null,
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "February 07, 1948",
     "next_site_visit_year": 2027,
@@ -1916,8 +2149,9 @@
       "APA",
       "PCSAS"
     ],
-    "address": "West 112 Lagomarcino Hall, Ames, IA 50011 -3180",
+    "address": "West 112 Lagomarcino Hall, Ames, IA 50011-3180",
     "website": "https://psychology.osu.edu/about/programs/clinical",
+    "website_source": "pcsas",
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "March 01, 1973",
     "next_site_visit_year": 2028,
@@ -1932,6 +2166,7 @@
     ],
     "address": "1415 Jayhawk Boulevard, Fraser Hall, Lawrence, KS 6 6045 -7556",
     "website": null,
+    "website_source": null,
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "January 09, 1949",
     "next_site_visit_year": 2021,
@@ -1946,6 +2181,7 @@
     ],
     "address": "1122 West Campus Road, Room 621, Lawrence, KS 6 6045 -3101",
     "website": null,
+    "website_source": null,
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "March 01, 1971",
     "next_site_visit_year": null,
@@ -1960,6 +2196,7 @@
     ],
     "address": "Joseph R. Pearson Hall, 1122 W. Campus Road Room 130T, Lawrence, KS 6 6045",
     "website": null,
+    "website_source": null,
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "March 09, 1983",
     "next_site_visit_year": 2023,
@@ -1974,6 +2211,7 @@
     ],
     "address": "1845 Fairmount Box 34, Wichita, KS 6 7260 -0034",
     "website": null,
+    "website_source": null,
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "March 04, 2005",
     "next_site_visit_year": 2022,
@@ -1987,11 +2225,14 @@
       "APA"
     ],
     "address": "521 Lancaster Ave, 127 Cammack, Richmond, KY 4 0475",
-    "website": null,
+    "website": "http://www.eku.edu/",
+    "website_source": "openalex",
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "April 15, 2018",
     "next_site_visit_year": null,
-    "student_outcomes_link": null
+    "student_outcomes_link": null,
+    "website_confidence": 0.8,
+    "openalex_institution_id": "https://openalex.org/I110325482"
   },
   {
     "id": "program-142",
@@ -2003,6 +2244,7 @@
     ],
     "address": "125 Kastle Hall, Lexington, KY 4 0506 -0044",
     "website": "https://psychology.as.uky.edu/clinical-psychology",
+    "website_source": "pcsas",
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "April 01, 1970",
     "next_site_visit_year": null,
@@ -2018,6 +2260,7 @@
     ],
     "address": "245 Dickey Hall, Department of Educational, School, and, Counseling Psychology, University of Kentucky, Lexington, KY 4 0506 -0017",
     "website": "https://psychology.as.uky.edu/clinical-psychology",
+    "website_source": "pcsas",
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "November 09, 1983",
     "next_site_visit_year": 2022,
@@ -2033,6 +2276,7 @@
     ],
     "address": "236 Dickey Hall, Lexington, KY 4 0506 -0017",
     "website": "https://psychology.as.uky.edu/clinical-psychology",
+    "website_source": "pcsas",
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "February 18, 1986",
     "next_site_visit_year": null,
@@ -2047,6 +2291,7 @@
     ],
     "address": "Louisville, KY 4 0292",
     "website": null,
+    "website_source": null,
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "January 19, 1973",
     "next_site_visit_year": 2023,
@@ -2061,6 +2306,7 @@
     ],
     "address": "1905 S. 1st Street, Louisville, KY 4 0292",
     "website": null,
+    "website_source": null,
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "November 18, 1999",
     "next_site_visit_year": 2027,
@@ -2075,6 +2321,7 @@
     ],
     "address": "845 South Third Street, Louisville, KY 4 0203",
     "website": null,
+    "website_source": null,
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "June 20, 1989",
     "next_site_visit_year": 2027,
@@ -2089,6 +2336,7 @@
     ],
     "address": "(formerly listed as The Chicago School of, Professional Psychology, New Orleans ), (Clinical Psy.D.), 1 Drexel Drive, Box 200, New Orleans, LA 7 0125",
     "website": null,
+    "website_source": null,
     "accreditation_status": "Accredited – Inactive",
     "date_of_initial_accreditation": "July 21, 2019",
     "next_site_visit_year": null,
@@ -2102,11 +2350,14 @@
       "APA"
     ],
     "address": "236 Audubon Hall, Baton Rouge, LA 7 0803",
-    "website": null,
+    "website": "http://www.lsu.edu/",
+    "website_source": "openalex",
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "February 24, 1956",
     "next_site_visit_year": 2028,
-    "student_outcomes_link": null
+    "student_outcomes_link": null,
+    "website_confidence": 0.8,
+    "openalex_institution_id": "https://openalex.org/I121820613"
   },
   {
     "id": "program-150",
@@ -2116,11 +2367,14 @@
       "APA"
     ],
     "address": "236 Audubon Hall, Department of Psychology, Baton Rouge, LA 7 0803 -0001",
-    "website": null,
+    "website": "http://www.lsu.edu/",
+    "website_source": "openalex",
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "March 03, 2000",
     "next_site_visit_year": 2023,
-    "student_outcomes_link": null
+    "student_outcomes_link": null,
+    "website_confidence": 0.8,
+    "openalex_institution_id": "https://openalex.org/I121820613"
   },
   {
     "id": "program-151",
@@ -2130,11 +2384,14 @@
       "APA"
     ],
     "address": "P.O. Box 10048, Ruston, LA 7 1272",
-    "website": null,
+    "website": "http://www.latech.edu/",
+    "website_source": "openalex",
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "October 18, 2002",
     "next_site_visit_year": 2020,
-    "student_outcomes_link": null
+    "student_outcomes_link": null,
+    "website_confidence": 0.8,
+    "openalex_institution_id": "https://openalex.org/I919208787"
   },
   {
     "id": "program-152",
@@ -2144,11 +2401,14 @@
       "APA"
     ],
     "address": "2007 Percival Stern Hall, New Orleans, LA 7 0118",
-    "website": null,
+    "website": "https://tulane.edu",
+    "website_source": "openalex",
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "August 09, 1991",
     "next_site_visit_year": 2027,
-    "student_outcomes_link": null
+    "student_outcomes_link": null,
+    "website_confidence": 0.8,
+    "openalex_institution_id": "https://openalex.org/I114832834"
   },
   {
     "id": "program-153",
@@ -2157,8 +2417,9 @@
     "accreditation_sources": [
       "APA"
     ],
-    "address": "5742 Little Hall, Orono, M E 04469 -5742",
+    "address": "5742 Little Hall, Orono, M E 04469-5742",
     "website": null,
+    "website_source": null,
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "March 01, 1975",
     "next_site_visit_year": null,
@@ -2172,11 +2433,14 @@
       "APA"
     ],
     "address": "4501 North Charles Street, Baltimore, MD 2 1210 -2699",
-    "website": null,
+    "website": "https://www.loyola.edu",
+    "website_source": "openalex",
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "May 11, 2000",
     "next_site_visit_year": 2028,
-    "student_outcomes_link": null
+    "student_outcomes_link": null,
+    "website_confidence": 0.8,
+    "openalex_institution_id": "https://openalex.org/I165556055"
   },
   {
     "id": "program-155",
@@ -2187,6 +2451,7 @@
     ],
     "address": "1000 Hilltop Circle, Baltimore, MD 2 1250",
     "website": null,
+    "website_source": null,
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "February 09, 1990",
     "next_site_visit_year": 2027,
@@ -2201,6 +2466,7 @@
     ],
     "address": "1123L Biology -Psychology Building, 4094 Campus Drive, College Park, MD 2 0742 -4411",
     "website": null,
+    "website_source": null,
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "October 01, 1963",
     "next_site_visit_year": 2022,
@@ -2215,6 +2481,7 @@
     ],
     "address": "3214 Benjamin Building, College Park, MD 2 0742",
     "website": null,
+    "website_source": null,
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "April 16, 1953",
     "next_site_visit_year": 2028,
@@ -2228,11 +2495,14 @@
       "APA"
     ],
     "address": "Lynch School of Education - Campion Hall, 140 Commonwealth Avenue, Chestnut Hill, MA 0 2467",
-    "website": null,
+    "website": "https://www.bc.edu",
+    "website_source": "openalex",
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "May 07, 1982",
     "next_site_visit_year": null,
-    "student_outcomes_link": null
+    "student_outcomes_link": null,
+    "website_confidence": 0.8,
+    "openalex_institution_id": "https://openalex.org/I103531236"
   },
   {
     "id": "program-159",
@@ -2244,6 +2514,7 @@
     ],
     "address": "648 Beacon Street, Boston, MA 0 2215",
     "website": "https://www.bu.edu/psych/academics/phd/clinical/",
+    "website_source": "pcsas",
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "October 01, 1948",
     "next_site_visit_year": 2028,
@@ -2258,6 +2529,7 @@
     ],
     "address": "950 Main Street, Worcester, MA 0 1610 -1477",
     "website": null,
+    "website_source": null,
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "February 01, 1948",
     "next_site_visit_year": 2029,
@@ -2273,6 +2545,7 @@
     ],
     "address": "1230 William James Hall, 33 Kirkland Street, Cambridge, MA 0 2138",
     "website": "https://psychology.fas.harvard.edu/clinical-psychology",
+    "website_source": "pcsas",
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "June 04, 2008",
     "next_site_visit_year": 2022,
@@ -2287,6 +2560,7 @@
     ],
     "address": "813 North Pleasant Street , Furcolo Hall, Amherst, MA 0 1003",
     "website": null,
+    "website_source": null,
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "April 08, 1992",
     "next_site_visit_year": null,
@@ -2301,6 +2575,7 @@
     ],
     "address": "100 William T. Morrissey Boulevard, Boston, MA 0 2125 -3393",
     "website": null,
+    "website_source": null,
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "October 01, 1993",
     "next_site_visit_year": null,
@@ -2315,6 +2590,7 @@
     ],
     "address": "100 William T. Morrissey Boulevard, Boston, MA 0 2125 -3393",
     "website": null,
+    "website_source": null,
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "December 04, 2015",
     "next_site_visit_year": 2022,
@@ -2329,6 +2605,7 @@
     ],
     "address": "Wheatley Hall 2 -162, 100 William T. Morrissey Boulevard, Boston, MA 0 2125 -3393",
     "website": null,
+    "website_source": null,
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "April 29, 2016",
     "next_site_visit_year": 2023,
@@ -2342,11 +2619,14 @@
       "APA"
     ],
     "address": "360 Huntington Ave., 404 International Village, Boston, MA 0 2115",
-    "website": null,
+    "website": "http://www.northeastern.edu/",
+    "website_source": "openalex",
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "October 10, 2013",
     "next_site_visit_year": null,
-    "student_outcomes_link": null
+    "student_outcomes_link": null,
+    "website_confidence": 0.8,
+    "openalex_institution_id": "https://openalex.org/I12912129"
   },
   {
     "id": "program-167",
@@ -2356,11 +2636,14 @@
       "APA"
     ],
     "address": "360 Huntington Ave., 408 INV, Boston, MA 0 2038",
-    "website": null,
+    "website": "http://www.northeastern.edu/",
+    "website_source": "openalex",
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "May 06, 2014",
     "next_site_visit_year": null,
-    "student_outcomes_link": null
+    "student_outcomes_link": null,
+    "website_confidence": 0.8,
+    "openalex_institution_id": "https://openalex.org/I12912129"
   },
   {
     "id": "program-168",
@@ -2370,11 +2653,14 @@
       "APA"
     ],
     "address": "263 Alden Street, Springfield, MA 0 1109",
-    "website": null,
+    "website": "https://springfield.edu",
+    "website_source": "openalex",
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "February 26, 2016",
     "next_site_visit_year": 2023,
-    "student_outcomes_link": null
+    "student_outcomes_link": null,
+    "website_confidence": 0.8,
+    "openalex_institution_id": "https://openalex.org/I888934510"
   },
   {
     "id": "program-169",
@@ -2384,11 +2670,14 @@
       "APA"
     ],
     "address": "73 Tremont Street, 8th Floor - Psychology, Boston, MA 0 2108",
-    "website": null,
+    "website": "https://www.suffolk.edu/",
+    "website_source": "openalex",
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "April 11, 2000",
     "next_site_visit_year": null,
-    "student_outcomes_link": null
+    "student_outcomes_link": null,
+    "website_confidence": 0.8,
+    "openalex_institution_id": "https://openalex.org/I24306055"
   },
   {
     "id": "program-170",
@@ -2398,11 +2687,14 @@
       "APA"
     ],
     "address": "(formerly listed as Massachusetts School of, Professional Psychology, Inc.), One Wells Avenue, Newton, MA 0 2459",
-    "website": null,
+    "website": "https://www.williamjames.edu",
+    "website_source": "openalex",
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "November 10, 1987",
     "next_site_visit_year": null,
-    "student_outcomes_link": null
+    "student_outcomes_link": null,
+    "website_confidence": 0.8,
+    "openalex_institution_id": "https://openalex.org/I14588785"
   },
   {
     "id": "program-171",
@@ -2412,11 +2704,14 @@
       "APA"
     ],
     "address": "(formerly listed as Massachusetts School of, Professional Psychology), One Wells Avenue, Newton, MA 0 2459",
-    "website": null,
+    "website": "https://www.williamjames.edu",
+    "website_source": "openalex",
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "September 01, 2024",
     "next_site_visit_year": null,
-    "student_outcomes_link": null
+    "student_outcomes_link": null,
+    "website_confidence": 0.8,
+    "openalex_institution_id": "https://openalex.org/I14588785"
   },
   {
     "id": "program-172",
@@ -2426,11 +2721,14 @@
       "APA"
     ],
     "address": "4195 Administration Drive, Bell Hall 167, Berrien Springs, MI 4 9104",
-    "website": null,
+    "website": "https://www.andrews.edu/",
+    "website_source": "openalex",
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "March 31, 2017",
     "next_site_visit_year": null,
-    "student_outcomes_link": null
+    "student_outcomes_link": null,
+    "website_confidence": 0.8,
+    "openalex_institution_id": "https://openalex.org/I102298084"
   },
   {
     "id": "program-173",
@@ -2440,11 +2738,14 @@
       "APA"
     ],
     "address": "101 Sloan Hall, Franklin Street, Mount Pleasant, MI 4 8859",
-    "website": null,
+    "website": "https://www.cmich.edu",
+    "website_source": "openalex",
     "accreditation_status": "Accredited – Inactive",
     "date_of_initial_accreditation": "February 09, 1990",
     "next_site_visit_year": 2029,
-    "student_outcomes_link": null
+    "student_outcomes_link": null,
+    "website_confidence": 0.8,
+    "openalex_institution_id": "https://openalex.org/I1629065"
   },
   {
     "id": "program-174",
@@ -2454,11 +2755,14 @@
       "APA"
     ],
     "address": "101 Sloan Hall, Mount Pleasant, MI 4 8859",
-    "website": null,
+    "website": "https://www.cmich.edu",
+    "website_source": "openalex",
     "accreditation_status": "Accredited – Inactive",
     "date_of_initial_accreditation": "October 12, 2001",
     "next_site_visit_year": 2028,
-    "student_outcomes_link": null
+    "student_outcomes_link": null,
+    "website_confidence": 0.8,
+    "openalex_institution_id": "https://openalex.org/I1629065"
   },
   {
     "id": "program-175",
@@ -2469,6 +2773,7 @@
     ],
     "address": "248 Reno Hall, 4001 W. McNichols Road, Detroit, MI 4 8221 -3038",
     "website": null,
+    "website_source": null,
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "June 03, 1988",
     "next_site_visit_year": 2028,
@@ -2482,11 +2787,14 @@
       "APA"
     ],
     "address": "341 Mark Jefferson Science Complex, Eastern Michigan University, Ypsilanti, MI 4 8197",
-    "website": null,
+    "website": "http://www.emich.edu/",
+    "website_source": "openalex",
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "December 06, 2005",
     "next_site_visit_year": 2027,
-    "student_outcomes_link": null
+    "student_outcomes_link": null,
+    "website_confidence": 0.8,
+    "openalex_institution_id": "https://openalex.org/I138216421"
   },
   {
     "id": "program-177",
@@ -2497,6 +2805,7 @@
     ],
     "address": "(formerly listed as Michigan School of, Professional Psychology), 26811 Orchard Lake Road, Farmington Hills, MI 4 8334",
     "website": null,
+    "website_source": null,
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "March 11, 2016",
     "next_site_visit_year": 2023,
@@ -2512,6 +2821,7 @@
     ],
     "address": "316 Physics Road, East Lansing, MI 4 8824 -1116",
     "website": "https://psychology.msu.edu/programs/clinical",
+    "website_source": "pcsas",
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "March 02, 1948",
     "next_site_visit_year": 2022,
@@ -2527,6 +2837,7 @@
     ],
     "address": "College of Education , 431 Erickson Hall, 620 Farm Lane, East Lansing, MI 4 8824",
     "website": "https://psychology.msu.edu/programs/clinical",
+    "website_source": "pcsas",
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "October 25, 1985",
     "next_site_visit_year": 2027,
@@ -2541,6 +2852,7 @@
     ],
     "address": "530 Church Street, Ann Arbor, MI 4 8109 -1043",
     "website": null,
+    "website_source": null,
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "March 02, 1948",
     "next_site_visit_year": 2023,
@@ -2555,6 +2867,7 @@
     ],
     "address": "5057 Woodward, Suite 7908, Detroit, MI 48202",
     "website": null,
+    "website_source": null,
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "August 01, 1960",
     "next_site_visit_year": 2028,
@@ -2568,11 +2881,14 @@
       "APA"
     ],
     "address": "5425 Gullen Mall, 347 College of Education, Detroit, MI 48202",
-    "website": null,
+    "website": "https://wayne.edu/",
+    "website_source": "openalex",
     "accreditation_status": "Accredited, on contingency",
     "date_of_initial_accreditation": "June 21, 2024",
     "next_site_visit_year": null,
-    "student_outcomes_link": null
+    "student_outcomes_link": null,
+    "website_confidence": 0.95,
+    "openalex_institution_id": "https://openalex.org/I185443292"
   },
   {
     "id": "program-183",
@@ -2582,11 +2898,14 @@
       "APA"
     ],
     "address": "1903 W. Michigan Avenue, Kalamazoo, MI 4 9008 -5439",
-    "website": null,
+    "website": "https://wmich.edu",
+    "website_source": "openalex",
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "April 16, 1991",
     "next_site_visit_year": 2027,
-    "student_outcomes_link": null
+    "student_outcomes_link": null,
+    "website_confidence": 0.8,
+    "openalex_institution_id": "https://openalex.org/I141649380"
   },
   {
     "id": "program-184",
@@ -2596,11 +2915,14 @@
       "APA"
     ],
     "address": "3521 Sangren Hall, Kalamazoo, MI 4 9008 -5226",
-    "website": null,
+    "website": "https://wmich.edu",
+    "website_source": "openalex",
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "February 12, 1993",
     "next_site_visit_year": null,
-    "student_outcomes_link": null
+    "student_outcomes_link": null,
+    "website_confidence": 0.8,
+    "openalex_institution_id": "https://openalex.org/I141649380"
   },
   {
     "id": "program-185",
@@ -2610,11 +2932,14 @@
       "APA"
     ],
     "address": "203 Sverdrup Hall, 707 21 st Ave S, Minneapolis, MN 55454",
-    "website": null,
+    "website": "https://www.augsburg.edu",
+    "website_source": "openalex",
     "accreditation_status": "Accredited, on contingency",
     "date_of_initial_accreditation": "December 08, 2021",
     "next_site_visit_year": 2025,
-    "student_outcomes_link": null
+    "student_outcomes_link": null,
+    "website_confidence": 0.95,
+    "openalex_institution_id": "https://openalex.org/I119916105"
   },
   {
     "id": "program-186",
@@ -2625,6 +2950,7 @@
     ],
     "address": "203 Sverdrup Hall, 707 21 st Ave S, Minneapolis, MN 5 5454",
     "website": null,
+    "website_source": null,
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "October 19, 2024",
     "next_site_visit_year": null,
@@ -2640,6 +2966,7 @@
     ],
     "address": "N218 Elliott Hall, 75 East River Road, Minneapolis, MN 5 5455",
     "website": "https://cla.umn.edu/psychology/graduate/areas-specialization/clinical-science-and-psychopathology-research-program-cspr",
+    "website_source": "pcsas",
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "December 15, 1952",
     "next_site_visit_year": 2022,
@@ -2654,6 +2981,7 @@
     ],
     "address": "250 Education Sciences Building, 56 East River Road, Minneapolis, MN 5 5455",
     "website": null,
+    "website_source": null,
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "May 01, 1972",
     "next_site_visit_year": 2021,
@@ -2668,6 +2996,7 @@
     ],
     "address": "2500 Park Avenue, Minneapolis, MN 5 5404",
     "website": null,
+    "website_source": null,
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "November 06, 2015",
     "next_site_visit_year": null,
@@ -2682,6 +3011,7 @@
     ],
     "address": "1000 LaSalle Avenue, MOH 217, Minneapolis, MN 5 5403",
     "website": null,
+    "website_source": null,
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "October 03, 2000",
     "next_site_visit_year": 2023,
@@ -2695,11 +3025,14 @@
       "APA"
     ],
     "address": "1325 J.R. Lynch Street, P. O. Box 17550, Jackson, MS 3 9217 -0350",
-    "website": null,
+    "website": "http://www.jsums.edu/",
+    "website_source": "openalex",
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "October 19, 2001",
     "next_site_visit_year": null,
-    "student_outcomes_link": null
+    "student_outcomes_link": null,
+    "website_confidence": 0.8,
+    "openalex_institution_id": "https://openalex.org/I61937129"
   },
   {
     "id": "program-192",
@@ -2710,6 +3043,7 @@
     ],
     "address": "Peabody Building, Room 31 0D, PO Box 1848, University, MS 3 8677",
     "website": null,
+    "website_source": null,
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "November 06, 1973",
     "next_site_visit_year": null,
@@ -2723,11 +3057,14 @@
       "APA"
     ],
     "address": "PO Box 6161, Mississippi State, MS 3 9762",
-    "website": null,
+    "website": "https://www.msstate.edu",
+    "website_source": "openalex",
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "October 21, 2016",
     "next_site_visit_year": null,
-    "student_outcomes_link": null
+    "student_outcomes_link": null,
+    "website_confidence": 0.8,
+    "openalex_institution_id": "https://openalex.org/I99041443"
   },
   {
     "id": "program-194",
@@ -2738,6 +3075,7 @@
     ],
     "address": "118 College Drive, #5025, Hattiesburg, MS 3 9406 -5025",
     "website": null,
+    "website_source": null,
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "April 27, 1979",
     "next_site_visit_year": 2022,
@@ -2752,6 +3090,7 @@
     ],
     "address": "118 College Drive #5025, Hattiesburg, MS 3 9406 -0001",
     "website": null,
+    "website_source": null,
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "June 29, 1979",
     "next_site_visit_year": null,
@@ -2766,6 +3105,7 @@
     ],
     "address": "School Psychology Doctoral Program, Dept. of Psychology, 118 College Drive; #5025, Hattiesburg, MS 3 9406 -0001",
     "website": null,
+    "website_source": null,
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "September 27, 1983",
     "next_site_visit_year": 2022,
@@ -2780,6 +3120,7 @@
     ],
     "address": "1750 Independence Ave, Health Service Psychology, Kansas City , MO 6 4106",
     "website": null,
+    "website_source": null,
     "accreditation_status": "Accredited, on contingency",
     "date_of_initial_accreditation": "April 11, 2021",
     "next_site_visit_year": 2024,
@@ -2794,6 +3135,7 @@
     ],
     "address": "210 McAlester Hall, University of Missouri, Columbia , MO 6 5211",
     "website": null,
+    "website_source": null,
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "January 24, 1958",
     "next_site_visit_year": 2021,
@@ -2808,6 +3150,7 @@
     ],
     "address": "16 Hill Hall, Columbia , MO 6 5211",
     "website": null,
+    "website_source": null,
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "April 29, 1953",
     "next_site_visit_year": 2028,
@@ -2822,6 +3165,7 @@
     ],
     "address": "16 Hill Hall, Columbia , MO 6 5211",
     "website": null,
+    "website_source": null,
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "February 05, 1999",
     "next_site_visit_year": 2028,
@@ -2836,6 +3180,7 @@
     ],
     "address": "5030 Cherry Street, Room 324, Kansas City , MO 6 4110",
     "website": null,
+    "website_source": null,
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "February 06, 2004",
     "next_site_visit_year": 2028,
@@ -2850,6 +3195,7 @@
     ],
     "address": "5100 Rockhill Road, 615 E 52nd Street (mailing address), School of Education, Kansas City , MO 6 4110",
     "website": null,
+    "website_source": null,
     "accreditation_status": "Accredited – Inactive",
     "date_of_initial_accreditation": "February 22, 1985",
     "next_site_visit_year": 2027,
@@ -2864,6 +3210,7 @@
     ],
     "address": "325 Stadler Hall/Psychology, One University Boulevard, St. Louis , MO 6 3121",
     "website": null,
+    "website_source": null,
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "May 03, 1977",
     "next_site_visit_year": 2021,
@@ -2878,6 +3225,7 @@
     ],
     "address": "3700 Lindell Blvd., St. Louis , MO 6 3108",
     "website": null,
+    "website_source": null,
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "May 22, 1964",
     "next_site_visit_year": null,
@@ -2893,6 +3241,7 @@
     ],
     "address": "Campus Box 1125, One Brookings Drive, St. Louis , MO 6 3130",
     "website": "https://psych.wustl.edu/clinical-science-training-program",
+    "website_source": "pcsas",
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "February 20, 1948",
     "next_site_visit_year": 2028,
@@ -2907,6 +3256,7 @@
     ],
     "address": "32 Campus Drive, Mail Stop 1584, Missoula , MT 5 9812",
     "website": null,
+    "website_source": null,
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "March 13, 1970",
     "next_site_visit_year": 2027,
@@ -2921,6 +3271,7 @@
     ],
     "address": "32 Campus Drive, Missoula , MT 5 9812",
     "website": null,
+    "website_source": null,
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "October 02, 2015",
     "next_site_visit_year": null,
@@ -2933,8 +3284,9 @@
     "accreditation_sources": [
       "APA"
     ],
-    "address": "4505 S. Maryland Parkway, Box 455030, Las Vegas, N V 89154 -5030",
+    "address": "4505 S. Maryland Parkway, Box 455030, Las Vegas, N V 89154-5030",
     "website": null,
+    "website_source": null,
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "October 07, 2005",
     "next_site_visit_year": 2022,
@@ -2948,11 +3300,14 @@
       "APA"
     ],
     "address": "College of Education, CEB 221B, 4505 S. Maryland Parkway, Box 45500 3, Las Vegas, NV 89145",
-    "website": null,
+    "website": "https://www.unlv.edu",
+    "website_source": "openalex",
     "accreditation_status": "Accredited, on contingency",
     "date_of_initial_accreditation": "March 24, 2023",
     "next_site_visit_year": null,
-    "student_outcomes_link": null
+    "student_outcomes_link": null,
+    "website_confidence": 0.736,
+    "openalex_institution_id": "https://openalex.org/I133999245"
   },
   {
     "id": "program-210",
@@ -2963,6 +3318,7 @@
     ],
     "address": "Clinical Psychology, Mail Stop 298, 1664 North Virginia Street, Reno, N V 89557",
     "website": null,
+    "website_source": null,
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "March 01, 1972",
     "next_site_visit_year": 2028,
@@ -2975,12 +3331,15 @@
     "accreditation_sources": [
       "APA"
     ],
-    "address": "(formerly listed as Antioch New England, Graduate School), 40 Avon Street, Keene, N H 03431 -3516",
-    "website": null,
+    "address": "(formerly listed as Antioch New England, Graduate School), 40 Avon Street, Keene, N H 03431-3516",
+    "website": "http://www.antiochne.edu/",
+    "website_source": "openalex",
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "July 15, 1986",
     "next_site_visit_year": 2027,
-    "student_outcomes_link": null
+    "student_outcomes_link": null,
+    "website_confidence": 0.8,
+    "openalex_institution_id": "https://openalex.org/I131209590"
   },
   {
     "id": "program-212",
@@ -2990,11 +3349,14 @@
       "APA"
     ],
     "address": "420 South Main Street, Nashua, N H 03062",
-    "website": null,
+    "website": "http://www.rivier.edu/",
+    "website_source": "openalex",
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "April 07, 2019",
     "next_site_visit_year": null,
-    "student_outcomes_link": null
+    "student_outcomes_link": null,
+    "website_confidence": 0.8,
+    "openalex_institution_id": "https://openalex.org/I198062273"
   },
   {
     "id": "program-213",
@@ -3004,11 +3366,14 @@
       "APA"
     ],
     "address": "1000 River Road, Fairleigh Dickinson University, Teaneck, NJ 07666",
-    "website": null,
+    "website": "https://www.fdu.edu",
+    "website_source": "openalex",
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "October 21, 1986",
     "next_site_visit_year": null,
-    "student_outcomes_link": null
+    "student_outcomes_link": null,
+    "website_confidence": 0.95,
+    "openalex_institution_id": "https://openalex.org/I32907511"
   },
   {
     "id": "program-214",
@@ -3018,11 +3383,14 @@
       "APA"
     ],
     "address": "262 South Main Street, Lodi , NJ 07644",
-    "website": null,
+    "website": "https://www.felician.edu",
+    "website_source": "openalex",
     "accreditation_status": "Accredited, on contingency",
     "date_of_initial_accreditation": "April 11, 2021",
     "next_site_visit_year": null,
-    "student_outcomes_link": null
+    "student_outcomes_link": null,
+    "website_confidence": 0.95,
+    "openalex_institution_id": "https://openalex.org/I91781278"
   },
   {
     "id": "program-215",
@@ -3034,6 +3402,7 @@
     ],
     "address": "EC 125G, 1000 Morris Ave nue, Union , NJ 0 7083",
     "website": "https://psychandneuro.duke.edu/graduate/clinical",
+    "website_source": "pcsas",
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "March 04, 2016",
     "next_site_visit_year": 2023,
@@ -3047,11 +3416,14 @@
       "APA"
     ],
     "address": "1 Normal Avenue, Dickson Hall 219, Montclair , NJ 0 7043",
-    "website": null,
+    "website": "https://www.montclair.edu",
+    "website_source": "openalex",
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "April 05, 2020",
     "next_site_visit_year": null,
-    "student_outcomes_link": null
+    "student_outcomes_link": null,
+    "website_confidence": 0.8,
+    "openalex_institution_id": "https://openalex.org/I166088655"
   },
   {
     "id": "program-217",
@@ -3061,11 +3433,14 @@
       "APA"
     ],
     "address": "201 Mullica Hill Road, Glassboro , NJ 0 8028",
-    "website": null,
+    "website": "http://www.rowan.edu/home/",
+    "website_source": "openalex",
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "April 07, 2019",
     "next_site_visit_year": null,
-    "student_outcomes_link": null
+    "student_outcomes_link": null,
+    "website_confidence": 0.8,
+    "openalex_institution_id": "https://openalex.org/I44265643"
   },
   {
     "id": "program-218",
@@ -3076,6 +3451,7 @@
     ],
     "address": "152 Frelinghuysen Road, Piscataway , NJ 0 8854 -8020",
     "website": null,
+    "website_source": null,
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "January 08, 1965",
     "next_site_visit_year": 2029,
@@ -3090,6 +3466,7 @@
     ],
     "address": "152 Frelinghuysen Road, Busch Campus, Piscataway , NJ 0 8854",
     "website": null,
+    "website_source": null,
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "April 01, 1977",
     "next_site_visit_year": null,
@@ -3104,6 +3481,7 @@
     ],
     "address": "(formerly listed as College of Saint Elizabeth), 2 Convent Road, Morristown, NJ 07960",
     "website": null,
+    "website_source": null,
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "April 05, 2020",
     "next_site_visit_year": null,
@@ -3117,11 +3495,14 @@
       "APA"
     ],
     "address": "JH 309, 400 S. Orange Avenue, South Orange , NJ 0 7079",
-    "website": null,
+    "website": "http://www.shu.edu/",
+    "website_source": "openalex",
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "October 22, 1999",
     "next_site_visit_year": 2029,
-    "student_outcomes_link": null
+    "student_outcomes_link": null,
+    "website_confidence": 0.8,
+    "openalex_institution_id": "https://openalex.org/I12524447"
   },
   {
     "id": "program-222",
@@ -3131,11 +3512,14 @@
       "APA"
     ],
     "address": "300 Pompton Road, Science Hall 250, Wayne , NJ 0 7470",
-    "website": null,
+    "website": "https://www.wpunj.edu",
+    "website_source": "openalex",
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "April 15, 2018",
     "next_site_visit_year": null,
-    "student_outcomes_link": null
+    "student_outcomes_link": null,
+    "website_confidence": 0.8,
+    "openalex_institution_id": "https://openalex.org/I127328727"
   },
   {
     "id": "program-223",
@@ -3147,6 +3531,7 @@
     ],
     "address": "MSC03 2220, 1 University of New Mexico, Albuquerque , NM 8 7131 -0001",
     "website": "https://psych.unm.edu/graduate/programs-of-study/clinical-psychology.html",
+    "website_source": "pcsas",
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "November 20, 1973",
     "next_site_visit_year": null,
@@ -3160,11 +3545,14 @@
       "APA"
     ],
     "address": "Box 30001/MSC 3CEP, CEP Dept., Las Cruces , NM 8 8003 -8001",
-    "website": null,
+    "website": "http://www.nmsu.edu/",
+    "website_source": "openalex",
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "May 02, 1995",
     "next_site_visit_year": null,
-    "student_outcomes_link": null
+    "student_outcomes_link": null,
+    "website_confidence": 0.8,
+    "openalex_institution_id": "https://openalex.org/I10052268"
   },
   {
     "id": "program-225",
@@ -3175,6 +3563,7 @@
     ],
     "address": "158 Cambridge Avenue, Garden City , NY 1 1530",
     "website": null,
+    "website_source": null,
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "April 01, 1957",
     "next_site_visit_year": null,
@@ -3189,6 +3578,7 @@
     ],
     "address": "(formerly listed as State University of New, York at Albany), 1400 Washington Avenue, Albany , NY 1 2222",
     "website": null,
+    "website_source": null,
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "May 16, 1979",
     "next_site_visit_year": null,
@@ -3203,6 +3593,7 @@
     ],
     "address": "1400 Washington Avenue, Education Building 220, Albany , NY 1 2222",
     "website": null,
+    "website_source": null,
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "May 08, 1980",
     "next_site_visit_year": null,
@@ -3217,6 +3608,7 @@
     ],
     "address": "(formerly listed as State University of New, York at Albany), 1400 Washington Avenue, Education 232, Albany , NY 1 2222",
     "website": null,
+    "website_source": null,
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "September 18, 1992",
     "next_site_visit_year": 2029,
@@ -3232,10 +3624,11 @@
     ],
     "address": "1 Saxon Drive, 4th Floor Science Center, Alfred , NY 1 4802 -1205",
     "website": "https://psychology.yale.edu/research/clinical-psychology",
+    "website_source": "pcsas",
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "October 13, 2000",
     "next_site_visit_year": null,
-    "student_outcomes_link": "https://nam10.safelinks.protection.outlook.com/?url=https%3A%2F%2Fpsychology.yale.edu%2Fsites%2Fdefault%2Ffiles%2Fstudent_admissions_outcomes_and_other_data_2022.pdf&data=05%7C01%7CPCSAS_DCT%40LISTSERV.TEMPLE.EDU%7C13d0bd340eb64a7b401908db1e7bdd76%7C716e81efb52244738e3110bd02ccf6e5%7C0%7C0%7C638137289709011248%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C3000%7C%7C%7C&sdata=XM1zWUIMoq9IVloRgzmfmJrUs4gPe%2Fme32PAGqMDZs0%3D&reserved=0"
+    "student_outcomes_link": "https://psychology.yale.edu/sites/default/files/student_admissions_outcomes_and_other_data_2022.pdf"
   },
   {
     "id": "program-230",
@@ -3247,6 +3640,7 @@
     ],
     "address": "State University of New York, (Clinical Ph.D.), (formerly listed as State University of New, York at Buffalo), 218 Park Hall, Buffalo , NY 1 4260",
     "website": "https://arts-sciences.buffalo.edu/psychology/graduate/phd/clinical-psychology.html",
+    "website_source": "pcsas",
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "November 18, 1949",
     "next_site_visit_year": 2023,
@@ -3262,6 +3656,7 @@
     ],
     "address": "State University of New York, (Combined, Counseling -School Ph.D.), (formerly listed as State University of New, York at Buffalo), 409 Christopher Baldy Hall, Buffalo , NY 1 4260 -1000",
     "website": "https://arts-sciences.buffalo.edu/psychology/graduate/phd/clinical-psychology.html",
+    "website_source": "pcsas",
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "October 06, 1978",
     "next_site_visit_year": null,
@@ -3275,11 +3670,14 @@
       "APA"
     ],
     "address": "(formerly listed as The City, University of New York), 160 Covent Avenue, North Academic Center, Rm 8/110, New York , NY 1 0031",
-    "website": null,
+    "website": "http://www.gc.cuny.edu/Home",
+    "website_source": "openalex",
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "December 01, 1968",
     "next_site_visit_year": 2022,
-    "student_outcomes_link": null
+    "student_outcomes_link": null,
+    "website_confidence": 0.739,
+    "openalex_institution_id": "https://openalex.org/I121847817"
   },
   {
     "id": "program-233",
@@ -3290,6 +3688,7 @@
     ],
     "address": "695 Park Avenue, Room HN -611, New York , NY 1 0016 -4309",
     "website": null,
+    "website_source": null,
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "April 07, 2019",
     "next_site_visit_year": 2033,
@@ -3304,6 +3703,7 @@
     ],
     "address": "320 Porter Avenue, Buffalo, NY 14201",
     "website": null,
+    "website_source": null,
     "accreditation_status": "Accredited – Inactive",
     "date_of_initial_accreditation": "September 01, 2023",
     "next_site_visit_year": 2025,
@@ -3317,11 +3717,14 @@
       "APA"
     ],
     "address": "441 East Fordham Road, Dealy Hall 226, Bronx , NY 1 0458",
-    "website": null,
+    "website": "https://www.fordham.edu",
+    "website_source": "openalex",
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "February 26, 1948",
     "next_site_visit_year": null,
-    "student_outcomes_link": null
+    "student_outcomes_link": null,
+    "website_confidence": 0.8,
+    "openalex_institution_id": "https://openalex.org/I164389053"
   },
   {
     "id": "program-236",
@@ -3331,11 +3734,14 @@
       "APA"
     ],
     "address": "Graduate School of Education, LL 1008, 113 West 60th Street, New York , NY 1 0023",
-    "website": null,
+    "website": "https://www.fordham.edu",
+    "website_source": "openalex",
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "April 19, 1990",
     "next_site_visit_year": null,
-    "student_outcomes_link": null
+    "student_outcomes_link": null,
+    "website_confidence": 0.8,
+    "openalex_institution_id": "https://openalex.org/I164389053"
   },
   {
     "id": "program-237",
@@ -3345,11 +3751,14 @@
       "APA"
     ],
     "address": "113 West 60th Street, New York , NY 1 0023",
-    "website": null,
+    "website": "https://www.fordham.edu",
+    "website_source": "openalex",
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "October 25, 1983",
     "next_site_visit_year": 2022,
-    "student_outcomes_link": null
+    "student_outcomes_link": null,
+    "website_confidence": 0.8,
+    "openalex_institution_id": "https://openalex.org/I164389053"
   },
   {
     "id": "program-238",
@@ -3359,11 +3768,14 @@
       "APA"
     ],
     "address": "Hauser Hall 221A, Hempstead , NY 1 1549",
-    "website": null,
+    "website": "http://www.hofstra.edu/home/",
+    "website_source": "openalex",
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "October 16, 1973",
     "next_site_visit_year": 2029,
-    "student_outcomes_link": null
+    "student_outcomes_link": null,
+    "website_confidence": 0.8,
+    "openalex_institution_id": "https://openalex.org/I139290212"
   },
   {
     "id": "program-239",
@@ -3373,11 +3785,14 @@
       "APA"
     ],
     "address": "135 Hofstra University, Rm. 205 Hauser Hall, Hempstead , NY 1 1549",
-    "website": null,
+    "website": "http://www.hofstra.edu/home/",
+    "website_source": "openalex",
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "March 18, 2003",
     "next_site_visit_year": 2022,
-    "student_outcomes_link": null
+    "student_outcomes_link": null,
+    "website_confidence": 0.8,
+    "openalex_institution_id": "https://openalex.org/I139290212"
   },
   {
     "id": "program-240",
@@ -3388,6 +3803,7 @@
     ],
     "address": "524 W. 59th St., New York , NY 1 0019",
     "website": null,
+    "website_source": null,
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "March 27, 2015",
     "next_site_visit_year": 2022,
@@ -3402,6 +3818,7 @@
     ],
     "address": "1 University Plaza, Brooklyn , NY 1 1201 -8423",
     "website": null,
+    "website_source": null,
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "April 01, 1974",
     "next_site_visit_year": null,
@@ -3416,6 +3833,7 @@
     ],
     "address": "720 Northern Boulevard, Brookville , NY 1 1548",
     "website": null,
+    "website_source": null,
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "May 10, 1994",
     "next_site_visit_year": 2023,
@@ -3429,11 +3847,14 @@
       "APA"
     ],
     "address": "(formerly listed as The New School for, Social Research; The New School, University), 80 Fifth Avenue, 7th Floor, New York , NY 1 0011",
-    "website": null,
+    "website": "http://www.newschool.edu/",
+    "website_source": "openalex",
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "June 02, 1981",
     "next_site_visit_year": null,
-    "student_outcomes_link": null
+    "student_outcomes_link": null,
+    "website_confidence": 0.8,
+    "openalex_institution_id": "https://openalex.org/I102179633"
   },
   {
     "id": "program-244",
@@ -3443,11 +3864,14 @@
       "APA"
     ],
     "address": "246 Greene Street, 8th Floor, New York , NY 1 0003",
-    "website": null,
+    "website": "https://www.nyu.edu",
+    "website_source": "openalex",
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "April 17, 1981",
     "next_site_visit_year": 2024,
-    "student_outcomes_link": null
+    "student_outcomes_link": null,
+    "website_confidence": 0.8,
+    "openalex_institution_id": "https://openalex.org/I57206974"
   },
   {
     "id": "program-245",
@@ -3459,10 +3883,11 @@
     ],
     "address": "1 Pace Plaza, New York , NY 1 0038",
     "website": "https://psychology.yale.edu/research/clinical-psychology",
+    "website_source": "pcsas",
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "November 04, 1988",
     "next_site_visit_year": null,
-    "student_outcomes_link": "https://nam10.safelinks.protection.outlook.com/?url=https%3A%2F%2Fpsychology.yale.edu%2Fsites%2Fdefault%2Ffiles%2Fstudent_admissions_outcomes_and_other_data_2022.pdf&data=05%7C01%7CPCSAS_DCT%40LISTSERV.TEMPLE.EDU%7C13d0bd340eb64a7b401908db1e7bdd76%7C716e81efb52244738e3110bd02ccf6e5%7C0%7C0%7C638137289709011248%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C3000%7C%7C%7C&sdata=XM1zWUIMoq9IVloRgzmfmJrUs4gPe%2Fme32PAGqMDZs0%3D&reserved=0"
+    "student_outcomes_link": "https://psychology.yale.edu/sites/default/files/student_admissions_outcomes_and_other_data_2022.pdf"
   },
   {
     "id": "program-246",
@@ -3473,6 +3898,7 @@
     ],
     "address": "Science Building E318, 65-30 Kissena Blvd., Queens , NY 1 1367",
     "website": null,
+    "website_source": null,
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "November 07, 2014",
     "next_site_visit_year": null,
@@ -3487,6 +3913,7 @@
     ],
     "address": "2301 Westside Drive, Rochester , NY 1 4624",
     "website": null,
+    "website_source": null,
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "October 28, 2018",
     "next_site_visit_year": null,
@@ -3501,6 +3928,7 @@
     ],
     "address": "Box 270266, Rochester , NY 1 4627 -0266",
     "website": null,
+    "website_source": null,
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "March 02, 1948",
     "next_site_visit_year": 2028,
@@ -3515,6 +3943,7 @@
     ],
     "address": "8000 Utopia Parkway, Queens , NY 1 1439",
     "website": null,
+    "website_source": null,
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "October 30, 1984",
     "next_site_visit_year": 2022,
@@ -3528,11 +3957,14 @@
       "APA"
     ],
     "address": "8000 Utopia Parkway, Marillac Hall 409, Queens , NY 1 1439",
-    "website": null,
+    "website": "http://www.stjohns.edu/",
+    "website_source": "openalex",
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "April 23, 2007",
     "next_site_visit_year": 2029,
-    "student_outcomes_link": null
+    "student_outcomes_link": null,
+    "website_confidence": 0.767,
+    "openalex_institution_id": "https://openalex.org/I142823887"
   },
   {
     "id": "program-251",
@@ -3544,6 +3976,7 @@
     ],
     "address": "State University of New York, (Clinical Ph.D.), 313 Psychology B, Stony Brook, NY 11794",
     "website": "https://www.stonybrook.edu/commcms/psychology/clinical/index.php#Accreditation",
+    "website_source": "pcsas",
     "accreditation_status": "Accredited – Inactive",
     "date_of_initial_accreditation": "November 01, 1970",
     "next_site_visit_year": null,
@@ -3557,11 +3990,14 @@
       "APA"
     ],
     "address": "430 Huntington Hall, Syracuse , NY 1 3244 -2340",
-    "website": null,
+    "website": "https://www.syracuse.edu",
+    "website_source": "openalex",
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "October 30, 1956",
     "next_site_visit_year": null,
-    "student_outcomes_link": null
+    "student_outcomes_link": null,
+    "website_confidence": 0.8,
+    "openalex_institution_id": "https://openalex.org/I70983195"
   },
   {
     "id": "program-253",
@@ -3571,11 +4007,14 @@
       "APA"
     ],
     "address": "430 Huntington Hall, Syracuse , NY 1 3244 -2340",
-    "website": null,
+    "website": "https://www.syracuse.edu",
+    "website_source": "openalex",
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "April 26, 1988",
     "next_site_visit_year": 2029,
-    "student_outcomes_link": null
+    "student_outcomes_link": null,
+    "website_confidence": 0.8,
+    "openalex_institution_id": "https://openalex.org/I70983195"
   },
   {
     "id": "program-254",
@@ -3586,6 +4025,7 @@
     ],
     "address": "525 West 120th Street, Box 102, New York , NY 1 0027 -6696",
     "website": null,
+    "website_source": null,
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "February 27, 1948",
     "next_site_visit_year": null,
@@ -3600,6 +4040,7 @@
     ],
     "address": "525 West 120th Street, Box 102, 428 Horace Mann Hall, New York , NY 1 0027 -6696",
     "website": null,
+    "website_source": null,
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "January 01, 1952",
     "next_site_visit_year": null,
@@ -3614,6 +4055,7 @@
     ],
     "address": "525 West 120th Street, Thorndike Hall, Box 120, New York , NY 1 0027 -6696",
     "website": null,
+    "website_source": null,
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "March 31, 1988",
     "next_site_visit_year": null,
@@ -3627,11 +4069,14 @@
       "APA"
     ],
     "address": "1165 Morris Park Avenue, Rousso Building, Bronx , NY 1 0461",
-    "website": null,
+    "website": "https://www.yu.edu",
+    "website_source": "openalex",
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "October 11, 2005",
     "next_site_visit_year": 2023,
-    "student_outcomes_link": null
+    "student_outcomes_link": null,
+    "website_confidence": 0.8,
+    "openalex_institution_id": "https://openalex.org/I19772626"
   },
   {
     "id": "program-258",
@@ -3642,6 +4087,7 @@
     ],
     "address": "1165 Morris Park Avenue, Rousso Building, Bronx , NY 1 0461",
     "website": null,
+    "website_source": null,
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "November 07, 1985",
     "next_site_visit_year": 2022,
@@ -3656,6 +4102,7 @@
     ],
     "address": "1165 Morris Park Avenue, Rousso Building, Bronx , NY 1 0461",
     "website": null,
+    "website_source": null,
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "October 23, 1998",
     "next_site_visit_year": 2027,
@@ -3671,6 +4118,7 @@
     ],
     "address": "417 Chapel Drive , Box 90086, Durham , NC 2 7708",
     "website": "https://psychandneuro.duke.edu/graduate/clinical",
+    "website_source": "pcsas",
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "February 23, 1948",
     "next_site_visit_year": null,
@@ -3684,11 +4132,14 @@
       "APA"
     ],
     "address": "104 Rawl, East 5th Street, East Carolina University, Greenville , NC 2 7858",
-    "website": null,
+    "website": "https://www.ecu.edu",
+    "website_source": "openalex",
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "April 20, 2012",
     "next_site_visit_year": null,
-    "student_outcomes_link": null
+    "student_outcomes_link": null,
+    "website_confidence": 0.8,
+    "openalex_institution_id": "https://openalex.org/I186335123"
   },
   {
     "id": "program-262",
@@ -3699,6 +4150,7 @@
     ],
     "address": "Mail Stop 565, Greenville , NC 2 7858",
     "website": null,
+    "website_source": null,
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "May 20, 2014",
     "next_site_visit_year": null,
@@ -3714,6 +4166,7 @@
     ],
     "address": "Campus Box 3270 , Davie Hall, Chapel Hill , NC 2 7599 -3270",
     "website": "http://clinicalpsych.unc.edu/",
+    "website_source": "pcsas",
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "February 12, 1949",
     "next_site_visit_year": null,
@@ -3729,6 +4182,7 @@
     ],
     "address": "105A Peabody Hall, CB # 3500, Chapel Hill , NC 2 7599 -3500",
     "website": "http://clinicalpsych.unc.edu/",
+    "website_source": "pcsas",
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "June 05, 1979",
     "next_site_visit_year": 2023,
@@ -3743,6 +4197,7 @@
     ],
     "address": "9201 University City Blvd., Charlotte , NC 2 8223 -0001",
     "website": null,
+    "website_source": null,
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "October 02, 2012",
     "next_site_visit_year": 2027,
@@ -3757,6 +4212,7 @@
     ],
     "address": "P.O. Box 26170, Greensboro , NC 2 7402 -6170",
     "website": null,
+    "website_source": null,
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "July 10, 1981",
     "next_site_visit_year": null,
@@ -3771,6 +4227,7 @@
     ],
     "address": "601 S College Rd, Wilmington , NC 2 8403",
     "website": null,
+    "website_source": null,
     "accreditation_status": "Accredited, on contingency",
     "date_of_initial_accreditation": "April 11, 2021",
     "next_site_visit_year": null,
@@ -3784,11 +4241,14 @@
       "APA"
     ],
     "address": "Department of Psychology CB 7650, NC State University, Raleigh , NC 2 7695 -7650",
-    "website": null,
+    "website": "https://www.ncsu.edu/",
+    "website_source": "openalex",
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "April 10, 1987",
     "next_site_visit_year": null,
-    "student_outcomes_link": null
+    "student_outcomes_link": null,
+    "website_confidence": 0.8,
+    "openalex_institution_id": "https://openalex.org/I137902535"
   },
   {
     "id": "program-269",
@@ -3798,11 +4258,14 @@
       "APA"
     ],
     "address": "306-D Killian, 1 University Drive, Cullowhee , NC 28723",
-    "website": null,
+    "website": "https://www.wcu.edu",
+    "website_source": "openalex",
     "accreditation_status": "Accredited, on contingency",
     "date_of_initial_accreditation": "March 01, 2022",
     "next_site_visit_year": null,
-    "student_outcomes_link": null
+    "student_outcomes_link": null,
+    "website_confidence": 0.95,
+    "openalex_institution_id": "https://openalex.org/I103406327"
   },
   {
     "id": "program-270",
@@ -3811,8 +4274,9 @@
     "accreditation_sources": [
       "APA"
     ],
-    "address": "Box 8380, Grand Forks, ND 58202 -8380",
+    "address": "Box 8380, Grand Forks, ND 58202-8380",
     "website": null,
+    "website_source": null,
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "November 01, 1969",
     "next_site_visit_year": 2027,
@@ -3825,8 +4289,9 @@
     "accreditation_sources": [
       "APA"
     ],
-    "address": "231 Centennial Drive, Stop 8255, Grand Forks, ND 58202 -8255",
+    "address": "231 Centennial Drive, Stop 8255, Grand Forks, ND 58202-8255",
     "website": null,
+    "website_source": null,
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "April 10, 1987",
     "next_site_visit_year": null,
@@ -3841,6 +4306,7 @@
     ],
     "address": "290 E. Buchtel Avenue, Akron , OH 4 4325 -4301",
     "website": null,
+    "website_source": null,
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "April 13, 1990",
     "next_site_visit_year": null,
@@ -3854,11 +4320,14 @@
       "APA"
     ],
     "address": "243 Psychology Building, Bowling Green , OH 4 3403",
-    "website": null,
+    "website": "https://www.bgsu.edu",
+    "website_source": "openalex",
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "November 01, 1970",
     "next_site_visit_year": 2023,
-    "student_outcomes_link": null
+    "student_outcomes_link": null,
+    "website_confidence": 0.8,
+    "openalex_institution_id": "https://openalex.org/I157417397"
   },
   {
     "id": "program-274",
@@ -3868,11 +4337,14 @@
       "APA"
     ],
     "address": "10900 Euclid Avenue, Cleveland , OH 4 4106 -7123",
-    "website": null,
+    "website": "https://case.edu",
+    "website_source": "openalex",
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "February 01, 1948",
     "next_site_visit_year": 2021,
-    "student_outcomes_link": null
+    "student_outcomes_link": null,
+    "website_confidence": 0.8,
+    "openalex_institution_id": "https://openalex.org/I58956616"
   },
   {
     "id": "program-275",
@@ -3883,6 +4355,7 @@
     ],
     "address": "47 Corry Blvd., P.O. Box 210376, 4150J Edwards One Center, Cincinnati , OH 4 5221 -0376",
     "website": null,
+    "website_source": null,
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "February 01, 1948",
     "next_site_visit_year": 2023,
@@ -3897,6 +4370,7 @@
     ],
     "address": "P.O. Box 210068, Cincinnati , OH 4 5221",
     "website": null,
+    "website_source": null,
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "November 18, 2016",
     "next_site_visit_year": 2023,
@@ -3910,11 +4384,14 @@
       "APA"
     ],
     "address": "2121 Euclid Avenue, 275 Julka Hall, Cleveland , OH 4 4115",
-    "website": null,
+    "website": "https://csuohio.edu",
+    "website_source": "openalex",
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "June 18, 2010",
     "next_site_visit_year": null,
-    "student_outcomes_link": null
+    "student_outcomes_link": null,
+    "website_confidence": 0.8,
+    "openalex_institution_id": "https://openalex.org/I102607778"
   },
   {
     "id": "program-278",
@@ -3925,6 +4402,7 @@
     ],
     "address": "Kent Hall, Room 144, Kent , OH 4 4242",
     "website": null,
+    "website_source": null,
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "December 01, 1968",
     "next_site_visit_year": null,
@@ -3939,6 +4417,7 @@
     ],
     "address": "405 White Hall, Kent , OH 4 4242",
     "website": null,
+    "website_source": null,
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "May 01, 1984",
     "next_site_visit_year": 2028,
@@ -3952,11 +4431,14 @@
       "APA"
     ],
     "address": "90 N. Patterson Avenue, Oxford , OH 4 5056",
-    "website": null,
+    "website": "https://miamioh.edu",
+    "website_source": "openalex",
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "February 01, 1972",
     "next_site_visit_year": null,
-    "student_outcomes_link": null
+    "student_outcomes_link": null,
+    "website_confidence": 0.8,
+    "openalex_institution_id": "https://openalex.org/I83328450"
   },
   {
     "id": "program-281",
@@ -3968,6 +4450,7 @@
     ],
     "address": "147 Psychology Building, 1835 Neil Avenue, Columbus , OH 4 3210 -1287",
     "website": "https://psychology.osu.edu/about/programs/clinical",
+    "website_source": "pcsas",
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "February 27, 1948",
     "next_site_visit_year": 2029,
@@ -3983,6 +4466,7 @@
     ],
     "address": "305 Annie and John Glen Ave., Columbus , OH 4 3210",
     "website": "https://psychology.osu.edu/about/programs/clinical",
+    "website_source": "pcsas",
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "April 07, 2017",
     "next_site_visit_year": 2024,
@@ -3996,11 +4480,14 @@
       "APA"
     ],
     "address": "Porter Hall 200, Athens , OH 4 5701 -2979",
-    "website": null,
+    "website": "https://www.ohio.edu",
+    "website_source": "openalex",
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "April 11, 1968",
     "next_site_visit_year": 2028,
-    "student_outcomes_link": null
+    "student_outcomes_link": null,
+    "website_confidence": 0.8,
+    "openalex_institution_id": "https://openalex.org/I4210106879"
   },
   {
     "id": "program-284",
@@ -4011,6 +4498,7 @@
     ],
     "address": "2801 West Bancroft Street, Mail Stop 948, Toledo , OH 4 3606",
     "website": null,
+    "website_source": null,
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "June 01, 1979",
     "next_site_visit_year": 2024,
@@ -4024,11 +4512,14 @@
       "APA"
     ],
     "address": "117 Health Sciences Bldg., 3640 Colonel Glenn Hwy., Dayton , OH 4 5435 -0001",
-    "website": null,
+    "website": "http://www.wright.edu/",
+    "website_source": "openalex",
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "March 16, 1982",
     "next_site_visit_year": null,
-    "student_outcomes_link": null
+    "student_outcomes_link": null,
+    "website_confidence": 0.8,
+    "openalex_institution_id": "https://openalex.org/I19648265"
   },
   {
     "id": "program-286",
@@ -4039,6 +4530,7 @@
     ],
     "address": "3800 Victory Parkway, Cincinnati , OH 4 5207 -6511",
     "website": null,
+    "website_source": null,
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "May 04, 2001",
     "next_site_visit_year": null,
@@ -4054,6 +4546,7 @@
     ],
     "address": "2501 N Blackwelder, Oklahoma City , OK 73106",
     "website": "https://psychology.okstate.edu/academic-programs/graduate-programs/clinical-psychology-program",
+    "website_source": "pcsas",
     "accreditation_status": "Accredited, on contingency",
     "date_of_initial_accreditation": "February 28, 2023",
     "next_site_visit_year": 2026,
@@ -4069,6 +4562,7 @@
     ],
     "address": "116 North Murray, Oklahoma State University, Stillwater , OK 7 4078",
     "website": "https://psychology.okstate.edu/academic-programs/graduate-programs/clinical-psychology-program",
+    "website_source": "pcsas",
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "February 01, 1971",
     "next_site_visit_year": null,
@@ -4084,6 +4578,7 @@
     ],
     "address": "434 Willard Hall, Stillwater , OK 7 4078",
     "website": "https://psychology.okstate.edu/academic-programs/graduate-programs/clinical-psychology-program",
+    "website_source": "pcsas",
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "November 20, 1992",
     "next_site_visit_year": null,
@@ -4099,6 +4594,7 @@
     ],
     "address": "245 Willard Hall, Stillwater , OK 7 4078",
     "website": "https://psychology.okstate.edu/academic-programs/graduate-programs/clinical-psychology-program",
+    "website_source": "pcsas",
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "October 28, 1997",
     "next_site_visit_year": 2023,
@@ -4113,6 +4609,7 @@
     ],
     "address": "800 South Tucker Drive, Tulsa , OK 7 4104",
     "website": null,
+    "website_source": null,
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "January 18, 1991",
     "next_site_visit_year": null,
@@ -4126,11 +4623,14 @@
       "APA"
     ],
     "address": "414 North Meridian Street, RC104, Newberg , OR 9 7132 -2697",
-    "website": null,
+    "website": "https://www.georgefox.edu",
+    "website_source": "openalex",
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "August 21, 1998",
     "next_site_visit_year": 2027,
-    "student_outcomes_link": null
+    "student_outcomes_link": null,
+    "website_confidence": 0.8,
+    "openalex_institution_id": "https://openalex.org/I179651463"
   },
   {
     "id": "program-293",
@@ -4142,6 +4642,7 @@
     ],
     "address": "1227 University of Oregon, 1715 Franklin Blvd ., Eugene , OR 9 7403 -1227",
     "website": "https://psychology.uoregon.edu/research/clinical-area",
+    "website_source": "pcsas",
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "March 20, 1958",
     "next_site_visit_year": 2028,
@@ -4156,6 +4657,7 @@
     ],
     "address": "5251 University of Oregon, Eugene , OR 9 7403 -5251",
     "website": null,
+    "website_source": null,
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "January 12, 1955",
     "next_site_visit_year": 2028,
@@ -4170,6 +4672,7 @@
     ],
     "address": "3181 SW Sam Jackson Park Road , MC OPO2, Portland, OR 97239",
     "website": null,
+    "website_source": null,
     "accreditation_status": "Accredited, on contingency",
     "date_of_initial_accreditation": "November 09, 2022",
     "next_site_visit_year": 2026,
@@ -4184,6 +4687,7 @@
     ],
     "address": "2043 College Way, Forest Grove , OR 9 7116",
     "website": null,
+    "website_source": null,
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "February 28, 2017",
     "next_site_visit_year": null,
@@ -4197,11 +4701,14 @@
       "APA"
     ],
     "address": "(formerly listed as School of Professional, Psychology;), Pacific University, 190 S.E. 8th Avenue Suite 260, Hillsboro , OR 9 7123",
-    "website": null,
+    "website": "http://www.pacificu.edu/",
+    "website_source": "openalex",
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "April 03, 1990",
     "next_site_visit_year": 2022,
-    "student_outcomes_link": null
+    "student_outcomes_link": null,
+    "website_confidence": 0.786,
+    "openalex_institution_id": "https://openalex.org/I108541056"
   },
   {
     "id": "program-298",
@@ -4211,11 +4718,14 @@
       "APA"
     ],
     "address": "3333 Fifth Avenue, Antonian Hall 509, Pittsburgh , PA 1 5213",
-    "website": null,
+    "website": "https://www.carlow.edu",
+    "website_source": "openalex",
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "April 20, 2011",
     "next_site_visit_year": 2028,
-    "student_outcomes_link": null
+    "student_outcomes_link": null,
+    "website_confidence": 0.8,
+    "openalex_institution_id": "https://openalex.org/I134174069"
   },
   {
     "id": "program-299",
@@ -4225,11 +4735,14 @@
       "APA"
     ],
     "address": "1 Woodland Road, Pittsburgh , PA 1 5232",
-    "website": null,
+    "website": "https://www.chatham.edu",
+    "website_source": "openalex",
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "September 10, 2013",
     "next_site_visit_year": null,
-    "student_outcomes_link": null
+    "student_outcomes_link": null,
+    "website_confidence": 0.8,
+    "openalex_institution_id": "https://openalex.org/I5337786"
   },
   {
     "id": "program-300",
@@ -4239,11 +4752,14 @@
       "APA"
     ],
     "address": "9601 Germantown Avenue, Philadelphia , PA 1 9118 -2693",
-    "website": null,
+    "website": "https://www.chc.edu/",
+    "website_source": "openalex",
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "June 15, 2004",
     "next_site_visit_year": null,
-    "student_outcomes_link": null
+    "student_outcomes_link": null,
+    "website_confidence": 0.8,
+    "openalex_institution_id": "https://openalex.org/I202522242"
   },
   {
     "id": "program-301",
@@ -4253,11 +4769,14 @@
       "APA"
     ],
     "address": "3141 Chestnut Street, Psychology - Stratton Building Suite 119, Philadelphia , PA 1 9104",
-    "website": null,
+    "website": "https://drexel.edu",
+    "website_source": "openalex",
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "January 31, 1997",
     "next_site_visit_year": 2027,
-    "student_outcomes_link": null
+    "student_outcomes_link": null,
+    "website_confidence": 0.8,
+    "openalex_institution_id": "https://openalex.org/I72816309"
   },
   {
     "id": "program-302",
@@ -4268,6 +4787,7 @@
     ],
     "address": "600 Forbes Avenue, 211 Rockwell Hall, Pittsburgh , PA 1 5282 -1753",
     "website": null,
+    "website_source": null,
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "November 16, 2001",
     "next_site_visit_year": 2023,
@@ -4281,11 +4801,14 @@
       "APA"
     ],
     "address": "600 Forbes Avenue, 209A Canevin Hall, Pittsburgh , PA 1 5282",
-    "website": null,
+    "website": "https://duq.edu",
+    "website_source": "openalex",
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "April 24, 2015",
     "next_site_visit_year": null,
-    "student_outcomes_link": null
+    "student_outcomes_link": null,
+    "website_confidence": 0.8,
+    "openalex_institution_id": "https://openalex.org/I165102784"
   },
   {
     "id": "program-304",
@@ -4295,11 +4818,14 @@
       "APA"
     ],
     "address": "600 Forbes Avenue, 109 Canevin Hall, Pittsburgh , PA 1 5282",
-    "website": null,
+    "website": "https://duq.edu",
+    "website_source": "openalex",
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "October 19, 2007",
     "next_site_visit_year": null,
-    "student_outcomes_link": null
+    "student_outcomes_link": null,
+    "website_confidence": 0.8,
+    "openalex_institution_id": "https://openalex.org/I165102784"
   },
   {
     "id": "program-305",
@@ -4309,11 +4835,14 @@
       "APA"
     ],
     "address": "1 Campus Drive, Newtown , PA 1 8940",
-    "website": null,
+    "website": "https://www.holyfamily.edu",
+    "website_source": "openalex",
     "accreditation_status": "Accredited, on contingency",
     "date_of_initial_accreditation": "March 18, 2022",
     "next_site_visit_year": null,
-    "student_outcomes_link": null
+    "student_outcomes_link": null,
+    "website_confidence": 0.8,
+    "openalex_institution_id": "https://openalex.org/I40165345"
   },
   {
     "id": "program-306",
@@ -4323,11 +4852,14 @@
       "APA"
     ],
     "address": "(formerly listed as Immaculata College), 1145 King Road, Nazareth Hall, Suite 10, Immaculata , PA 1 9345",
-    "website": null,
+    "website": "http://www.immaculata.edu/",
+    "website_source": "openalex",
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "April 29, 1999",
     "next_site_visit_year": null,
-    "student_outcomes_link": null
+    "student_outcomes_link": null,
+    "website_confidence": 0.8,
+    "openalex_institution_id": "https://openalex.org/I200943373"
   },
   {
     "id": "program-307",
@@ -4338,6 +4870,7 @@
     ],
     "address": "1020 Oakland Avenue, Uhler Hall Room 201A, Indiana , PA 1 5705 -1068",
     "website": null,
+    "website_source": null,
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "November 03, 1987",
     "next_site_visit_year": null,
@@ -4352,6 +4885,7 @@
     ],
     "address": "1900 W. Olney Avenue, Box 842, Philadelphia , PA 1 9141",
     "website": null,
+    "website_source": null,
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "March 18, 2003",
     "next_site_visit_year": 2028,
@@ -4365,11 +4899,14 @@
       "APA"
     ],
     "address": "111 Research Drive, Bethlehem , PA 1 8015",
-    "website": null,
+    "website": "https://www2.lehigh.edu",
+    "website_source": "openalex",
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "December 03, 1993",
     "next_site_visit_year": 2023,
-    "student_outcomes_link": null
+    "student_outcomes_link": null,
+    "website_confidence": 0.8,
+    "openalex_institution_id": "https://openalex.org/I186143895"
   },
   {
     "id": "program-310",
@@ -4379,11 +4916,14 @@
       "APA"
     ],
     "address": "2300 Adams Avenue, Scranton , PA 1 8509",
-    "website": null,
+    "website": "https://www.marywood.edu",
+    "website_source": "openalex",
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "April 21, 2006",
     "next_site_visit_year": null,
-    "student_outcomes_link": null
+    "student_outcomes_link": null,
+    "website_confidence": 0.8,
+    "openalex_institution_id": "https://openalex.org/I20960122"
   },
   {
     "id": "program-311",
@@ -4395,6 +4935,7 @@
     ],
     "address": "425 South University Avenue, Levin Building, Philadelphia , PA 1 9104 -6018",
     "website": "https://psychology.sas.upenn.edu/training-programs/clinical-training-program",
+    "website_source": "pcsas",
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "February 07, 1948",
     "next_site_visit_year": null,
@@ -4408,11 +4949,14 @@
       "APA"
     ],
     "address": "140 Moore Bldg., University Park , PA 1 6802",
-    "website": null,
+    "website": "https://www.psu.edu",
+    "website_source": "openalex",
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "February 24, 1948",
     "next_site_visit_year": null,
-    "student_outcomes_link": null
+    "student_outcomes_link": null,
+    "website_confidence": 0.8,
+    "openalex_institution_id": "https://openalex.org/I130769515"
   },
   {
     "id": "program-313",
@@ -4422,11 +4966,14 @@
       "APA"
     ],
     "address": "125 CEDAR Building, University Park , PA 1 6802 -3108",
-    "website": null,
+    "website": "https://www.psu.edu",
+    "website_source": "openalex",
     "accreditation_status": "Accredited – Inactive",
     "date_of_initial_accreditation": "June 19, 1978",
     "next_site_visit_year": null,
-    "student_outcomes_link": null
+    "student_outcomes_link": null,
+    "website_confidence": 0.8,
+    "openalex_institution_id": "https://openalex.org/I130769515"
   },
   {
     "id": "program-314",
@@ -4437,6 +4984,7 @@
     ],
     "address": "4190 City Avenue, Philadelphia , PA 1 9131 -1695",
     "website": null,
+    "website_source": null,
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "May 13, 2003",
     "next_site_visit_year": null,
@@ -4451,6 +4999,7 @@
     ],
     "address": "4190 City Avenue, Philadelphia , PA 1 9131 -1695",
     "website": null,
+    "website_source": null,
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "October 20, 2019",
     "next_site_visit_year": null,
@@ -4466,6 +5015,7 @@
     ],
     "address": "210 S. Bouquet Street, 3809 Sennott Square, Pittsburgh , PA 1 5260",
     "website": "http://www.psychology.pitt.edu/clinical-program",
+    "website_source": "pcsas",
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "February 20, 1948",
     "next_site_visit_year": 2021,
@@ -4479,11 +5029,14 @@
       "APA"
     ],
     "address": "201 Wood Street, Pittsburgh , PA 1 5222",
-    "website": null,
+    "website": "http://www.pointpark.edu/",
+    "website_source": "openalex",
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "July 21, 2019",
     "next_site_visit_year": null,
-    "student_outcomes_link": null
+    "student_outcomes_link": null,
+    "website_confidence": 0.8,
+    "openalex_institution_id": "https://openalex.org/I23745121"
   },
   {
     "id": "program-318",
@@ -4495,6 +5048,7 @@
     ],
     "address": "1701 N. 13th Street, Weiss Hall, Philadelphia , PA 1 9122 -6085",
     "website": "http://www.cla.temple.edu/psychology/graduate/clinical-psychology/",
+    "website_source": "pcsas",
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "March 18, 1958",
     "next_site_visit_year": 2023,
@@ -4510,6 +5064,7 @@
     ],
     "address": "1301 Cecil B. Moore Avenue, 269 Ritter Annex PSE/COE, Philadelphia , PA 1 9122",
     "website": "http://www.cla.temple.edu/psychology/graduate/clinical-psychology/",
+    "website_source": "pcsas",
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "April 04, 1978",
     "next_site_visit_year": null,
@@ -4524,6 +5079,7 @@
     ],
     "address": "700 S. High Street, West Chester , PA 1 9383",
     "website": null,
+    "website_source": null,
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "July 21, 2019",
     "next_site_visit_year": null,
@@ -4537,11 +5093,14 @@
       "APA"
     ],
     "address": "Institute for Graduate Clinical Psychology, One University Place, Chester , PA 1 9013 -5792",
-    "website": null,
+    "website": "http://www.widener.edu/",
+    "website_source": "openalex",
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "July 01, 1989",
     "next_site_visit_year": null,
-    "student_outcomes_link": null
+    "student_outcomes_link": null,
+    "website_confidence": 0.8,
+    "openalex_institution_id": "https://openalex.org/I138659443"
   },
   {
     "id": "program-322",
@@ -4551,11 +5110,14 @@
       "APA"
     ],
     "address": "Carr. 64 Esquina Calle #3, Urb. Industrial, Mayag üez, PR 00680",
-    "website": null,
+    "website": "http://www.albizu.edu/",
+    "website_source": "openalex",
     "accreditation_status": "Accredited, on contingency",
     "date_of_initial_accreditation": "May 22, 2024",
     "next_site_visit_year": 2028,
-    "student_outcomes_link": null
+    "student_outcomes_link": null,
+    "website_confidence": 0.8,
+    "openalex_institution_id": "https://openalex.org/I45497615"
   },
   {
     "id": "program-323",
@@ -4566,6 +5128,7 @@
     ],
     "address": "(formerly listed as Caribbean Center for, Advanced Studies), P.O. Box 9023711, San Juan , PR 0 0902 -3711",
     "website": null,
+    "website_source": null,
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "September 23, 1994",
     "next_site_visit_year": 2027,
@@ -4580,6 +5143,7 @@
     ],
     "address": "(formerly listed as Caribbean Center for, Advanced Studies), P.O. Box 9023711, San Juan , PR 0 0902 -3711",
     "website": null,
+    "website_source": null,
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "September 23, 1994",
     "next_site_visit_year": 2028,
@@ -4593,11 +5157,14 @@
       "APA"
     ],
     "address": "(formerly listed as Ponce School of, Medicine and Health Sciences), P.O. Box 7004, 388 Zona Industrial Reparada 2, Ponce , PR 0 0716-2348",
-    "website": null,
+    "website": "https://phsu.edu",
+    "website_source": "openalex",
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "March 11, 2004",
     "next_site_visit_year": null,
-    "student_outcomes_link": null
+    "student_outcomes_link": null,
+    "website_confidence": 0.8,
+    "openalex_institution_id": "https://openalex.org/I163086451"
   },
   {
     "id": "program-326",
@@ -4607,11 +5174,14 @@
       "APA"
     ],
     "address": "(formerly listed as Ponce School of, Medicine and Health Sciences), Calle Monterrey #279, Ponce , PR 0 0716 -1376",
-    "website": null,
+    "website": "https://phsu.edu",
+    "website_source": "openalex",
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "March 19, 2013",
     "next_site_visit_year": 2028,
-    "student_outcomes_link": null
+    "student_outcomes_link": null,
+    "website_confidence": 0.8,
+    "openalex_institution_id": "https://openalex.org/I163086451"
   },
   {
     "id": "program-327",
@@ -4622,6 +5192,7 @@
     ],
     "address": "9 Ave Universidad Ste 901, San Juan , PR 0 0925 -2529",
     "website": null,
+    "website_source": null,
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "October 25, 2020",
     "next_site_visit_year": 2029,
@@ -4636,6 +5207,7 @@
     ],
     "address": "P.O. Box 3030, Gurabo , PR 0 0778",
     "website": null,
+    "website_source": null,
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "September 27, 2016",
     "next_site_visit_year": 2023,
@@ -4650,6 +5222,7 @@
     ],
     "address": "142 Flagg Road, 306 Chafee Building, Kingston, RI 02881",
     "website": null,
+    "website_source": null,
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "April 01, 1972",
     "next_site_visit_year": 2028,
@@ -4664,6 +5237,7 @@
     ],
     "address": "1512 Pendleton Street, Columbia , SC 2 9208",
     "website": null,
+    "website_source": null,
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "October 01, 1969",
     "next_site_visit_year": null,
@@ -4678,6 +5252,7 @@
     ],
     "address": "1512 Pendleton Street, Columbia , SC 2 9208",
     "website": null,
+    "website_source": null,
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "February 01, 1974",
     "next_site_visit_year": 2022,
@@ -4692,6 +5267,7 @@
     ],
     "address": "414 E. Clark Street (USD 105), Vermillion, S D 57069",
     "website": null,
+    "website_source": null,
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "November 01, 1971",
     "next_site_visit_year": 2023,
@@ -4705,11 +5281,14 @@
       "APA"
     ],
     "address": "Box 70649, Johnson City , TN 3 7614",
-    "website": null,
+    "website": "http://www.etsu.edu/etsuhome/",
+    "website_source": "openalex",
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "August 21, 2012",
     "next_site_visit_year": 2027,
-    "student_outcomes_link": null
+    "student_outcomes_link": null,
+    "website_confidence": 0.8,
+    "openalex_institution_id": "https://openalex.org/I119443389"
   },
   {
     "id": "program-334",
@@ -4721,6 +5300,7 @@
     ],
     "address": "202 Psychology Building, Memphis , TN 3 8152 -3230",
     "website": "http://www.sas.rochester.edu/psy/graduate/clinical/index.html",
+    "website_source": "pcsas",
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "March 01, 1972",
     "next_site_visit_year": 2023,
@@ -4735,6 +5315,7 @@
     ],
     "address": "(formerly listed as Memphis State, University), 100 Ball Education Building, Memphis , TN 3 8152",
     "website": null,
+    "website_source": null,
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "October 17, 1989",
     "next_site_visit_year": null,
@@ -4749,6 +5330,7 @@
     ],
     "address": "202 Psychology Building, 400 Innovation Drive, Memphis , TN 3 8152",
     "website": null,
+    "website_source": null,
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "March 28, 2014",
     "next_site_visit_year": null,
@@ -4763,6 +5345,7 @@
     ],
     "address": "416 Austin Peay Building, 1404 Circle Drive, Knoxville , TN 3 7996 -0900",
     "website": null,
+    "website_source": null,
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "February 09, 1949",
     "next_site_visit_year": 2023,
@@ -4777,6 +5360,7 @@
     ],
     "address": "312 Austin Peay Building, 1404 Circle Drive, Knoxville , TN 3 7996 -0900",
     "website": null,
+    "website_source": null,
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "April 18, 1980",
     "next_site_visit_year": 2023,
@@ -4791,6 +5375,7 @@
     ],
     "address": "Bailey Education Complex, A -525, 1112 Volunteer Blvd, Knoxville , TN 3 7996 -3452",
     "website": null,
+    "website_source": null,
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "April 23, 1991",
     "next_site_visit_year": null,
@@ -4804,11 +5389,14 @@
       "APA"
     ],
     "address": "3500 John A. Merritt Boulevard, Department of Psychology, Nashville , TN 3 7209",
-    "website": null,
+    "website": "https://www.tnstate.edu",
+    "website_source": "openalex",
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "March 10, 2000",
     "next_site_visit_year": 2028,
-    "student_outcomes_link": null
+    "student_outcomes_link": null,
+    "website_confidence": 0.8,
+    "openalex_institution_id": "https://openalex.org/I75256744"
   },
   {
     "id": "program-341",
@@ -4819,6 +5407,7 @@
     ],
     "address": "PMB 407817, 2301 Vanderbilt Place, Nashville , TN 3 7240 -7817",
     "website": null,
+    "website_source": null,
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "April 01, 1959",
     "next_site_visit_year": 2021,
@@ -4832,11 +5421,14 @@
       "APA"
     ],
     "address": "One Bear Place #97334, BSB 330 -A, Waco , TX 7 6798",
-    "website": null,
+    "website": "https://www.baylor.edu",
+    "website_source": "openalex",
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "April 26, 1976",
     "next_site_visit_year": 2022,
-    "student_outcomes_link": null
+    "student_outcomes_link": null,
+    "website_confidence": 0.8,
+    "openalex_institution_id": "https://openalex.org/I157394403"
   },
   {
     "id": "program-343",
@@ -4845,8 +5437,9 @@
     "accreditation_sources": [
       "APA"
     ],
-    "address": "One Bear Place #97 301, Waco, TX 76798 -7301",
+    "address": "One Bear Place #97 301, Waco, TX 76798-7301",
     "website": null,
+    "website_source": null,
     "accreditation_status": "Accredited, on contingency",
     "date_of_initial_accreditation": "January 21, 2022",
     "next_site_visit_year": null,
@@ -4861,6 +5454,7 @@
     ],
     "address": "3695 Cullen Blvd, Room 126, Houston , TX 7 7204 -5022",
     "website": null,
+    "website_source": null,
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "January 01, 1959",
     "next_site_visit_year": 2028,
@@ -4875,6 +5469,7 @@
     ],
     "address": "change in 2023 . University of Houston, (Counseling Ph.D.), Department of Psychological, Health, and, Learning Sciences, 491 Farish Hall, 3657 Cullen Blvd, Houston , TX 7 7204 -5029",
     "website": null,
+    "website_source": null,
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "April 14, 1987",
     "next_site_visit_year": 2022,
@@ -4889,6 +5484,7 @@
     ],
     "address": "479 Farish Hall, 3657 Cullen Blvd, Houston , TX 7 7204 -5029",
     "website": null,
+    "website_source": null,
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "June 03, 2009",
     "next_site_visit_year": null,
@@ -4903,6 +5499,7 @@
     ],
     "address": "2700 Bay Area Blvd, Houston , TX 7 7058",
     "website": null,
+    "website_source": null,
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "April 07, 2019",
     "next_site_visit_year": null,
@@ -4917,6 +5514,7 @@
     ],
     "address": "1155 Union Circle #311280, Denton , TX 7 6203 -5017",
     "website": null,
+    "website_source": null,
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "December 05, 1978",
     "next_site_visit_year": 2028,
@@ -4931,6 +5529,7 @@
     ],
     "address": "1155 Union Circle #311280, Denton , TX 7 6203 -5017",
     "website": null,
+    "website_source": null,
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "December 05, 1978",
     "next_site_visit_year": null,
@@ -4944,11 +5543,14 @@
       "APA"
     ],
     "address": "411 SW 24th Street, San Antonio , TX 7 8207 -4689",
-    "website": null,
+    "website": "http://www.ollusa.edu/s/1190/hybrid/start-hybrid-ollu.aspx",
+    "website_source": "openalex",
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "May 12, 1995",
     "next_site_visit_year": 2027,
-    "student_outcomes_link": null
+    "student_outcomes_link": null,
+    "website_confidence": 0.8,
+    "openalex_institution_id": "https://openalex.org/I116480835"
   },
   {
     "id": "program-351",
@@ -4958,11 +5560,14 @@
       "APA"
     ],
     "address": "Box 2210, Huntsville , TX 7 7341 -2210",
-    "website": null,
+    "website": "https://shsu.edu",
+    "website_source": "openalex",
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "June 02, 2006",
     "next_site_visit_year": 2028,
-    "student_outcomes_link": null
+    "student_outcomes_link": null,
+    "website_confidence": 0.8,
+    "openalex_institution_id": "https://openalex.org/I191429286"
   },
   {
     "id": "program-352",
@@ -4972,11 +5577,14 @@
       "APA"
     ],
     "address": "6116 N. Central Expressway, Suite 1300, Dallas , TX 7 5275 -0442",
-    "website": null,
+    "website": "https://www.smu.edu",
+    "website_source": "openalex",
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "May 19, 2009",
     "next_site_visit_year": null,
-    "student_outcomes_link": null
+    "student_outcomes_link": null,
+    "website_confidence": 0.8,
+    "openalex_institution_id": "https://openalex.org/I178169726"
   },
   {
     "id": "program-353",
@@ -4988,6 +5596,7 @@
     ],
     "address": "Seay Building, 4.212, 108 E. Dean Keeton A8000, Department of Psychology, Austin , TX 7 8712",
     "website": "https://liberalarts.utexas.edu/psychology/areas-of-study/clinical/about.php",
+    "website_source": "pcsas",
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "February 01, 1949",
     "next_site_visit_year": null,
@@ -5003,6 +5612,7 @@
     ],
     "address": "The University of Texas at Austin, Educational Psychology/Counseling, Psychology, 1912 Speedway STOP D5800, Austin , TX 7 8712 -5731",
     "website": "https://liberalarts.utexas.edu/psychology/areas-of-study/clinical/about.php",
+    "website_source": "pcsas",
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "January 12, 1953",
     "next_site_visit_year": null,
@@ -5018,6 +5628,7 @@
     ],
     "address": "The University of Texas at Austin, 1912 Speedway STOP D5800, Austin , TX 7 8712",
     "website": "https://liberalarts.utexas.edu/psychology/areas-of-study/clinical/about.php",
+    "website_source": "pcsas",
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "February 01, 1971",
     "next_site_visit_year": null,
@@ -5031,11 +5642,14 @@
       "APA"
     ],
     "address": "1201 West University Drive, Edinburg, TX 78539",
-    "website": null,
+    "website": "http://www.utrgv.edu/en-us/",
+    "website_source": "openalex",
     "accreditation_status": "Accredited, on contingency",
     "date_of_initial_accreditation": "January 26, 2024",
     "next_site_visit_year": null,
-    "student_outcomes_link": null
+    "student_outcomes_link": null,
+    "website_confidence": 0.753,
+    "openalex_institution_id": "https://openalex.org/I2802326326"
   },
   {
     "id": "program-357",
@@ -5046,6 +5660,7 @@
     ],
     "address": "5323 Harry Hines Boulevard, Dallas , TX 7 5390 -9044",
     "website": null,
+    "website_source": null,
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "January 17, 1986",
     "next_site_visit_year": 2023,
@@ -5060,6 +5675,7 @@
     ],
     "address": "3900 University Blvd., Tyler , TX 75 799",
     "website": null,
+    "website_source": null,
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "February 27, 2024",
     "next_site_visit_year": null,
@@ -5074,6 +5690,7 @@
     ],
     "address": "4258 TAMU, Texas A&M University, College Station , TX 7 7843 -4235",
     "website": null,
+    "website_source": null,
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "April 08, 1988",
     "next_site_visit_year": 2022,
@@ -5087,11 +5704,14 @@
       "APA"
     ],
     "address": "4225 TAMU, College Station , TX 7 7843 -4225",
-    "website": null,
+    "website": "https://www.tamu.edu/",
+    "website_source": "openalex",
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "December 08, 1981",
     "next_site_visit_year": null,
-    "student_outcomes_link": null
+    "student_outcomes_link": null,
+    "website_confidence": 0.8,
+    "openalex_institution_id": "https://openalex.org/I91045830"
   },
   {
     "id": "program-361",
@@ -5101,11 +5721,14 @@
       "APA"
     ],
     "address": "704 Harrington Tower, MS 4225 TAMU, College Station , TX 7 7843 -4225",
-    "website": null,
+    "website": "https://www.tamu.edu/",
+    "website_source": "openalex",
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "October 29, 1985",
     "next_site_visit_year": 2027,
-    "student_outcomes_link": null
+    "student_outcomes_link": null,
+    "website_confidence": 0.8,
+    "openalex_institution_id": "https://openalex.org/I91045830"
   },
   {
     "id": "program-362",
@@ -5115,11 +5738,14 @@
       "APA"
     ],
     "address": "Box 42051, Lubbock , TX 7 9409 -2051",
-    "website": null,
+    "website": "https://www.ttu.edu/",
+    "website_source": "openalex",
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "March 01, 1972",
     "next_site_visit_year": null,
-    "student_outcomes_link": null
+    "student_outcomes_link": null,
+    "website_confidence": 0.8,
+    "openalex_institution_id": "https://openalex.org/I12315562"
   },
   {
     "id": "program-363",
@@ -5130,6 +5756,7 @@
     ],
     "address": "2810 18th St, Lubbock , TX 7 9409 -2051",
     "website": null,
+    "website_source": null,
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "April 24, 1964",
     "next_site_visit_year": null,
@@ -5143,11 +5770,14 @@
       "APA"
     ],
     "address": "1315 N Bell Ave nue, CFO 705, Denton , TX 7 6201",
-    "website": null,
+    "website": "https://twu.edu",
+    "website_source": "openalex",
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "June 20, 1995",
     "next_site_visit_year": null,
-    "student_outcomes_link": null
+    "student_outcomes_link": null,
+    "website_confidence": 0.771,
+    "openalex_institution_id": "https://openalex.org/I150913223"
   },
   {
     "id": "program-365",
@@ -5157,11 +5787,14 @@
       "APA"
     ],
     "address": "P.O. Box 425470, Denton , TX 7 6204",
-    "website": null,
+    "website": "https://twu.edu",
+    "website_source": "openalex",
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "April 29, 2011",
     "next_site_visit_year": 2028,
-    "student_outcomes_link": null
+    "student_outcomes_link": null,
+    "website_confidence": 0.771,
+    "openalex_institution_id": "https://openalex.org/I150913223"
   },
   {
     "id": "program-366",
@@ -5171,11 +5804,14 @@
       "APA"
     ],
     "address": "284 TLRB, Provo , UT 8 4602",
-    "website": null,
+    "website": "https://www.byu.edu",
+    "website_source": "openalex",
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "March 01, 1971",
     "next_site_visit_year": 2028,
-    "student_outcomes_link": null
+    "student_outcomes_link": null,
+    "website_confidence": 0.8,
+    "openalex_institution_id": "https://openalex.org/I100005738"
   },
   {
     "id": "program-367",
@@ -5185,11 +5821,14 @@
       "APA"
     ],
     "address": "340-J MCKB, Provo , UT 8 4602 -5093",
-    "website": null,
+    "website": "https://www.byu.edu",
+    "website_source": "openalex",
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "June 28, 2000",
     "next_site_visit_year": null,
-    "student_outcomes_link": null
+    "student_outcomes_link": null,
+    "website_confidence": 0.8,
+    "openalex_institution_id": "https://openalex.org/I100005738"
   },
   {
     "id": "program-368",
@@ -5200,6 +5839,7 @@
     ],
     "address": "380 South 1530 East, Room 502, Salt Lake City , UT 8 4112 -0251",
     "website": null,
+    "website_source": null,
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "December 08, 1954",
     "next_site_visit_year": null,
@@ -5214,6 +5854,7 @@
     ],
     "address": "1721 East Campus Center Drive, Room 3220, Salt Lake City , UT 8 4112 -8914",
     "website": null,
+    "website_source": null,
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "March 01, 1957",
     "next_site_visit_year": 2021,
@@ -5228,6 +5869,7 @@
     ],
     "address": "1400 Old Main Hill, Logan , UT 8 4322 -1400",
     "website": null,
+    "website_source": null,
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "February 01, 1975",
     "next_site_visit_year": 2023,
@@ -5243,6 +5885,7 @@
     ],
     "address": "2810 Old Main Hill, Logan , UT 8 4322",
     "website": "https://psychology.osu.edu/about/programs/clinical",
+    "website_source": "pcsas",
     "accreditation_status": "Accredited, on contingency",
     "date_of_initial_accreditation": "May 11, 2021",
     "next_site_visit_year": null,
@@ -5255,8 +5898,9 @@
     "accreditation_sources": [
       "APA"
     ],
-    "address": "2 Colchester Avenue, Burlington, V T 05405 -0134",
+    "address": "2 Colchester Avenue, Burlington, V T 05405-0134",
     "website": null,
+    "website_source": null,
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "November 12, 1973",
     "next_site_visit_year": 2027,
@@ -5270,11 +5914,14 @@
       "APA"
     ],
     "address": "45154 Underwood Lane, Sterling , VA 2 0166",
-    "website": null,
+    "website": "https://www.divinemercy.edu",
+    "website_source": "openalex",
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "April 22, 2016",
     "next_site_visit_year": 2023,
-    "student_outcomes_link": null
+    "student_outcomes_link": null,
+    "website_confidence": 0.8,
+    "openalex_institution_id": "https://openalex.org/I4387153953"
   },
   {
     "id": "program-374",
@@ -5284,11 +5931,14 @@
       "APA"
     ],
     "address": "4400 University Drive, MSN 3F5, Fairfax , VA 2 2030",
-    "website": null,
+    "website": "https://www.gmu.edu/",
+    "website_source": "openalex",
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "May 15, 1987",
     "next_site_visit_year": null,
-    "student_outcomes_link": null
+    "student_outcomes_link": null,
+    "website_confidence": 0.8,
+    "openalex_institution_id": "https://openalex.org/I162714631"
   },
   {
     "id": "program-375",
@@ -5298,11 +5948,14 @@
       "APA"
     ],
     "address": "Combined -Integrated (C -I) Doctoral, Program, 216 Johnston Hall, MSC 7401, Harrisonburg , VA 2 2807",
-    "website": null,
+    "website": "https://www.jmu.edu",
+    "website_source": "openalex",
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "October 29, 1996",
     "next_site_visit_year": 2027,
-    "student_outcomes_link": null
+    "student_outcomes_link": null,
+    "website_confidence": 0.8,
+    "openalex_institution_id": "https://openalex.org/I11883440"
   },
   {
     "id": "program-376",
@@ -5312,11 +5965,14 @@
       "APA"
     ],
     "address": "Department of Psychology, Box 6946, Radford , VA 2 4142",
-    "website": null,
+    "website": "https://radford.edu",
+    "website_source": "openalex",
     "accreditation_status": "Accredited – Inactive",
     "date_of_initial_accreditation": "June 21, 2012",
     "next_site_visit_year": null,
-    "student_outcomes_link": null
+    "student_outcomes_link": null,
+    "website_confidence": 0.8,
+    "openalex_institution_id": "https://openalex.org/I53559539"
   },
   {
     "id": "program-377",
@@ -5326,11 +5982,14 @@
       "APA"
     ],
     "address": "1000 Regent University Drive, Virginia Beach , VA 2 3464 -9800",
-    "website": null,
+    "website": "http://www.regent.edu/",
+    "website_source": "openalex",
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "March 14, 2002",
     "next_site_visit_year": 2029,
-    "student_outcomes_link": null
+    "student_outcomes_link": null,
+    "website_confidence": 0.8,
+    "openalex_institution_id": "https://openalex.org/I153338809"
   },
   {
     "id": "program-378",
@@ -5341,6 +6000,7 @@
     ],
     "address": "P.O. Box 400400, Charlottesville , VA 2 2904 -4400",
     "website": null,
+    "website_source": null,
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "October 25, 1988",
     "next_site_visit_year": 2028,
@@ -5355,6 +6015,7 @@
     ],
     "address": "PO Box 400270, Bavaro Hall 212, Charlottesville , VA 2 2904",
     "website": null,
+    "website_source": null,
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "November 04, 1988",
     "next_site_visit_year": null,
@@ -5368,11 +6029,14 @@
       "APA"
     ],
     "address": "806 West Franklin Street Box 842018, Richmond , VA 2 3284 -2018",
-    "website": null,
+    "website": "https://vcu.edu",
+    "website_source": "openalex",
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "April 01, 1975",
     "next_site_visit_year": 2028,
-    "student_outcomes_link": null
+    "student_outcomes_link": null,
+    "website_confidence": 0.8,
+    "openalex_institution_id": "https://openalex.org/I184840846"
   },
   {
     "id": "program-381",
@@ -5382,11 +6046,14 @@
       "APA"
     ],
     "address": "806 West Franklin Street, P.O. Box 842018, Richmond , VA 2 3284 -2018",
-    "website": null,
+    "website": "https://vcu.edu",
+    "website_source": "openalex",
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "October 28, 1980",
     "next_site_visit_year": 2028,
-    "student_outcomes_link": null
+    "student_outcomes_link": null,
+    "website_confidence": 0.8,
+    "openalex_institution_id": "https://openalex.org/I184840846"
   },
   {
     "id": "program-382",
@@ -5396,11 +6063,14 @@
       "APA"
     ],
     "address": "234 Mills Godwin Life Sciences Building, Norfolk , VA 2 3529",
-    "website": null,
+    "website": "https://www.odu.edu",
+    "website_source": "openalex",
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "November 12, 2013",
     "next_site_visit_year": null,
-    "student_outcomes_link": null
+    "student_outcomes_link": null,
+    "website_confidence": 0.8,
+    "openalex_institution_id": "https://openalex.org/I81365321"
   },
   {
     "id": "program-383",
@@ -5411,6 +6081,7 @@
     ],
     "address": "3110 Prices Fork Road, Blacksburg , VA 2 4061 -0355",
     "website": null,
+    "website_source": null,
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "April 17, 1980",
     "next_site_visit_year": 2021,
@@ -5424,11 +6095,14 @@
       "APA"
     ],
     "address": "2400 3rd Avenue, Suite 200, Seattle , WA 9 8121",
-    "website": null,
+    "website": "https://www.antioch.edu/seattle/",
+    "website_source": "openalex",
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "December 02, 2016",
     "next_site_visit_year": null,
-    "student_outcomes_link": null
+    "student_outcomes_link": null,
+    "website_confidence": 0.8,
+    "openalex_institution_id": "https://openalex.org/I104304262"
   },
   {
     "id": "program-385",
@@ -5438,11 +6112,14 @@
       "APA"
     ],
     "address": "5520 108th Ave. NE, Kirkland , WA 9 8033",
-    "website": null,
+    "website": "http://english.nwu.edu.cn/",
+    "website_source": "openalex",
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "October 28, 2018",
     "next_site_visit_year": 2022,
-    "student_outcomes_link": null
+    "student_outcomes_link": null,
+    "website_confidence": 0.8,
+    "openalex_institution_id": "https://openalex.org/I37802460"
   },
   {
     "id": "program-386",
@@ -5452,11 +6129,14 @@
       "APA"
     ],
     "address": "3307 Third Avenue West, Suite 107, Seattle , WA 9 8119",
-    "website": null,
+    "website": "http://spu.edu/",
+    "website_source": "openalex",
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "October 17, 2006",
     "next_site_visit_year": null,
-    "student_outcomes_link": null
+    "student_outcomes_link": null,
+    "website_confidence": 0.8,
+    "openalex_institution_id": "https://openalex.org/I11317958"
   },
   {
     "id": "program-387",
@@ -5468,6 +6148,7 @@
     ],
     "address": "Box 351525, Seattle , WA 9 8195",
     "website": "http://www.psych.uw.edu/psych.php?p=233",
+    "website_source": "pcsas",
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "March 03, 1948",
     "next_site_visit_year": 2027,
@@ -5481,11 +6162,14 @@
       "APA"
     ],
     "address": "Johnson Tower 233, Pullman , WA 9 9164 -4820",
-    "website": null,
+    "website": "https://wsu.edu/",
+    "website_source": "openalex",
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "February 14, 1956",
     "next_site_visit_year": null,
-    "student_outcomes_link": null
+    "student_outcomes_link": null,
+    "website_confidence": 0.8,
+    "openalex_institution_id": "https://openalex.org/I72951846"
   },
   {
     "id": "program-389",
@@ -5495,11 +6179,14 @@
       "APA"
     ],
     "address": "Marshall University, 1 John Marshall Drive, Huntington , WV 2 5755 -2672",
-    "website": null,
+    "website": "https://www.marshall.edu",
+    "website_source": "openalex",
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "March 14, 2006",
     "next_site_visit_year": 2028,
-    "student_outcomes_link": null
+    "student_outcomes_link": null,
+    "website_confidence": 0.8,
+    "openalex_institution_id": "https://openalex.org/I88694374"
   },
   {
     "id": "program-390",
@@ -5509,11 +6196,14 @@
       "APA"
     ],
     "address": "53 Campus Drive, P. O. Box 6040, Department of Psychology, Morgantown , WV 2 6506 -6040",
-    "website": null,
+    "website": "https://www.wvu.edu",
+    "website_source": "openalex",
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "January 01, 1966",
     "next_site_visit_year": null,
-    "student_outcomes_link": null
+    "student_outcomes_link": null,
+    "website_confidence": 0.8,
+    "openalex_institution_id": "https://openalex.org/I12097938"
   },
   {
     "id": "program-391",
@@ -5523,11 +6213,14 @@
       "APA"
     ],
     "address": "P.O. Box 6122, 502 Allen Hall, Morgantown , WV 2 6506 -6122",
-    "website": null,
+    "website": "https://www.wvu.edu",
+    "website_source": "openalex",
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "January 01, 2024",
     "next_site_visit_year": null,
-    "student_outcomes_link": null
+    "student_outcomes_link": null,
+    "website_confidence": 0.8,
+    "openalex_institution_id": "https://openalex.org/I12097938"
   },
   {
     "id": "program-392",
@@ -5537,11 +6230,14 @@
       "APA"
     ],
     "address": "Cramer Hall, Room 317, 604 N. 16th Street, Milwaukee , WI 5 3233",
-    "website": null,
+    "website": "https://www.marquette.edu",
+    "website_source": "openalex",
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "December 01, 2000",
     "next_site_visit_year": 2028,
-    "student_outcomes_link": null
+    "student_outcomes_link": null,
+    "website_confidence": 0.8,
+    "openalex_institution_id": "https://openalex.org/I102461120"
   },
   {
     "id": "program-393",
@@ -5553,6 +6249,7 @@
     ],
     "address": "1202 West Johnson Street, Madison , WI 5 3706",
     "website": "http://psych.wisc.edu/research/clinical/",
+    "website_source": "pcsas",
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "February 12, 1948",
     "next_site_visit_year": null,
@@ -5568,6 +6265,7 @@
     ],
     "address": "335 Education Building, 1000 Bascom Hall, Madison , WI 5 3706",
     "website": "http://psych.wisc.edu/research/clinical/",
+    "website_source": "pcsas",
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "October 29, 1985",
     "next_site_visit_year": null,
@@ -5583,6 +6281,7 @@
     ],
     "address": "1025 West Johnson Street, 859 Educational Sciences Bldg., Madison , WI 5 3706 -1796",
     "website": "http://psych.wisc.edu/research/clinical/",
+    "website_source": "pcsas",
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "February 27, 1986",
     "next_site_visit_year": null,
@@ -5597,6 +6296,7 @@
     ],
     "address": "Garland 224, 2441 East Hartford Avenue, Milwaukee , WI 5 3211",
     "website": null,
+    "website_source": null,
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "October 14, 1980",
     "next_site_visit_year": 2023,
@@ -5611,6 +6311,7 @@
     ],
     "address": "Enderis Hall, P.O. Box 413, Milwaukee , WI 5 3201 -0413",
     "website": null,
+    "website_source": null,
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "October 14, 1996",
     "next_site_visit_year": null,
@@ -5625,6 +6326,7 @@
     ],
     "address": "Enderis Hall 709, P.O. Box 413, Milwaukee , WI 5 3201 -0413",
     "website": null,
+    "website_source": null,
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "October 14, 1996",
     "next_site_visit_year": 2021,
@@ -5639,6 +6341,7 @@
     ],
     "address": "9120 West Hampton Avenue, Suite 212, Milwaukee , WI 5 3225",
     "website": null,
+    "website_source": null,
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "November 30, 2007",
     "next_site_visit_year": null,
@@ -5653,6 +6356,7 @@
     ],
     "address": "Department #3415, 1000 E. University Avenue, Laramie, W Y 82071",
     "website": null,
+    "website_source": null,
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "December 08, 1972",
     "next_site_visit_year": 2022,
@@ -5667,6 +6371,7 @@
     ],
     "address": "",
     "website": "https://www.binghamton.edu/psychology/graduate/clinical-psychology/index.html",
+    "website_source": "pcsas",
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "",
     "next_site_visit_year": null,
@@ -5681,6 +6386,7 @@
     ],
     "address": "",
     "website": "https://www.mcgill.ca/psychology/research-0/clinical-psychology",
+    "website_source": "pcsas",
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "",
     "next_site_visit_year": null,
@@ -5695,6 +6401,7 @@
     ],
     "address": "",
     "website": "http://www.psychology.northwestern.edu/graduate/program-areas/clinical/",
+    "website_source": "pcsas",
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "",
     "next_site_visit_year": null,
@@ -5709,6 +6416,7 @@
     ],
     "address": "",
     "website": "http://psych.la.psu.edu/graduate/program-areas/clinical-adult-and-child",
+    "website_source": "pcsas",
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "",
     "next_site_visit_year": null,
@@ -5723,6 +6431,7 @@
     ],
     "address": "",
     "website": "https://psych.rutgers.edu/academics/graduate/cl",
+    "website_source": "pcsas",
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "",
     "next_site_visit_year": null,
@@ -5736,11 +6445,12 @@
       "PCSAS"
     ],
     "address": "",
-    "website": "https://psychology.osu.edu/about/programs/idd",
+    "website": "https://nisonger.osu.edu/idd-psychology/",
+    "website_source": "pcsas",
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "",
     "next_site_visit_year": null,
-    "student_outcomes_link": "https://psychology.osu.edu/about/programs/idd"
+    "student_outcomes_link": "https://nisonger.osu.edu/idd-psychology/student-data/"
   },
   {
     "id": "program-407",
@@ -5751,6 +6461,7 @@
     ],
     "address": "",
     "website": "https://psychology.illinois.edu/research/research-program-areas/clinical-community",
+    "website_source": "pcsas",
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "",
     "next_site_visit_year": null,
@@ -5765,6 +6476,7 @@
     ],
     "address": "",
     "website": "https://psychology.uiowa.edu/research/clinical-science",
+    "website_source": "pcsas",
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "",
     "next_site_visit_year": null,
@@ -5779,10 +6491,11 @@
     ],
     "address": "",
     "website": "https://psyc.umd.edu/graduate/clinical-psychology",
+    "website_source": "pcsas",
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "",
     "next_site_visit_year": null,
-    "student_outcomes_link": "https://nam10.safelinks.protection.outlook.com/?url=https%3A%2F%2Fpsyc.umd.edu%2Fsites%2Fpsyc.umd.edu%2Ffiles%2FStudent%2520Admissions%252C%2520Outcomes%252C%2520and%2520Other%2520Data%25202021-22_0.pdf&data=05%7C01%7CPCSAS_DCT%40listserv.temple.edu%7C0e6c3aca7df44922fb5608db1c339353%7C716e81efb52244738e3110bd02ccf6e5%7C0%7C0%7C638134780849426915%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C3000%7C%7C%7C&sdata=EAy7nOpCHI2%2FBEF%2BCadnOqF1H0%2BpK7U%2BBru4Q%2Bw8Vwo%3D&reserved=0"
+    "student_outcomes_link": "https://psyc.umd.edu/sites/psyc.umd.edu/files/Student Admissions, Outcomes, and Other Data 2021-22_0.pdf"
   },
   {
     "id": "program-410",
@@ -5793,6 +6506,7 @@
     ],
     "address": "",
     "website": "https://lsa.umich.edu/psych/program-areas/clinical-science.html",
+    "website_source": "pcsas",
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "",
     "next_site_visit_year": null,
@@ -5807,6 +6521,7 @@
     ],
     "address": "",
     "website": "https://psychology.missouri.edu/area/clinical",
+    "website_source": "pcsas",
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "",
     "next_site_visit_year": null,
@@ -5821,10 +6536,11 @@
     ],
     "address": "",
     "website": "https://bbs.utdallas.edu/departments/psychology/graduate-programs/clinical-psychological-science/",
+    "website_source": "pcsas",
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "",
     "next_site_visit_year": null,
-    "student_outcomes_link": "N/A"
+    "student_outcomes_link": null
   },
   {
     "id": "program-413",
@@ -5835,6 +6551,7 @@
     ],
     "address": "",
     "website": "http://psychology.as.virginia.edu/research-areas/clinical",
+    "website_source": "pcsas",
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "",
     "next_site_visit_year": null,
@@ -5849,6 +6566,7 @@
     ],
     "address": "",
     "website": "https://www.vanderbilt.edu/psychological_sciences/graduate/programs/clinical.php",
+    "website_source": "pcsas",
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "",
     "next_site_visit_year": null,
@@ -5863,6 +6581,7 @@
     ],
     "address": "",
     "website": "https://support.psyc.vt.edu/grads/program/clinical-science",
+    "website_source": "pcsas",
     "accreditation_status": "Accredited",
     "date_of_initial_accreditation": "",
     "next_site_visit_year": null,

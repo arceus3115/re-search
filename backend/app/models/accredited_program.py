@@ -18,6 +18,10 @@ class AccreditedProgram(BaseModel):
     )
     address: Optional[str] = Field(default=None, description="Program address")
     website: Optional[str] = Field(default=None, description="Program website URL")
+    website_source: Optional[str] = Field(
+        default=None,
+        description="Source of website URL (pcsas, openalex, existing)",
+    )
     accreditation_status: str = Field(
         default="Accredited", description="Current accreditation status"
     )

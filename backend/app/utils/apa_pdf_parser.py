@@ -419,6 +419,8 @@ def _parse_program_entry(
         address = address.strip()
         address = re.sub(r"\s+", " ", address)  # Normalize whitespace
         address = re.sub(r",\s*,", ",", address)  # Remove duplicate commas
+        address = re.sub(r"(\d{5})\s+-\s*(\d{4})", r"\1-\2", address)
+        address = re.sub(r"(\d{5})\s+-(\d{4})", r"\1-\2", address)
 
         return {
             "university": university,

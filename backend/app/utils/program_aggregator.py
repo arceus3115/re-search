@@ -9,6 +9,8 @@ from typing import List, Dict, Any, Optional
 from difflib import SequenceMatcher
 
 from .apa_pdf_parser import parse_apa_pdf
+from .apa_pdf_source import load_apa_programs_fallback, resolve_apa_pdf_path
+from .url_utils import normalize_url
 from ..scrapers.pcsas_scraper import scrape_pcsas
 
 logger = logging.getLogger(__name__)
@@ -135,27 +137,20 @@ def aggregate_programs(
             logger.warning(f"Error reading cache file, will re-aggregate: {e}")
 
     # Load APA programs
-    if apa_pdf_path is None:
-        # Try to find the PDF in common locations
-        pdf_paths = [
-            Path(__file__).parent.parent.parent.parent
-            / "2024_APA_Accredited_Doctoral_Programs-f64c182f.pdf",
-            Path(__file__).parent.parent.parent
-            / "2024_APA_Accredited_Doctoral_Programs-f64c182f.pdf",
-        ]
-        apa_pdf_path = None
-        for path in pdf_paths:
-            if path.exists():
-                apa_pdf_path = str(path)
-                break
+    apa_programs: List[Dict[str, Any]] = []
+    try:
+        resolved_pdf_path = resolve_apa_pdf_path(apa_pdf_path)
+        logger.info("Loading APA programs from PDF...")
+        apa_programs = parse_apa_pdf(resolved_pdf_path, use_cache=use_cache)
+    except Exception as exc:
+        logger.warning(f"APA PDF parsing failed, trying fallback data: {exc}")
+        apa_programs = load_apa_programs_fallback()
 
-        if not apa_pdf_path:
-            raise FileNotFoundError(
-                "APA PDF file not found. Please specify apa_pdf_path."
-            )
+    if not apa_programs:
+        raise FileNotFoundError(
+            "Could not load APA program data from PDF or fallback JSON files."
+        )
 
-    logger.info("Loading APA programs from PDF...")
-    apa_programs = parse_apa_pdf(apa_pdf_path, use_cache=use_cache)
     logger.info(f"Loaded {len(apa_programs)} APA programs")
 
     # Load PCSAS programs
@@ -183,9 +178,14 @@ def aggregate_programs(
 
         if pcsas_match:
             accreditation_sources.append("PCSAS")
-            website = pcsas_match.get("website")
-            student_outcomes_link = pcsas_match.get("student_outcomes_link")
+            website = normalize_url(pcsas_match.get("website"))
+            student_outcomes_link = normalize_url(
+                pcsas_match.get("student_outcomes_link")
+            )
+            website_source = "pcsas" if website else None
             processed_pcsas.add(pcsas_match.get("program_name", ""))
+        else:
+            website_source = None
 
         # Create unified program entry
         program_id = f"program-{len(unified_programs) + 1}"
@@ -197,6 +197,7 @@ def aggregate_programs(
             "accreditation_sources": accreditation_sources,
             "address": apa_program.get("address", ""),
             "website": website,
+            "website_source": website_source,
             "accreditation_status": apa_program.get(
                 "accreditation_status", "Accredited"
             ),
@@ -237,14 +238,21 @@ def aggregate_programs(
                 "program_type": "Clinical Ph.D.",  # PCSAS is clinical-focused
                 "accreditation_sources": ["PCSAS"],
                 "address": "",  # PCSAS doesn't provide addresses
-                "website": pcsas_program.get("website"),
+                "website": normalize_url(pcsas_program.get("website")),
+                "website_source": "pcsas"
+                if normalize_url(pcsas_program.get("website"))
+                else None,
                 "accreditation_status": "Accredited",  # PCSAS programs are all accredited
                 "date_of_initial_accreditation": "",
                 "next_site_visit_year": None,
-                "student_outcomes_link": pcsas_program.get("student_outcomes_link"),
+                "student_outcomes_link": normalize_url(
+                    pcsas_program.get("student_outcomes_link")
+                ),
             }
 
             unified_programs.append(unified_program)
+
+    unified_programs = _enrich_program_websites(unified_programs)
 
     logger.info(f"Aggregated {len(unified_programs)} total programs")
     logger.info(
@@ -276,6 +284,12 @@ def aggregate_programs(
         logger.warning(f"Failed to write data file: {e}")
 
     return unified_programs
+
+
+def _enrich_program_websites(programs: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
+    from .website_enricher import enrich_program_websites
+
+    return enrich_program_websites(programs)
 
 
 def get_aggregated_programs(use_cache: bool = True) -> List[Dict[str, Any]]:

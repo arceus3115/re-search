@@ -61,7 +61,7 @@ TECHNIQUE_KEYWORDS = {
 class PIFinderAgent:
     """
     Agent for finding PIs matching user's research specialties and techniques.
-    Uses web scraping and Google search to find faculty at accredited programs.
+    Uses OpenAlex for faculty discovery and web scraping for acceptance status.
     """
 
     def __init__(self):
@@ -80,7 +80,7 @@ class PIFinderAgent:
         Process:
         1. Load accredited Clinical Psychology programs
         2. For each program:
-           a. Search for faculty via Google search (institution + clinical psychology + faculty)
+           a. Resolve OpenAlex institution and search for faculty
            b. Match specialties and techniques in their research
            c. Verify acceptance status via web scraping
            d. Rank by relevance
@@ -119,15 +119,16 @@ class PIFinderAgent:
                 university_name = program.get(
                     "university", program.get("program_name", "Unknown")
                 )
-                program_website = program.get("website", "")
+                program_website = program.get("website", "") or ""
+                if program_website == "N/A":
+                    program_website = ""
+                address = program.get("address", "")
 
-                if not program_website or program_website == "N/A":
-                    continue
-
-                # a. Search for faculty via Google search
-                faculty = await self._search_faculty_google(
+                faculty = await self._search_faculty_openalex(
                     university_name=university_name,
                     program_website=program_website,
+                    address=address,
+                    cached_institution_id=program.get("openalex_institution_id"),
                     specialties=specialties,
                 )
 
@@ -163,69 +164,71 @@ class PIFinderAgent:
 
         return ranked
 
-    async def _search_faculty_google(
-        self, university_name: str, program_website: str, specialties: List[str]
+    async def _search_faculty_openalex(
+        self,
+        university_name: str,
+        program_website: str,
+        address: str,
+        cached_institution_id: Optional[str],
+        specialties: List[str],
     ) -> List[Dict[str, Any]]:
         """
         Search for Clinical Psychology faculty using OpenAlex.
-
-        Strategy:
-        Use OpenAlex to find authors at institution matching specialties
         """
         faculty_list = []
         seen_names = set()
 
-        # Use OpenAlex to find faculty
         try:
-            # Find institution ID in OpenAlex
-            institution_id = _find_institution_id(university_name, program_website)
-            if institution_id:
-                # Search for authors with clinical psychology at this institution
-                authors = openalex_client.find_faculty_at_institution(
-                    institution_id=institution_id,
-                    field_concepts=["clinical psychology", "psychology"],
-                    limit=50,
+            institution_id = _find_institution_id(
+                university_name=university_name,
+                website=program_website,
+                address=address or None,
+                cached_institution_id=cached_institution_id,
+            )
+            if not institution_id:
+                return faculty_list
+
+            authors = openalex_client.find_faculty_at_institution(
+                institution_id=institution_id,
+                field_concepts=["clinical psychology", "psychology"],
+                limit=50,
+            )
+
+            for author in authors:
+                author_name = author.get("display_name", "")
+                if not author_name:
+                    continue
+
+                if author_name.lower() in seen_names:
+                    continue
+
+                author_concepts = [
+                    c.get("display_name", "").lower()
+                    for c in author.get("x_concepts", [])
+                ]
+                author_research_text = " ".join(author_concepts).lower()
+
+                specialty_match = any(
+                    specialty.lower() in author_research_text
+                    for specialty in specialties
                 )
 
-                # Filter authors by specialty match (basic check)
-                for author in authors:
-                    author_name = author.get("display_name", "")
-                    if not author_name:
-                        continue
-
-                    # Skip if already found via Playwright
-                    if author_name.lower() in seen_names:
-                        continue
-
-                    author_concepts = [
-                        c.get("display_name", "").lower()
-                        for c in author.get("x_concepts", [])
-                    ]
-                    author_research_text = " ".join(author_concepts).lower()
-
-                    # Check if any specialty matches
-                    specialty_match = any(
-                        specialty.lower() in author_research_text
-                        for specialty in specialties
+                if specialty_match or len(faculty_list) < 20:
+                    seen_names.add(author_name.lower())
+                    faculty_list.append(
+                        {
+                            "name": author_name,
+                            "openalex_id": author.get("id"),
+                            "institution": university_name,
+                            "email": author.get("email"),
+                            "source": "openalex",
+                            "research_interests": [
+                                c.get("display_name")
+                                for c in author.get("x_concepts", [])[:5]
+                                if c.get("display_name")
+                            ],
+                        }
                     )
-
-                    # Include if specialty matches or if we have few results
-                    if specialty_match or len(faculty_list) < 20:
-                        seen_names.add(author_name.lower())
-                        faculty_list.append(
-                            {
-                                "name": author_name,
-                                "openalex_id": author.get("id"),
-                                "institution": university_name,
-                                "email": author.get("email"),
-                                "source": "openalex",
-                                "research_interests": [
-                                    c.get("display_name")
-                                    for c in author.get("x_concepts", [])[:5]
-                                    if c.get("display_name")
-                                ],
-                            }
-                        )
         except Exception as e:
             logger.debug(f"Error in OpenAlex search for {university_name}: {e}")
 

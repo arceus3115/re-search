@@ -61,3 +61,9 @@ class NIHReporterAPIError(ApplicationError):
     """Raised when NIH Reporter API calls fail."""
 
     pass
+
+
+class ScrapingError(ApplicationError):
+    """Raised when web scraping fails or returns invalid data."""
+
+    pass

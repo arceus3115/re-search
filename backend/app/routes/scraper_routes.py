@@ -2,8 +2,10 @@
 Routes for PCSAS scraper.
 """
 
-from fastapi import APIRouter
+from fastapi import APIRouter, HTTPException
+
 from ..scrapers import pcsas_scraper
+from ..utils.exceptions import ScrapingError
 
 router = APIRouter()
 
@@ -14,5 +16,9 @@ async def get_pcsas_data():
     try:
         data = pcsas_scraper.scrape_pcsas()
         return {"programs": data}
-    except Exception as e:
-        return {"error": str(e)}
+    except ScrapingError as exc:
+        raise HTTPException(status_code=502, detail=str(exc)) from exc
+    except Exception as exc:
+        raise HTTPException(
+            status_code=503, detail=f"Failed to scrape PCSAS data: {exc}"
+        ) from exc

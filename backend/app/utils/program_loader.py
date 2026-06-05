@@ -1,110 +1,85 @@
 """
 Program loader for accredited Clinical Psychology programs.
-Combines PCSAS and APA accredited programs into a unified format.
+Uses the unified aggregated APA + PCSAS dataset for all consumers.
 """
 
-import json
-from typing import List, Dict, Any
-from pathlib import Path
+import logging
+from typing import Any, Dict, List
 
-# Get the directory where this file is located
-_UTILS_DIR = Path(__file__).parent
-_DATA_DIR = _UTILS_DIR.parent / "data"
-_APA_PROGRAMS_FILE = _DATA_DIR / "apa_programs.json"
+from ..scrapers import pcsas_scraper
+
+logger = logging.getLogger(__name__)
+
+
+def _to_standard_format(program: Dict[str, Any]) -> Dict[str, Any]:
+    sources = program.get("accreditation_sources", [])
+    status_parts = []
+    if "APA" in sources:
+        status_parts.append("APA Accredited")
+    if "PCSAS" in sources:
+        status_parts.append("PCSAS Accredited")
+
+    return {
+        "id": program.get("id"),
+        "program_name": program.get("program_type", "Clinical Ph.D."),
+        "university": program.get("university_name", ""),
+        "website": program.get("website") or "",
+        "accreditation_status": ", ".join(status_parts)
+        or program.get("accreditation_status", "Accredited"),
+        "student_outcomes_link": program.get("student_outcomes_link") or "",
+        "address": program.get("address") or "",
+        "accreditation_sources": sources,
+        "website_source": program.get("website_source"),
+        "openalex_institution_id": program.get("openalex_institution_id"),
+        "next_site_visit_year": program.get("next_site_visit_year"),
+    }
 
 
 def load_apa_programs() -> List[Dict[str, Any]]:
-    """
-    Load APA accredited programs from JSON file.
+    """Load APA-accredited programs from the unified aggregated dataset."""
+    from .program_aggregator import get_aggregated_programs
 
-    Returns:
-        List of program dictionaries with fields:
-        - program_name: str
-        - university: str
-        - website: str
-        - accreditation_status: str
-        - notes: Optional[str]
-    """
-    if not _APA_PROGRAMS_FILE.exists():
-        return []
-
-    try:
-        with open(_APA_PROGRAMS_FILE, "r", encoding="utf-8") as f:
-            programs = json.load(f)
-        return programs if isinstance(programs, list) else []
-    except (json.JSONDecodeError, IOError) as e:
-        # Log error but don't crash - just return empty list
-        import logging
-
-        logging.getLogger(__name__).warning(f"Error loading APA programs: {e}")
-        return []
+    programs = get_aggregated_programs(use_cache=True)
+    return [
+        _to_standard_format(program)
+        for program in programs
+        if "APA" in program.get("accreditation_sources", [])
+    ]
 
 
 def load_pcsas_programs() -> List[Dict[str, Any]]:
     """
     Load PCSAS accredited programs using the scraper.
     Converts to standardized format.
-
-    Returns:
-        List of program dictionaries in standardized format.
     """
-    from ..scrapers import pcsas_scraper
-
     try:
         raw_programs = pcsas_scraper.scrape_pcsas()
-        # Convert to standardized format
         standardized = []
         for program in raw_programs:
             standardized.append(
                 {
                     "program_name": program.get("program_name", "N/A"),
-                    "university": program.get(
-                        "program_name", "N/A"
-                    ),  # PCSAS format uses program_name
-                    "website": program.get("website", ""),
-                    "accreditation_status": "PCSAS Accredited",
-                    "student_outcomes_link": program.get("student_outcomes_link", ""),
+                    "university": program.get("program_name", "N/A"),
+                    "website": program.get("website") or "",
+                    "accreditation_status": program.get(
+                        "accreditation_status", "PCSAS Accredited"
+                    ),
+                    "student_outcomes_link": program.get("student_outcomes_link") or "",
+                    "review_date": program.get("review_date"),
                     "notes": None,
                 }
             )
         return standardized
-    except Exception as e:
-        import logging
-
-        logging.getLogger(__name__).warning(f"Error loading PCSAS programs: {e}")
+    except Exception as exc:
+        logger.warning(f"Error loading PCSAS programs: {exc}")
         return []
 
 
 def load_all_accredited_programs() -> List[Dict[str, Any]]:
     """
-    Load all accredited Clinical Psychology programs (PCSAS + APA).
-
-    Returns:
-        Combined list of all accredited programs in standardized format.
+    Load all accredited Clinical Psychology programs from the unified aggregator.
     """
-    pcsas_programs = load_pcsas_programs()
-    apa_programs = load_apa_programs()
+    from .program_aggregator import get_aggregated_programs
 
-    # Combine and deduplicate by website (if same website, prefer PCSAS)
-    all_programs = {}
-
-    # Add PCSAS programs first
-    for program in pcsas_programs:
-        website = program.get("website", "")
-        if website and website != "N/A":
-            all_programs[website] = program
-
-    # Add APA programs (won't overwrite PCSAS if same website)
-    for program in apa_programs:
-        website = program.get("website", "")
-        if website:
-            if website not in all_programs:
-                all_programs[website] = program
-            else:
-                # Merge if both exist - mark as dual accredited
-                existing = all_programs[website]
-                existing["accreditation_status"] = (
-                    f"{existing.get('accreditation_status', '')}, APA Accredited"
-                )
-
-    return list(all_programs.values())
+    programs = get_aggregated_programs(use_cache=True)
+    return [_to_standard_format(program) for program in programs]

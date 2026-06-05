@@ -5,6 +5,7 @@ Routes for Program Discovery.
 from fastapi import APIRouter, Query, HTTPException
 from typing import Optional, Dict, Any
 import logging
+from pathlib import Path
 
 from ..utils.program_aggregator import get_aggregated_programs, aggregate_programs
 from ..utils.program_ranker import rank_programs
@@ -468,6 +469,14 @@ async def get_program_stats(
             if "APA" in p.get("accreditation_sources", [])
             and "PCSAS" in p.get("accreditation_sources", [])
         )
+        with_website = sum(1 for p in programs if p.get("website"))
+        website_coverage_pct = round(
+            (with_website / len(programs) * 100) if programs else 0.0, 1
+        )
+
+        cache_dir = Path(__file__).parent.parent.parent / ".cache"
+        pcsas_cache = next(cache_dir.glob("pcsas_*.json"), None)
+        aggregated_cache = cache_dir / "programs" / "aggregated_programs.json"
 
         return {
             "total_programs": len(programs),
@@ -476,6 +485,14 @@ async def get_program_stats(
             "both_accredited": both_count,
             "apa_only": apa_count - both_count,
             "pcsas_only": pcsas_count - both_count,
+            "programs_with_website": with_website,
+            "website_coverage_pct": website_coverage_pct,
+            "last_pcsas_scrape_at": pcsas_cache.stat().st_mtime
+            if pcsas_cache
+            else None,
+            "last_aggregated_at": aggregated_cache.stat().st_mtime
+            if aggregated_cache.exists()
+            else None,
         }
     except Exception as e:
         logger.error(f"Error getting program stats: {e}", exc_info=True)

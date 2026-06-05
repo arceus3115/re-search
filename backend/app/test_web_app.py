@@ -25,8 +25,23 @@ def test_search_papers():
 def test_get_pcsas_data():
     response = client.get("/api/v1/pcsas")
     assert response.status_code == 200
-    assert "programs" in response.json()
-    assert isinstance(response.json()["programs"], list)
+    payload = response.json()
+    assert "programs" in payload
+    assert isinstance(payload["programs"], list)
+    assert len(payload["programs"]) >= 40
+
+
+def test_get_pcsas_data_error(monkeypatch):
+    from app.utils.exceptions import ScrapingError
+    from app.scrapers import pcsas_scraper
+
+    def _fail(*args, **kwargs):
+        raise ScrapingError("PCSAS table missing")
+
+    monkeypatch.setattr(pcsas_scraper, "scrape_pcsas", _fail)
+    response = client.get("/api/v1/pcsas")
+    assert response.status_code == 502
+    assert "PCSAS table missing" in response.json()["detail"]
 
 
 # ClinicalTrials.gov API Tests
