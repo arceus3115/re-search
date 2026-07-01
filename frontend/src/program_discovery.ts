@@ -3,6 +3,7 @@
  */
 
 import { discoverPrograms, getProgramStats } from './api';
+import { apiUrl } from './config';
 import { renderProgramPreview } from './program_preview';
 
 export interface Program {
@@ -113,7 +114,7 @@ function attachEventListeners(container: HTMLElement): void {
         refreshBtn.addEventListener('click', async () => {
             if (confirm('This will refresh all program data. This may take a few minutes. Continue?')) {
                 try {
-                    const response = await fetch('/api/v1/programs/refresh', { method: 'POST' });
+                    const response = await fetch(apiUrl('/api/v1/programs/refresh'), { method: 'POST' });
                     if (response.ok) {
                         alert('Program data refreshed successfully!');
                         await loadPrograms(container, 1, currentMinFitScore);

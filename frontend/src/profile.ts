@@ -2,6 +2,8 @@
  * Profile input form component for collecting user profile data
  */
 
+import { apiUrl } from './config';
+
 export interface UserProfile {
     name: string;
     connected_pis: ConnectedPI[];
@@ -371,7 +373,7 @@ function setupPISearch(piEntry: HTMLElement): void {
 
         searchTimeout = setTimeout(async () => {
             try {
-                const response = await fetch(`/api/v1/profile/pi/search?name=${encodeURIComponent(query)}&limit=5`);
+                const response = await fetch(apiUrl(`/api/v1/profile/pi/search?name=${encodeURIComponent(query)}&limit=5`));
                 if (!response.ok) return;
 
                 const data = await response.json();
@@ -431,7 +433,7 @@ function setupPISearch(piEntry: HTMLElement): void {
 
                         // Fetch full details for research summary
                         if (openalexId) {
-                            fetch(`/api/v1/profile/pi/${openalexId}/details`)
+                            fetch(apiUrl(`/api/v1/profile/pi/${openalexId}/details`))
                                 .then(r => r.json())
                                 .then(details => {
                                     if (researchSummarySpan && details.research_summary) {
@@ -596,7 +598,7 @@ function setupPublicationSearch(pubEntry: HTMLElement): void {
 
         pubSearchTimeout = setTimeout(async () => {
             try {
-                const response = await fetch(`/api/v1/profile/publication/search?query=${encodeURIComponent(query)}&limit=5`);
+                const response = await fetch(apiUrl(`/api/v1/profile/publication/search?query=${encodeURIComponent(query)}&limit=5`));
                 if (!response.ok) return;
 
                 const data = await response.json();
@@ -732,7 +734,7 @@ async function handleCVUpload(event: Event): Promise<void> {
         const formData = new FormData();
         formData.append('file', file);
 
-        const response = await fetch('/api/v1/profile/cv/upload', {
+        const response = await fetch(apiUrl('/api/v1/profile/cv/upload'), {
             method: 'POST',
             body: formData,
         });
@@ -865,7 +867,7 @@ async function handleProfileSubmit(event: Event): Promise<void> {
 
     try {
         // Create profile via API
-        const response = await fetch('/api/v1/user_profile', {
+        const response = await fetch(apiUrl('/api/v1/user_profile'), {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify(profile),
@@ -1031,7 +1033,7 @@ async function handleAnalyzeProfile(): Promise<void> {
     resultsDiv.style.display = 'none';
 
     try {
-        const response = await fetch('/api/v1/profile/analyze', {
+        const response = await fetch(apiUrl('/api/v1/profile/analyze'), {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify({

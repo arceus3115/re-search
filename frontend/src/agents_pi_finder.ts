@@ -2,6 +2,8 @@
  * PI Finder Agent UI component
  */
 
+import { apiUrl } from './config';
+
 export interface AgentPI_Candidate {
     name: string;
     openalex_id: string;
@@ -114,7 +116,7 @@ async function handleSearch(): Promise<void> {
     currentPage = 1;
 
     try {
-        const response = await fetch(`/api/v1/agents/pi-finder/search?page=${currentPage}&per_page=25`, {
+        const response = await fetch(apiUrl(`/api/v1/agents/pi-finder/search?page=${currentPage}&per_page=25`), {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify({

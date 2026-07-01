@@ -1,4 +1,7 @@
 from fastapi import FastAPI
+from fastapi.middleware.cors import CORSMiddleware
+import os
+
 from .routes import (
     scraper_routes,
     pi_routes,
@@ -12,7 +15,32 @@ from .utils.logger import setup_logger
 
 setup_logger()
 
-app = FastAPI()
+app = FastAPI(title="re-search API", version="1.0.0")
+
+_default_origins = [
+    "http://localhost:9000",
+    "http://127.0.0.1:9000",
+]
+_env_origins = [
+    origin.strip()
+    for origin in os.getenv("ALLOWED_ORIGINS", "").split(",")
+    if origin.strip()
+]
+_allowed_origins = _default_origins + _env_origins
+
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=_allowed_origins or ["*"],
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
+
+
+@app.get("/health")
+async def health_check():
+    return {"status": "ok"}
+
 
 # PCSAS scraper endpoint
 app.include_router(scraper_routes.router, prefix="/api/v1")
