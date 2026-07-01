@@ -56,3 +56,12 @@ Build referral features as a first-class product surface, not an afterthought:
 - What referral mechanics do partners support today (affiliate, app partnerships, template galleries)?
 - What data can be shared vs. must stay local for institutional trust?
 - Is the primary monetization path sponsorship, referral fees, or premium integrations?
+
+## Deployment
+
+See **[DEPLOY.md](DEPLOY.md)** for step-by-step instructions to deploy:
+
+- **Backend** → Render free tier (`render.yaml` Blueprint)
+- **Frontend** → GitHub Pages (`.github/workflows/deploy-pages.yml`)
+
+General GitHub Pages notes: [GITHUB_PAGES_DEPLOYMENT.md](GITHUB_PAGES_DEPLOYMENT.md)

@@ -2,6 +2,8 @@
  * Unified Draft & Research interface for generating emails and statements.
  */
 
+import { apiUrl } from './config';
+
 interface PIInfo {
     name: string;
     institution?: string;
@@ -475,7 +477,7 @@ function setupDraftResearchListeners(): void {
                     }
                 });
 
-                const response = await fetch('/api/v1/pi-research/gather', {
+                const response = await fetch(apiUrl('/api/v1/pi-research/gather'), {
                     method: 'POST',
                     headers: { 'Content-Type': 'application/json' },
                     body: JSON.stringify(requestBody),
@@ -1054,7 +1056,7 @@ async function handleGatherResearch(): Promise<void> {
             }
         });
 
-        const response = await fetch('/api/v1/pi-research/gather', {
+        const response = await fetch(apiUrl('/api/v1/pi-research/gather'), {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify(requestBody),
@@ -1119,7 +1121,7 @@ async function handleGatherResearch(): Promise<void> {
                                 gatherBtn.textContent = 'Gathering Research...';
 
                                 try {
-                                    const selectResponse = await fetch('/api/v1/pi-research/gather', {
+                                    const selectResponse = await fetch(apiUrl('/api/v1/pi-research/gather'), {
                                         method: 'POST',
                                         headers: { 'Content-Type': 'application/json' },
                                         body: JSON.stringify({ openalex_id: openalexId }),
@@ -1241,7 +1243,7 @@ async function handleGenerateDraft(): Promise<void> {
             requestBody.word_count_target = wordCount;
         }
 
-        const response = await fetch('/api/v1/draft/generate', {
+        const response = await fetch(apiUrl('/api/v1/draft/generate'), {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify(requestBody),
@@ -1338,7 +1340,7 @@ async function handleEnhanceDraft(): Promise<void> {
             requestBody.pi_research_data = currentPIResearch;
         }
 
-        const response = await fetch('/api/v1/draft/enhance', {
+        const response = await fetch(apiUrl('/api/v1/draft/enhance'), {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify(requestBody),
@@ -1941,7 +1943,7 @@ async function handleRegenerateSummary(originalData: PIResearchData): Promise<vo
             nih_projects: nihProjectsToUse
         };
 
-        const response = await fetch('/api/v1/pi-research/regenerate-summary', {
+        const response = await fetch(apiUrl('/api/v1/pi-research/regenerate-summary'), {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify(requestBody),

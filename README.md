@@ -346,7 +346,11 @@ cd frontend
 npm run build
 ```
 
-The built bundle will be in `frontend/public/bundle.js`.
+The built bundle will be in `frontend/public/bundle.js` during dev, or `frontend/dist/` for production/GitHub Pages builds.
+
+## Deployment
+
+Deploy the backend to **Render (free tier)** and the frontend to **GitHub Pages**. Full instructions: **[DEPLOY.md](DEPLOY.md)**.
 
 ## Troubleshooting
 
